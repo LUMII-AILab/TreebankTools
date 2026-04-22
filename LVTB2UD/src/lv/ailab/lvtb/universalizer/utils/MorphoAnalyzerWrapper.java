@@ -21,16 +21,21 @@ public class MorphoAnalyzerWrapper
 	protected static Analyzer morphoEngineSing;
 	protected static boolean latgalian;
 	// This is very nasty, but we don't have this info currently in LTG Tēzaurs, so we need to hardcode it here.
+	@Deprecated
 	protected static HashSet<String> ltgDET = new HashSet<>(Arrays.asList(
 			"sova", "sovs", "muns", "muna", "tovejs", "toveja", "kurs", "kura", "kaids", "kaida",
 			"tei", "tis", "itei", "itys"));
+	@Deprecated
 	protected static HashSet<String> ltgPRON = new HashSet<>(Arrays.asList(
 			"es", "tu", "jis", "jei", "jī", "kas"));
 
 	public static void init(boolean latgalian) throws Exception
 	{
 		// TODO: When Latalian analyzer is better, set up to actually use IT
-		if (morphoEngineSing == null) morphoEngineSing = new Analyzer();
+		if (morphoEngineSing == null)
+			if (latgalian) morphoEngineSing = new Analyzer("Latgalian.xml");
+			else morphoEngineSing = new Analyzer();
+
 		MorphoAnalyzerWrapper.latgalian = latgalian;
 		morphoEngineSing.enableGuessing = true;
 		morphoEngineSing.enableAllGuesses = true;
@@ -62,11 +67,22 @@ public class MorphoAnalyzerWrapper
 		}
 	}
 
+	// TODO currently this uses fallback lists for Latgalian pronouns. These lists must be moved to Tēzaurs.
 	public static String getPredefUpos(String form, String lemma, String postag)
 	{
-		if (latgalian)
+		String result = null;
+		if (form == null || form.isEmpty()) return null;
+		try
 		{
-			// TODO: take from LTG Tēzaurs
+			Word analysis = getMorpho().analyze(form);
+			//TODO: Turn this back on, when morphonalyzer allows to change the output stream for complaining.
+			result = analysis.getMatchingWordform(postag, false).getValue("UD vārdšķira");
+		} catch (Exception e)
+		{
+			StandardLogger.l.warnForAnalyzerException(e);
+		}
+		if (latgalian && result == null)
+		{
 			if (lemma == null || lemma.isEmpty()) return null;
 			if (postag.matches("p.*"))
 			{
@@ -75,21 +91,8 @@ public class MorphoAnalyzerWrapper
 				return null;
 			}
 		}
-		else
-		{
-			if (form == null || form.isEmpty()) return null;
-			try
-			{
-				Word analysis = getMorpho().analyze(form);
-				//TODO: Turn this back on, when morphonalyzer allows to change the output stream for complaining.
-				return analysis.getMatchingWordform(postag, false).getValue("UD vārdšķira");
-			} catch (Exception e)
-			{
-				StandardLogger.l.warnForAnalyzerException(e);
-				return null;
-			}
-		}
-		return null;
+		return result;
+
 	}
 
 	/**
