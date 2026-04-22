@@ -20,7 +20,9 @@
 /PmlCorporaTools/data/
 /PmlCorporaTools/data-alt/
 /PmlCorporaTools/data-lv/
+/PmlCorporaTools/data-lv-*/
 /PmlCorporaTools/data-ltg/
+/PmlCorporaTools/data-ltg-*/
 /PmlCorporaTools/testdata/*/res
 /PmlCorporaTools/testdata/*/logs
 /PmlCorporaTools/testdata/*/warnings
