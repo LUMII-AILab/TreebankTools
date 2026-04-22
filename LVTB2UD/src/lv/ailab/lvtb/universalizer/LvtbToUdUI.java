@@ -9,7 +9,7 @@ import java.io.File;
 
 /**
  * Overview
- *
+ * <p>
  * Transformation tool for obtaining Latvian UD Treebank in CoNLL-U format from
  * knitted-in Latvian Treebank PMLs with normalized ord values (only token nodes
  * should be numbered).
@@ -23,13 +23,13 @@ import java.io.File;
  * at first mappings between PML token nodes and CoNLL tokens is added, then
  * each time a root token for phrase representing substructure is determined,
  * appropriate pairing is added to the mapping.
- *
+ * <p>
  * Transformation is done according to UD v2 guidelines.
- *
+ * <p>
  * NB! Transformation ignores files, where first sentence contains comment
  * starting with 'AUTO'. Transformation also ignores files where any sentence
  * contains comment starting with 'FIXME'.
- *
+ * <p>
  * Created on 2016-04-17.
  *
  * @author Lauma
