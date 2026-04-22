@@ -16,6 +16,8 @@ import lv.ailab.lvtb.universalizer.utils.MorphoAnalyzerWrapper;
 import lv.ailab.lvtb.universalizer.utils.Tuple;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -109,6 +111,13 @@ public class Sentence
 		res.append("# sent_id = ");
 		res.append(id);
 		res.append("\n");
+		Matcher idNumber = Pattern.compile(".*Cairo-p(\\d+)s1").matcher(id);
+		if (idNumber.matches())
+		{
+			res.append("# parallel_id = cairo/");
+			res.append(idNumber.group(1));
+			res.append("\n");
+		}
 		res.append("# text = ");
 		res.append(text);
 		res.append("\n");
@@ -797,18 +806,11 @@ public class Sentence
 			// Role for enhanced link is obtained by actual parent,
 			// actual child, but by "place-holder" role obtained
 			// from the original child.
-			Tuple<UDv2Relations, String> childDeprel = null;
-			switch (crosslinkParam)
-			{
-				case NO_CRSUBJ:
-					childDeprel = DepRelLogic.depToUDEnhanced(altChild, altParent, child.getRole());
-					break;
-				case NORMAL_CRSUBJ:
-					childDeprel = DepRelLogic.cRSubjToUD(altChild, altParent, false);
-					break;
-				case CLAUSE_CRSUBJ:
-					childDeprel = DepRelLogic.cRSubjToUD(altChild, altParent, true);
-			}
+			Tuple<UDv2Relations, String> childDeprel = switch (crosslinkParam) {
+				case NO_CRSUBJ -> DepRelLogic.depToUDEnhanced(altChild, altParent, child.getRole());
+				case NORMAL_CRSUBJ -> DepRelLogic.cRSubjToUD(altChild, altParent, false);
+				case CLAUSE_CRSUBJ -> DepRelLogic.cRSubjToUD(altChild, altParent, true);
+			};
 
 			if (UDv2Relations.canPropagateAftercheck(childDeprel.first))
 			{
@@ -901,7 +903,7 @@ public class Sentence
 		List<PmlANode> children = phraseNode.getChildren();
 		List<PmlANode> potentialRoots = phraseNode.getChildren(newRootType);
 		if (newRootBackUpType != null &&
-				(potentialRoots == null || potentialRoots.size() < 1))
+				(potentialRoots == null || potentialRoots.isEmpty()))
 			potentialRoots = phraseNode.getChildren(newRootBackUpType);
 		PmlANode newRoot = PmlANodeListUtils.getLastByDeepOrd(potentialRoots);
 		if (warnMoreThanOne && potentialRoots != null && potentialRoots.size() > 1)
