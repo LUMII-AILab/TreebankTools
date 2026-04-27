@@ -93,48 +93,34 @@ public class DepRelLogic
 	{
 		// Simple dependencies.
 
-		switch (lvtbRole)
-		{
-			case LvtbRoles.SUBJ : return subjToUD(node, parent);
-			case LvtbRoles.OBJ : return objToUD(node, parent);
-			case LvtbRoles.SPC : return spcToUD(node, parent);
-			case LvtbRoles.ATTR : return attrToUD(node, parent);
-			case LvtbRoles.ADV :
-			case LvtbRoles.SIT :
-				return advSitToUD(node, parent);
-			case LvtbRoles.DET : return detToUD(node, parent);
-			case LvtbRoles.NO: return noToUD(node, parent);
+		return switch (lvtbRole) {
+			case LvtbRoles.SUBJ -> subjToUD(node, parent);
+			case LvtbRoles.OBJ -> objToUD(node, parent);
+			case LvtbRoles.SPC -> spcToUD(node, parent);
+			case LvtbRoles.ATTR -> attrToUD(node, parent);
+			case LvtbRoles.ADV, LvtbRoles.SIT -> advSitToUD(node, parent);
+			case LvtbRoles.DET -> detToUD(node, parent);
+			case LvtbRoles.NO -> noToUD(node, parent);
 
 			// Clausal dependencies.
-			case LvtbRoles.PREDCL : return predClToUD(node, parent);
-			case LvtbRoles.SUBJCL : return subjClToUD(node, parent);
-			case LvtbRoles.OBJCL : return Tuple.of(UDv2Relations.CCOMP, null);
-			case LvtbRoles.ATTRCL :
-			case LvtbRoles.APPCL : return Tuple.of(UDv2Relations.ACL, null);
-			case LvtbRoles.PLACECL :
-			case LvtbRoles.TIMECL :
-			case LvtbRoles.MANCL :
-			case LvtbRoles.DEGCL :
-			case LvtbRoles.CAUSCL :
-			case LvtbRoles.PURPCL :
-			case LvtbRoles.CONDCL :
-			case LvtbRoles.CNSECCL :
-			case LvtbRoles.CNCESCL :
-			case LvtbRoles.MOTIVCL :
-			case LvtbRoles.COMPCL :
-			case LvtbRoles.QUASICL :
-				return Tuple.of(UDv2Relations.ADVCL, null);
+			case LvtbRoles.PREDCL -> predClToUD(node, parent);
+			case LvtbRoles.SUBJCL -> subjClToUD(node, parent);
+			case LvtbRoles.OBJCL -> Tuple.of(UDv2Relations.CCOMP, null);
+			case LvtbRoles.ATTRCL, LvtbRoles.APPCL -> Tuple.of(UDv2Relations.ACL, null);
+			case LvtbRoles.PLACECL, LvtbRoles.TIMECL, LvtbRoles.MANCL, LvtbRoles.DEGCL, LvtbRoles.CAUSCL,
+			     LvtbRoles.PURPCL, LvtbRoles.CONDCL, LvtbRoles.CNSECCL, LvtbRoles.CNCESCL, LvtbRoles.MOTIVCL,
+			     LvtbRoles.COMPCL, LvtbRoles.QUASICL -> Tuple.of(UDv2Relations.ADVCL, null);
 
 			// Semi-clausal dependencies.
-			case LvtbRoles.INS : return insToUD(node, parent);
-			case LvtbRoles.DIRSP : return Tuple.of(UDv2Relations.CCOMP, null);
+			case LvtbRoles.INS -> insToUD(node, parent);
+			case LvtbRoles.DIRSP -> Tuple.of(UDv2Relations.CCOMP, null);
 
 			// Other
 			// TODO wait for answer in https://github.com/UniversalDependencies/docs/issues/594
-			case LvtbRoles.REPEAT : return Tuple.of(UDv2Relations.REPARANDUM, null);
-			case LvtbRoles.ELLIPSIS_TOKEN: return ellipsisTokToUD(node, parent);
-			default : return Tuple.of(UDv2Relations.DEP, null);
-		}
+			case LvtbRoles.REPEAT -> Tuple.of(UDv2Relations.REPARANDUM, null);
+			case LvtbRoles.ELLIPSIS_TOKEN -> ellipsisTokToUD(node, parent);
+			default -> Tuple.of(UDv2Relations.DEP, null);
+		};
 	}
 
 	public static Tuple<UDv2Relations, String> subjToUD(PmlANode node, PmlANode parent)
@@ -250,7 +236,7 @@ public class DepRelLogic
 		if (parentTag.matches("z.*"))
 		{
 			String parentRed = parent.getReduction();
-			if (parentRed != null && parentRed.length() > 0)
+			if (parentRed != null && !parentRed.isEmpty())
 				parentTag = parentRed;
 		}
 		String parentEffRole = parent.getEffectiveLabel();
@@ -469,7 +455,7 @@ public class DepRelLogic
 						&& LvtbXTypes.XPREP.equals(parentPhraseType))
 				{
 					List<PmlANode> basElems = parentPhrase.getChildren(LvtbRoles.BASELEM);
-					if (basElems == null || basElems.size() < 1)
+					if (basElems == null || basElems.isEmpty())
 						StandardLogger.l.doInsentenceWarning(String.format(
 								"\"%s\" has no \"%s\".", parentPhraseType, LvtbRoles.BASELEM));
 					else
@@ -494,7 +480,7 @@ public class DepRelLogic
 		}
 
 		// Genitives.
-		if (tag.matches("[na]...[g].*|[pm]....[g].*|v..p...[g].*"))
+		if (tag.matches("[na]...[g].*|[pm]....[g].*|v..p...[g].*") && !parentTag.matches("[np].*|y[np].*"))
 			return Tuple.of(UDv2Relations.OBL, UDv2Feat.CASE_GEN.value.toLowerCase());
 		if (tag.matches("x.*|y[npa].*") && parentTag.matches("v..p....ps.*"))
 			return Tuple.of(UDv2Relations.OBL, null);
@@ -597,7 +583,7 @@ public class DepRelLogic
 		{
 			String prepLemma = Helper.getXSimileConjOrXPrepPrepLemma(phrase, LvtbRoles.PREP);
 			// Noun attached to noun is nmod, other cases are obl
-			if (tag.matches("n.*|y[np]") && parentTag.matches("n.*|y[np]"))
+			if (tag.matches("n.*|y[np]") && parentTag.matches("n.*|y[np]|p.*"))
 				return Tuple.of(UDv2Relations.NMOD, prepLemma);
 			else
 				return Tuple.of(UDv2Relations.OBL, prepLemma);
