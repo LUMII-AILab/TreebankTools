@@ -595,7 +595,7 @@ public class DepRelLogic
 			String caseString = UDv2Feat.caseLetterToLCString(caseLetter);
 			if (caseString != null || caseLetter.equals("0"))
 			{
-				if (tag.matches("n.*|y[np]") && parentTag.matches("n.*|y[np]"))
+				if (tag.matches("n.*|y[np]") && parentTag.matches("n.*|y[np]|p.*"))
 					return Tuple.of(UDv2Relations.NMOD, caseString);
 				else
 					return Tuple.of(UDv2Relations.OBL, caseString);
@@ -603,7 +603,7 @@ public class DepRelLogic
 			// It is ok to become dep, if the case is not valid, it is an error anyway.
 		}
 
-		if (tag.matches("y[np]") && parentTag.matches("n.*|y[np]"))
+		if (tag.matches("y[np]") && parentTag.matches("n.*|y[np]|p.*"))
 			return Tuple.of(UDv2Relations.NMOD, null);
 		if (tag.matches("x[fo].*|ya.*"))
 			return Tuple.of(UDv2Relations.OBL, null);
