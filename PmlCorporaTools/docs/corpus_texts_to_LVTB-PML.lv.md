@@ -1,11 +1,17 @@
-1. Dabūt PML-W
---------------
+# Korpusa avotu sagatavošana PML formātā:
+
+Vajadzīgi metadati, oriģinālteksts un CONLL-U fails ar morfoloģiju un sintaksi.
+Pirmajā solī jāuztaisa PML-W, otrajā vienlaikus PML-M un PML-A.
+
+
+## PML-W
+
 Izejas dati:
 * meta informācija
 * oriģinālteksts
 
 Piemērs:
-`perl -e "use LvCorporaTools::FormatTransf::Plaintext2W qw(transformFile); transformFile(@ARGV)" testdata\Plaintext2W t16_p21.txt t16 t16.meta 21 t16_p21`
+`perl -I ./ -e "use LvCorporaTools::FormatTransf::Plaintext2W qw(transformFile); transformFile(@ARGV)" testdata\Plaintext2W t16_p21.txt t16 t16.meta 21 t16_p21`
 
 Parametri:
 1) datu mape
@@ -13,7 +19,7 @@ Parametri:
 3) datu avota ID no LVK, piemēram, p2134 vai c60
 4) fails ar metainformāciju no LVK
 5) rinkopas numurs
-6) jaunveidojamās PML failu kopas vārds. Sembank ietvaros parasti tas ir <avota ID>_p<rindkopas nr>
+6) jaunveidojamās PML failu kopas vārds. Sembank ietvaros parasti tas ir <avota ID>-p<rindkopas nr>
   
 Metadati no LVK ir padodami failā šādā formā formā (bez XML header):
 ```
@@ -34,16 +40,17 @@ Metadati no LVK ir padodami failā šādā formā formā (bez XML header):
 ```
 Mazākie _dummy_ dati varētu būt apmēram šādi: `<docmeta><title>t16</title></docmeta>`.
 
-2. Dabūt PML-M un PML-A
------------------------
+
+## PML-M un PML-A
+
 Izejas dati:
 * PML-W
 * CoNLL ar morfoloģiju un, ja var, tad sintaksi
 
 Piemērs:
-`perl -e "use LvCorporaTools::FormatTransf::Conll2MA qw(processFileSet); processFileSet(@ARGV)" t16_p21.w  result_folder t16_p21.conllu`
+`perl -I ./ -e "use LvCorporaTools::FormatTransf::Conll2MA qw(processFileSet); processFileSet(@ARGV)" t16_p21.w  result_folder t16_p21.conllu`
 vai
-`perl -e "use LvCorporaTools::FormatTransf::Conll2MA qw(processFileSet); processFileSet(@ARGV)" t16_p21.w  result_folder`
+`perl -I ./ -e "use LvCorporaTools::FormatTransf::Conll2MA qw(processFileSet); processFileSet(@ARGV)" t16_p21.w  result_folder`
 
 Parametri:
 1) w fails
