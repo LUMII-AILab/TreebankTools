@@ -54,10 +54,10 @@ sub parseTagSet
 {
 	my $inFile = shift;
 	
-	# Default TagSet.xml is in the same directory where this script.
+	# Default TagSet.xml is in the ./resources folder.
 	use File::Basename;
 	my $dirname = dirname(__FILE__);
-	$inFile = "$dirname/TagSet.xml" unless $inFile;
+	$inFile = "resources/TagSet.xml" unless $inFile;
 	no File::Basename;
 	
 	# Read file.

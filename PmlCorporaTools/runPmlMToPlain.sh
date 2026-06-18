@@ -11,5 +11,5 @@ resultfile="`echo "$filelist" | sed -e 's/^\(.*\)\.pml$/\1\.txt/g'`"
 
 echo "PML->plain: Converting $filelist to $resultfile"
 
-perl -I ./ -e "use LvCorporaTools::GenericUtils::ApplyXSLT; LvCorporaTools::GenericUtils::ApplyXSLT::applyXSLT1_0(@ARGV)" "$filelist" LvCorporaTools/FormatTransf/pmlM2plain.xsl "$resultfile"
+perl -I ./ -e "use LvCorporaTools::GenericUtils::ApplyXSLT; LvCorporaTools::GenericUtils::ApplyXSLT::applyXSLT1_0(@ARGV)" "$filelist" resources/pmlM2plain.xsl "$resultfile"
 
