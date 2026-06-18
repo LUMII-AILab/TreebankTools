@@ -1,21 +1,13 @@
 .DS_Store
-
-/ParserTools/lv
-/ParserTools/*.mco
-/ParserTools/*.out
-
-/MorphoVerificator/lv
+*/.idea
+*.vert
+*.log
+*.zip
 
 /LVTB2UD/lib/*.jar
 /LVTB2UD/out
-/LVTB2UD/lvtb2ud.zip
-/LVTB2UD/.idea/workspace.xml
-/LVTB2UD/.idea/tasks.xml
-/LVTB2UD/.idea/libraries/lv_ailab_morphology_morphology_*.xml
 
-/PmlCorporaTools/.idea/workspace.xml
-/PmlCorporaTools/.idea/tasks.xml
-
+/PmlCorporaTools/_Deparsed_XSubs.pm
 /PmlCorporaTools/log/
 /PmlCorporaTools/data/
 /PmlCorporaTools/data-alt/
@@ -25,6 +17,7 @@
 /PmlCorporaTools/data-ltg-*/
 /PmlCorporaTools/testdata/*/res
 /PmlCorporaTools/testdata/*/logs
+/PmlCorporaTools/testdata/*/log
 /PmlCorporaTools/testdata/*/warnings
 /PmlCorporaTools/testdata/Conll2MA/m-a
 /PmlCorporaTools/testdata/SplitTrainDevTest/skip
@@ -34,9 +27,10 @@
 /PmlCorporaTools/testdata/SplitTrainDevTest/not-mentioned
 /PmlCorporaTools/testdata/SplitBinary/on-list
 /PmlCorporaTools/testdata/SplitBinary/off-list
-/PmlCorporaTools/.idea/perl5local.xml
-
+/PmlCorporaTools/* (copy).sh
+/PmlCorporaTools/*-ignore.sh
+/PmlCorporaTools/*-ignore.bat
 /PmlCorporaTools/* - Copy.bat
-/TrEd extension/lv-treebank/lv-treebank.zip
-*.vert
-*.log
+
+
+
