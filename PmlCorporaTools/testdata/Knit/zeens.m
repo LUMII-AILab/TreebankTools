@@ -13,9 +13,7 @@
   <s id="m-zeens-p1s1">
     <m id="m-zeens-p1s1w1">
       <src.rf>experimental</src.rf>
-      <w.rf>
-        <LM>w#w-zeens-p1w1</LM>
-      </w.rf>
+      <w.rf>w#w-zeens-p1w1</w.rf>
       <form>Zēns</form>
       <lemma>zēns</lemma>
       <tag>ncmsn1</tag>
