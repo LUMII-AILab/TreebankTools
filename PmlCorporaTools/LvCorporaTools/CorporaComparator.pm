@@ -41,26 +41,26 @@ END
 	my $diffRows = 0;
 	while (my $row1 = <$in1>)
 	{
-		my $row2;
-		unless ($row2 = <$in2>)
+		if (my $row2 = <$in2>)
+		{
+			$row1 =~ s/^\s*(.*?)\s*$/$1/;
+			$row2 =~ s/^\s*(.*?)\s*$/$1/;
+
+			if ($row1 eq $row2 and $row1 ne '')
+			{
+				$equalRows++;
+			} elsif ($row1 ne $row2)
+			{
+				$diffRows++;
+			}
+		} else
 		{
 			print "File 2 is shorter than file 1!\n";
 			last;
 		}
-		
-		$row1 =~ s/^\s*(.*?)\s*$/$1/;
-		$row2 =~ s/^\s*(.*?)\s*$/$1/;
-		
-		if ($row1 eq $row2 and $row1 ne '')
-		{
-			$equalRows++;
-		} elsif ($row1 ne $row2)
-		{
-			$diffRows++;
-		}
 	}
 
-	print "File 1 is shorter than file 2!\n" if (my $row2 = <$in2>);
+	print "File 1 is shorter than file 2!\n" if (<$in2>);
 	
 	print "$equalRows equal nonempty rows.\n";
 	print "$diffRows different rows (at least one of the pair is not empty).\n";

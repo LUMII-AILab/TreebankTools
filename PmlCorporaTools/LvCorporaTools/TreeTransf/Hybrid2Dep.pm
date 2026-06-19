@@ -268,7 +268,7 @@ sub transformTree
 	{
 		my @phrases = $xpc->findnodes(
 			'pml:children/*[local-name()!=\'node\']', $tree);
-		die ($tree->find('@id'))." has ".(scalar @phrases)." non-node children for the root!"
+		die(($tree->find('@id'))." has ".(scalar @phrases)." non-node children for the root!")
 			if (scalar @phrases ne 1);
 		
 

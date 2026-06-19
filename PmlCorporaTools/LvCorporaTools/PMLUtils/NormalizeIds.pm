@@ -159,18 +159,18 @@ sub load
 	my $oldName = shift @_;
 
 	# Load w-level.
-	my $wXml = loadXml ("$dirPrefix\\$oldName.w", \@FORCE_ARRAY_W);
+	my $wXml = loadXml ("$dirPrefix/$oldName.w", \@FORCE_ARRAY_W);
 	print 'Loaded W';
 
 	# Load m-level.
-	my $mXml = loadXml ("$dirPrefix\\$oldName.m", \@FORCE_ARRAY_M);
+	my $mXml = loadXml ("$dirPrefix/$oldName.m", \@FORCE_ARRAY_M);
 	print ', M';
 		
 	
-	if (-f "$dirPrefix\\$oldName.a")
+	if (-f "$dirPrefix/$oldName.a")
 	{
 		# Load the a-level.
-		my $aXml = loadXml ("$dirPrefix\\$oldName.a", \@FORCE_ARRAY_A);
+		my $aXml = loadXml ("$dirPrefix/$oldName.a", \@FORCE_ARRAY_A);
 		print ', A. ';
 		return {'w' => $wXml, 'm' => $mXml, 'a' => $aXml};
 	}

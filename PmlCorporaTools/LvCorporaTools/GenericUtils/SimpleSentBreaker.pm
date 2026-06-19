@@ -48,13 +48,13 @@ END
 	mkdir $out_dir;
 	while (defined(my $file = readdir(DIR))) {
 		# do something with "$dirname/$file"
-		if (! -d "$corpus\\$file")
+		if (! -d "$corpus/$file")
 		{
-			open INPUT, "<:encoding($encoding)", "$corpus\\$file"
+			open INPUT, "<:encoding($encoding)", "$corpus/$file"
 				or warn "Input file error $file: $!";
-			#open INPUT, "<:encoding(windows-1257)", "$corpus\\$file" or warn "i-fails $file: $!";
-			#open INPUT, "<:utf8", "$corpus\\$file" or warn "i-fails $file: $!";
-			open OUTPUT, ">:encoding(UTF-8)", "$out_dir\\$file" or warn "Output file error: $!";
+			#open INPUT, "<:encoding(windows-1257)", "$corpus/$file" or warn "i-fails $file: $!";
+			#open INPUT, "<:utf8", "$corpus/$file" or warn "i-fails $file: $!";
+			open OUTPUT, ">:encoding(UTF-8)", "$out_dir/$file" or warn "Output file error: $!";
 			while (<INPUT>)	{
 				s#(\D[.!?]["'\x{201D}\x{00AB}]?)(?!\s+["'\x{201E}\x{00BB}]?[a-zāčēģīķļņōŗšūž])\s#$1\n#gx; 
 				#s#([;,:])\s*\n$#$1 #g;

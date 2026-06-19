@@ -180,7 +180,7 @@ END
 		print ', A';
 	}
 	print ".\n";
-	my $out = IO::File->new("$dirPrefix\\$resName", "> :encoding(UTF-8)")
+	my $out = IO::File->new("$dirPrefix/$resName", "> :encoding(UTF-8)")
 		or die "Error while processing $inputName - can't create $resName: $!";
 
 	# Test conformity of w and m file.
@@ -365,7 +365,7 @@ sub _loadW
 	my $inputName = shift @_;
 
 	# Load w-file.
-	my $w = loadXml ("$dirPrefix\\$inputName.w", \@FORCE_ARRAY_W,);
+	my $w = loadXml ("$dirPrefix/$inputName.w", \@FORCE_ARRAY_W,);
 	#print Dumper($w->{'xml'}->{'doc'});
 
 	# Token IDs by order;
@@ -406,7 +406,7 @@ sub _loadM
 	my $inputName = shift @_;
 
 	# Load m-file.
-	my $m = loadXml ("$dirPrefix\\$inputName.m", \@FORCE_ARRAY_M);
+	my $m = loadXml ("$dirPrefix/$inputName.m", \@FORCE_ARRAY_M);
 
 	# Map sentence IDs to lists of morpheme IDs.
 	my %mSent2morpho = ();
@@ -502,7 +502,7 @@ sub _loadA
 	my $inputName = shift @_;
 
 	# Load the a-file.
-	my $a = loadXml ("$dirPrefix\\$inputName.a", \@FORCE_ARRAY_A,);
+	my $a = loadXml ("$dirPrefix/$inputName.a", \@FORCE_ARRAY_A,);
 
 	my @treeSeq = ();
 	my %tree2node = ();

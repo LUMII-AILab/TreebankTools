@@ -89,9 +89,10 @@ END
 			print "Nothing like $fileStub found.\n"
 				if (!$found and (!$ommitMorphoWarns or $otherInfo !~ /^\tMorphocorpus([\t\r\n]|$)/));
 		}
-		elsif ($line =~ /^(\s*.+?)\r?\n?$/)
+		elsif ($line !~ /^\s*$/)
 		{
-			warn "Malformed line in TDT file \"$1\"";
+			$line =~ s/^(.*?)\r?\n?$/$1/;
+			warn "Malformed line in TDT file \"$line\"";
 		}
 	}
 

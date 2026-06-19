@@ -102,7 +102,7 @@ sub _processM
 	my $mapping = shift @_;
 	my %res = $mapping ? %$mapping : ();
 
-	my $m = loadXml("$dirPrefix\\$inputName", \@FORCE_ARRAY_M);
+	my $m = loadXml("$dirPrefix/$inputName", \@FORCE_ARRAY_M);
 	my @sizes = map {scalar @{$_->{'m'}}} @{$m->{'xml'}->{'s'}};
 	for (@sizes)
 	{
@@ -119,7 +119,7 @@ sub _doOutput
 	my $resName = shift @_;
 	my $mapping = shift @_;
 	
-	my $out = IO::File->new("$dirPrefix\\$resName", "> :encoding(UTF-8)")
+	my $out = IO::File->new("$dirPrefix/$resName", "> :encoding(UTF-8)")
 		or die "Could not create file $resName: $!";
 	print $out "Length\tCount\n";
 	for (sort {$a <=> $b} keys(%$mapping))

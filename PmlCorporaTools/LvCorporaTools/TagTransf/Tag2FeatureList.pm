@@ -1,5 +1,6 @@
 #!C:\strawberry\perl\bin\perl -w
 package LvCorporaTools::TagTransf::Tag2FeatureList;
+use warnings;
 use utf8;
 use strict;
 
@@ -17,7 +18,7 @@ use XML::Simple;
 #
 # Developed on Strawberry Perl 5.12.3.0
 # Latvian Treebank project, 2013
-# Lauma Pretkalniòa, LUMII, AILab, lauma@ailab.lv
+# Lauma Pretkalniï¿½a, LUMII, AILab, lauma@ailab.lv
 # Licenced under GPL.
 ###############################################################################
 
@@ -66,7 +67,7 @@ sub parseTagSet
 	my $sxml = XML::Simple->new();
 	my $data = $sxml->XMLin(
 		$xmlString,
-		'KeyAttr' => ['Tag'],
+		#'KeyAttr' => ['Tag', '+LV'],
 		'ForceContent' => 1,
 		);
 	$in->close();
@@ -77,20 +78,20 @@ sub parseTagSet
 	my $tmpPos = $data->{'Attribute'}[0];
 	$res->{0}->{'NAME'} = $tmpPos->{'LV'};
 	#my $posName = $tmpPos->{'LV'};
-	for my $tag (keys %{$tmpPos->{'Value'}})
+	for my $desc (@{$tmpPos->{'Value'}})
 	{
-		$res->{0}->{$tag} = $tmpPos->{'Value'}->{$tag}->{'LV'};
+		$res->{0}->{$desc->{'Tag'}} = $desc->{'LV'} if (exists($desc->{'Tag'}));
 	}
 	# Other tags.
 	for my $attr (@{$data->{'Attribute'}})
 	{
-		if ($attr->{'PartOfSpeech'} and $attr->{'MarkupPos'} > 0)
+		if ($attr->{'PartOfSpeech'} and $attr->{'MarkupPos'})
 		{
 			my $new = {};
 			$new->{'NAME'} = $attr->{'LV'};
-			for my $tag (keys %{$attr->{'Value'}})
+			for my $desc (@{$attr->{'Value'}})
 			{
-				$new->{$tag} = $attr->{'Value'}->{$tag}->{'LV'};
+				$new->{$desc->{'Tag'}} = $desc->{'LV'} if (exists($desc->{'Tag'}));
 			}
 			$res->{$attr->{'PartOfSpeech'}}->{$attr->{'MarkupPos'}} = $new;#$attr->{'Value'};#
 		}
@@ -108,7 +109,7 @@ sub decodeTag
 	my $tag = shift;
 	my $tagHash = shift;
 	my @tagChars = split //, $tag;
-	
+
 	# Empty tags.
 	return [['_']] if ($tag eq 'N/A' or $tag eq '_');
 	
@@ -121,7 +122,8 @@ sub decodeTag
 	}
 	my @res = ([$tagHash->{0}->{'NAME'}, $pos]);
 	# Magical treatment for participles.
-	$pos = 'Divdabis' if ($tagHash->{$pos}->{3}->{$tagChars[3]} eq 'Divdabis');
+	$pos = 'Divdabis' if (exists($tagHash->{$pos}->{3}) and @tagChars>3
+		and	$tagHash->{$pos}->{3}->{$tagChars[3]} eq 'Divdabis');
 	
 	for (my $ind = 1; $ind < @tagChars; $ind++)
 	{
