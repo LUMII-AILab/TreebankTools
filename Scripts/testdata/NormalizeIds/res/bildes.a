@@ -1,0 +1,2457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lvadata xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
+  <head>
+    <references>
+      <reffile href="bildes.m"
+               id="m"
+               name="mdata" />
+      <reffile href="bildes.w"
+               id="w"
+               name="wdata" />
+    </references>
+    <schema href="lvaschema.xml" />
+  </head>
+  <meta>
+    <annotation_info>
+      <desc>Eksperimentāls anotācijas paraugs.</desc>
+    </annotation_info>
+  </meta>
+  <trees>
+    <LM id="a-bildes-p1s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p1s1w2">
+              <children>
+                <node id="a-bildes-p1s1w1">
+                  <m.rf>m#m-bildes-p1s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p1s1w2</m.rf>
+              <ord>4</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p1s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p2s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p2s1w1">
+              <children>
+                <node id="a-bildes-p2s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p2s1w2">
+                          <m.rf>m#m-bildes-p2s1w2</m.rf>
+                          <ord>7</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <tag>ncfsa0[prey]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p2s1w1</m.rf>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p2s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p3s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p3s1w1">
+              <children>
+                <node id="a-bildes-p3s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p3s1w2">
+                          <m.rf>m#m-bildes-p3s1w2</m.rf>
+                          <ord>6</ord>
+                          <role>prep</role>
+                        </node>
+                        <node id="a-bildes-p3s1w4">
+                          <children>
+                            <node id="a-bildes-p3s1w3">
+                              <m.rf>m#m-bildes-p3s1w3</m.rf>
+                              <ord>7</ord>
+                              <role>attr</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p3s1w4</m.rf>
+                          <ord>8</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <tag>ncfsa0[prey]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p3s1w1</m.rf>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p3s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p4s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p4s1w1">
+              <children>
+                <node id="a-bildes-p4s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p4s1x2">
+                          <children>
+                            <coordinfo>
+                              <children>
+                                <node id="a-bildes-p4s1w3">
+                                  <m.rf>m#m-bildes-p4s1w3</m.rf>
+                                  <ord>9</ord>
+                                  <role>crdPart</role>
+                                </node>
+                                <node id="a-bildes-p4s1w4">
+                                  <m.rf>m#m-bildes-p4s1w4</m.rf>
+                                  <ord>10</ord>
+                                  <role>conj</role>
+                                </node>
+                                <node id="a-bildes-p4s1w5">
+                                  <m.rf>m#m-bildes-p4s1w5</m.rf>
+                                  <ord>11</ord>
+                                  <role>crdPart</role>
+                                </node>
+                              </children>
+                              <coordtype>crdParts</coordtype>
+                              <ord>8</ord>
+                              <tag>nc0sa0</tag>
+                            </coordinfo>
+                          </children>
+                          <ord>7</ord>
+                          <role>basElem</role>
+                        </node>
+                        <node id="a-bildes-p4s1w2">
+                          <m.rf>m#m-bildes-p4s1w2</m.rf>
+                          <ord>6</ord>
+                          <role>prep</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <tag>nc0sa0[pren]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p4s1w1</m.rf>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p4s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p5s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p5s1x1">
+              <children>
+                <node id="a-bildes-p5s1x2">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p5s1w8">
+                          <children>
+                            <node id="a-bildes-p5s1x3">
+                              <children>
+                                <coordinfo>
+                                  <children>
+                                    <node id="a-bildes-p5s1w3">
+                                      <m.rf>m#m-bildes-p5s1w3</m.rf>
+                                      <ord>10</ord>
+                                      <role>crdPart</role>
+                                    </node>
+                                    <node id="a-bildes-p5s1w4">
+                                      <m.rf>m#m-bildes-p5s1w4</m.rf>
+                                      <ord>11</ord>
+                                      <role>punct</role>
+                                    </node>
+                                    <node id="a-bildes-p5s1w5">
+                                      <m.rf>m#m-bildes-p5s1w5</m.rf>
+                                      <ord>12</ord>
+                                      <role>crdPart</role>
+                                    </node>
+                                    <node id="a-bildes-p5s1w6">
+                                      <m.rf>m#m-bildes-p5s1w6</m.rf>
+                                      <ord>13</ord>
+                                      <role>conj</role>
+                                    </node>
+                                    <node id="a-bildes-p5s1w7">
+                                      <m.rf>m#m-bildes-p5s1w7</m.rf>
+                                      <ord>14</ord>
+                                      <role>crdPart</role>
+                                    </node>
+                                  </children>
+                                  <coordtype>crdParts</coordtype>
+                                  <ord>9</ord>
+                                  <tag>ncfsg0</tag>
+                                </coordinfo>
+                                <node id="a-bildes-p5s1w2">
+                                  <children>
+                                    <node id="a-bildes-p5s1w1">
+                                      <m.rf>m#m-bildes-p5s1w1</m.rf>
+                                      <ord>7</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <m.rf>m#m-bildes-p5s1w2</m.rf>
+                                  <ord>8</ord>
+                                  <role>attr</role>
+                                </node>
+                              </children>
+                              <ord>6</ord>
+                              <role>attr</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p5s1w8</m.rf>
+                          <ord>15</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <tag>npfsn0</tag>
+                      <xtype>namedEnt</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <ord>3</ord>
+              <reduction>vm000003s00</reduction>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p5s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p6s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p6s1w5">
+              <children>
+                <node id="a-bildes-p6s1x1">
+                  <children>
+                    <coordinfo>
+                      <children>
+                        <node id="a-bildes-p6s1w1">
+                          <m.rf>m#m-bildes-p6s1w1</m.rf>
+                          <ord>5</ord>
+                          <role>crdPart</role>
+                        </node>
+                        <node id="a-bildes-p6s1w2">
+                          <m.rf>m#m-bildes-p6s1w2</m.rf>
+                          <ord>6</ord>
+                          <role>conj</role>
+                        </node>
+                        <node id="a-bildes-p6s1w4">
+                          <children>
+                            <node id="a-bildes-p6s1w3">
+                              <m.rf>m#m-bildes-p6s1w3</m.rf>
+                              <ord>7</ord>
+                              <role>attr</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p6s1w4</m.rf>
+                          <ord>8</ord>
+                          <role>crdPart</role>
+                        </node>
+                      </children>
+                      <coordtype>crdParts</coordtype>
+                      <ord>4</ord>
+                      <tag>ncmpn0</tag>
+                    </coordinfo>
+                  </children>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p6s1w5</m.rf>
+              <ord>9</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p6s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p7s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p7s1x1">
+              <children>
+                <coordinfo>
+                  <children>
+                    <node id="a-bildes-p7s1x2">
+                      <children>
+                        <node id="a-bildes-p7s1w14">
+                          <m.rf>m#m-bildes-p7s1w14</m.rf>
+                          <ord>29</ord>
+                          <role>sit</role>
+                        </node>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p7s1w16">
+                              <children>
+                                <node id="a-bildes-p7s1w15">
+                                  <m.rf>m#m-bildes-p7s1w15</m.rf>
+                                  <ord>31</ord>
+                                  <role>subj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p7s1w16</m.rf>
+                              <ord>32</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>30</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>28</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p7s1x3">
+                      <children>
+                        <coordinfo>
+                          <children>
+                            <node id="a-bildes-p7s1x4">
+                              <children>
+                                <pmcinfo>
+                                  <children>
+                                    <node id="a-bildes-p7s1w3">
+                                      <children>
+                                        <node id="a-bildes-p7s1w2">
+                                          <m.rf>m#m-bildes-p7s1w2</m.rf>
+                                          <ord>10</ord>
+                                          <role>subj</role>
+                                        </node>
+                                        <node id="a-bildes-p7s1x6">
+                                          <children>
+                                            <xinfo>
+                                              <children>
+                                                <node id="a-bildes-p7s1w4">
+                                                  <m.rf>m#m-bildes-p7s1w4</m.rf>
+                                                  <ord>14</ord>
+                                                  <role>prep</role>
+                                                </node>
+                                                <node id="a-bildes-p7s1w5">
+                                                  <m.rf>m#m-bildes-p7s1w5</m.rf>
+                                                  <ord>15</ord>
+                                                  <role>basElem</role>
+                                                </node>
+                                              </children>
+                                              <ord>13</ord>
+                                              <tag>ncmsa0</tag>
+                                              <xtype>xPrep</xtype>
+                                            </xinfo>
+                                          </children>
+                                          <ord>12</ord>
+                                          <role>adv</role>
+                                        </node>
+                                      </children>
+                                      <m.rf>m#m-bildes-p7s1w3</m.rf>
+                                      <ord>11</ord>
+                                      <role>pred</role>
+                                    </node>
+                                  </children>
+                                  <ord>9</ord>
+                                  <pmctype>mainCl</pmctype>
+                                </pmcinfo>
+                              </children>
+                              <ord>8</ord>
+                              <role>crdPart</role>
+                            </node>
+                            <node id="a-bildes-p7s1x5">
+                              <children>
+                                <pmcinfo>
+                                  <children>
+                                    <node id="a-bildes-p7s1w9">
+                                      <children>
+                                        <node id="a-bildes-p7s1x7">
+                                          <children>
+                                            <xinfo>
+                                              <children>
+                                                <node id="a-bildes-p7s1w10">
+                                                  <m.rf>m#m-bildes-p7s1w10</m.rf>
+                                                  <ord>24</ord>
+                                                  <role>prep</role>
+                                                </node>
+                                                <node id="a-bildes-p7s1w11">
+                                                  <m.rf>m#m-bildes-p7s1w11</m.rf>
+                                                  <ord>25</ord>
+                                                  <role>basElem</role>
+                                                </node>
+                                              </children>
+                                              <ord>23</ord>
+                                              <tag>ncmsa0</tag>
+                                              <xtype>xPrep</xtype>
+                                            </xinfo>
+                                          </children>
+                                          <ord>22</ord>
+                                          <role>adv</role>
+                                        </node>
+                                        <node id="a-bildes-p7s1w8">
+                                          <m.rf>m#m-bildes-p7s1w8</m.rf>
+                                          <ord>20</ord>
+                                          <role>subj</role>
+                                        </node>
+                                      </children>
+                                      <m.rf>m#m-bildes-p7s1w9</m.rf>
+                                      <ord>21</ord>
+                                      <role>pred</role>
+                                    </node>
+                                  </children>
+                                  <ord>19</ord>
+                                  <pmctype>mainCl</pmctype>
+                                </pmcinfo>
+                              </children>
+                              <ord>18</ord>
+                              <role>crdPart</role>
+                            </node>
+                            <node id="a-bildes-p7s1w6">
+                              <m.rf>m#m-bildes-p7s1w6</m.rf>
+                              <ord>16</ord>
+                              <role>punct</role>
+                            </node>
+                            <node id="a-bildes-p7s1w7">
+                              <m.rf>m#m-bildes-p7s1w7</m.rf>
+                              <ord>17</ord>
+                              <role>conj</role>
+                            </node>
+                          </children>
+                          <coordtype>crdGeneral</coordtype>
+                          <ord>7</ord>
+                        </coordinfo>
+                        <node id="a-bildes-p7s1w1">
+                          <m.rf>m#m-bildes-p7s1w1</m.rf>
+                          <ord>6</ord>
+                          <role>sit</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p7s1w12">
+                      <m.rf>m#m-bildes-p7s1w12</m.rf>
+                      <ord>26</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p7s1w13">
+                      <m.rf>m#m-bildes-p7s1w13</m.rf>
+                      <ord>27</ord>
+                      <role>conj</role>
+                    </node>
+                  </children>
+                  <coordtype>crdClauses</coordtype>
+                  <ord>4</ord>
+                </coordinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p7s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p8s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p8s1x1">
+              <children>
+                <node id="a-bildes-p8s1x2">
+                  <children>
+                    <coordinfo>
+                      <children>
+                        <node id="a-bildes-p8s1x3">
+                          <children>
+                            <coordinfo>
+                              <children>
+                                <node id="a-bildes-p8s1w4">
+                                  <m.rf>m#m-bildes-p8s1w4</m.rf>
+                                  <ord>11</ord>
+                                  <role>crdPart</role>
+                                </node>
+                                <node id="a-bildes-p8s1w5">
+                                  <m.rf>m#m-bildes-p8s1w5</m.rf>
+                                  <ord>12</ord>
+                                  <role>punct</role>
+                                </node>
+                                <node id="a-bildes-p8s1w6">
+                                  <m.rf>m#m-bildes-p8s1w6</m.rf>
+                                  <ord>13</ord>
+                                  <role>crdPart</role>
+                                </node>
+                                <node id="a-bildes-p8s1w7">
+                                  <m.rf>m#m-bildes-p8s1w7</m.rf>
+                                  <ord>14</ord>
+                                  <role>conj</role>
+                                </node>
+                                <node id="a-bildes-p8s1w8">
+                                  <m.rf>m#m-bildes-p8s1w8</m.rf>
+                                  <ord>15</ord>
+                                  <role>crdPart</role>
+                                </node>
+                              </children>
+                              <coordtype>crdParts</coordtype>
+                              <ord>10</ord>
+                              <tag>n0fpn0</tag>
+                            </coordinfo>
+                          </children>
+                          <ord>9</ord>
+                          <role>genList</role>
+                        </node>
+                        <node id="a-bildes-p8s1w2">
+                          <children>
+                            <node id="a-bildes-p8s1w1">
+                              <m.rf>m#m-bildes-p8s1w1</m.rf>
+                              <ord>6</ord>
+                              <role>attr</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p8s1w2</m.rf>
+                          <ord>7</ord>
+                          <role>gen</role>
+                        </node>
+                        <node id="a-bildes-p8s1w3">
+                          <m.rf>m#m-bildes-p8s1w3</m.rf>
+                          <ord>8</ord>
+                          <role>conj</role>
+                        </node>
+                      </children>
+                      <coordtype>crdGeneral</coordtype>
+                      <ord>5</ord>
+                      <tag>ncfpn5</tag>
+                    </coordinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p8s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p9s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p9s1w2">
+              <children>
+                <node id="a-bildes-p9s1w1">
+                  <m.rf>m#m-bildes-p9s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+                <node id="a-bildes-p9s1w3">
+                  <m.rf>m#m-bildes-p9s1w3</m.rf>
+                  <ord>5</ord>
+                  <role>obj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p9s1w2</m.rf>
+              <ord>4</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p9s1w4">
+              <m.rf>m#m-bildes-p9s1w4</m.rf>
+              <ord>6</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p9s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p10s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p10s1w1">
+              <children>
+                <node id="a-bildes-p10s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p10s1w2">
+                          <m.rf>m#m-bildes-p10s1w2</m.rf>
+                          <ord>6</ord>
+                          <role>prep</role>
+                        </node>
+                        <node id="a-bildes-p10s1w3">
+                          <m.rf>m#m-bildes-p10s1w3</m.rf>
+                          <ord>7</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <tag>ncfpd0[pren]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>no</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p10s1w1</m.rf>
+              <ord>3</ord>
+              <role>no</role>
+            </node>
+            <node id="a-bildes-p10s1w4">
+              <m.rf>m#m-bildes-p10s1w4</m.rf>
+              <ord>8</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>utter</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p10s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p11s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p11s1x1">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p11s1w1">
+                      <m.rf>m#m-bildes-p11s1w1</m.rf>
+                      <ord>5</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p11s1w2">
+                      <m.rf>m#m-bildes-p11s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>4</ord>
+                  <pmctype>interj</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>3</ord>
+              <role>no</role>
+            </node>
+            <node id="a-bildes-p11s1w4">
+              <children>
+                <node id="a-bildes-p11s1w3">
+                  <m.rf>m#m-bildes-p11s1w3</m.rf>
+                  <ord>7</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p11s1w4</m.rf>
+              <ord>8</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p11s1w5">
+              <m.rf>m#m-bildes-p11s1w5</m.rf>
+              <ord>9</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p11s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p12s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p12s1w2">
+              <children>
+                <node id="a-bildes-p12s1w1">
+                  <m.rf>m#m-bildes-p12s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+                <node id="a-bildes-p12s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p12s1w3">
+                          <m.rf>m#m-bildes-p12s1w3</m.rf>
+                          <ord>7</ord>
+                          <role>prep</role>
+                        </node>
+                        <node id="a-bildes-p12s1w4">
+                          <m.rf>m#m-bildes-p12s1w4</m.rf>
+                          <ord>8</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>6</ord>
+                      <tag>ncfsa0[prey]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>5</ord>
+                  <role>adv</role>
+                </node>
+                <node id="a-bildes-p12s1w5">
+                  <children>
+                    <node id="a-bildes-p12s1x2">
+                      <children>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p12s1w6">
+                              <m.rf>m#m-bildes-p12s1w6</m.rf>
+                              <ord>12</ord>
+                              <role>punct</role>
+                            </node>
+                            <node id="a-bildes-p12s1w8">
+                              <children>
+                                <node id="a-bildes-p12s1w7">
+                                  <m.rf>m#m-bildes-p12s1w7</m.rf>
+                                  <ord>13</ord>
+                                  <role>adv</role>
+                                </node>
+                                <node id="a-bildes-p12s1w9">
+                                  <m.rf>m#m-bildes-p12s1w9</m.rf>
+                                  <ord>15</ord>
+                                  <role>obj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p12s1w8</m.rf>
+                              <ord>14</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>11</ord>
+                          <pmctype>subrCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>10</ord>
+                      <role>attrCl</role>
+                    </node>
+                  </children>
+                  <m.rf>m#m-bildes-p12s1w5</m.rf>
+                  <ord>9</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p12s1w2</m.rf>
+              <ord>4</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p12s1w10">
+              <m.rf>m#m-bildes-p12s1w10</m.rf>
+              <ord>16</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p12s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p13s1">
+      <children>
+        <node id="a-bildes-p13s1x1">
+          <children>
+            <coordinfo>
+              <children>
+                <node id="a-bildes-p13s1x2">
+                  <children>
+                    <pmcinfo>
+                      <children>
+                        <node id="a-bildes-p13s1w1">
+                          <m.rf>m#m-bildes-p13s1w1</m.rf>
+                          <ord>6</ord>
+                          <role>conj</role>
+                        </node>
+                        <node id="a-bildes-p13s1w3">
+                          <children>
+                            <node id="a-bildes-p13s1w2">
+                              <m.rf>m#m-bildes-p13s1w2</m.rf>
+                              <ord>7</ord>
+                              <role>adv</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p13s1w3</m.rf>
+                          <ord>8</ord>
+                          <role>pred</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <pmctype>subrCl</pmctype>
+                    </pmcinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>crdPart</role>
+                </node>
+                <node id="a-bildes-p13s1x3">
+                  <children>
+                    <pmcinfo>
+                      <children>
+                        <node id="a-bildes-p13s1x4">
+                          <children>
+                            <node id="a-bildes-p13s1w6">
+                              <m.rf>m#m-bildes-p13s1w6</m.rf>
+                              <ord>14</ord>
+                              <role>subj</role>
+                            </node>
+                            <xinfo>
+                              <children>
+                                <node id="a-bildes-p13s1w7">
+                                  <m.rf>m#m-bildes-p13s1w7</m.rf>
+                                  <ord>16</ord>
+                                  <role>auxVerb</role>
+                                </node>
+                                <node id="a-bildes-p13s1w8">
+                                  <m.rf>m#m-bildes-p13s1w8</m.rf>
+                                  <ord>17</ord>
+                                  <role>basElem</role>
+                                </node>
+                              </children>
+                              <ord>15</ord>
+                              <tag>vmyif003san[actpmn]</tag>
+                              <xtype>xPred</xtype>
+                            </xinfo>
+                          </children>
+                          <ord>13</ord>
+                          <role>pred</role>
+                        </node>
+                        <node id="a-bildes-p13s1w5">
+                          <m.rf>m#m-bildes-p13s1w5</m.rf>
+                          <ord>12</ord>
+                          <role>conj</role>
+                        </node>
+                        <node id="a-bildes-p13s1w9">
+                          <m.rf>m#m-bildes-p13s1w9</m.rf>
+                          <ord>18</ord>
+                          <role>punct</role>
+                        </node>
+                      </children>
+                      <ord>11</ord>
+                      <pmctype>subrCl</pmctype>
+                    </pmcinfo>
+                  </children>
+                  <ord>10</ord>
+                  <role>crdPart</role>
+                </node>
+                <node id="a-bildes-p13s1w4">
+                  <m.rf>m#m-bildes-p13s1w4</m.rf>
+                  <ord>9</ord>
+                  <role>conj</role>
+                </node>
+              </children>
+              <coordtype>crdClauses</coordtype>
+              <ord>3</ord>
+            </coordinfo>
+          </children>
+          <ord>2</ord>
+          <role>condCl</role>
+        </node>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p13s1w11">
+              <children>
+                <node id="a-bildes-p13s1w10">
+                  <m.rf>m#m-bildes-p13s1w10</m.rf>
+                  <ord>20</ord>
+                  <role>subj</role>
+                </node>
+                <node id="a-bildes-p13s1w12">
+                  <m.rf>m#m-bildes-p13s1w12</m.rf>
+                  <ord>22</ord>
+                  <role>obj</role>
+                </node>
+                <node id="a-bildes-p13s1w13">
+                  <m.rf>m#m-bildes-p13s1w13</m.rf>
+                  <ord>23</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p13s1w11</m.rf>
+              <ord>21</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p13s1w14">
+              <m.rf>m#m-bildes-p13s1w14</m.rf>
+              <ord>24</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>19</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p13s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p14s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p14s1x1">
+              <children>
+                <coordinfo>
+                  <children>
+                    <node id="a-bildes-p14s1x2">
+                      <children>
+                        <node id="a-bildes-p14s1w1">
+                          <m.rf>m#m-bildes-p14s1w1</m.rf>
+                          <ord>6</ord>
+                          <role>sit</role>
+                        </node>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p14s1w2">
+                              <m.rf>m#m-bildes-p14s1w2</m.rf>
+                              <ord>8</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>7</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>5</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p14s1x3">
+                      <children>
+                        <node id="a-bildes-p14s1x4">
+                          <children>
+                            <pmcinfo>
+                              <children>
+                                <node id="a-bildes-p14s1w7">
+                                  <m.rf>m#m-bildes-p14s1w7</m.rf>
+                                  <ord>17</ord>
+                                  <role>punct</role>
+                                </node>
+                                <node id="a-bildes-p14s1w8">
+                                  <m.rf>m#m-bildes-p14s1w8</m.rf>
+                                  <ord>18</ord>
+                                  <role>conj</role>
+                                </node>
+                                <node id="a-bildes-p14s1x5">
+                                  <children>
+                                    <node id="a-bildes-p14s1w9">
+                                      <m.rf>m#m-bildes-p14s1w9</m.rf>
+                                      <ord>20</ord>
+                                      <role>adv</role>
+                                    </node>
+                                    <xinfo>
+                                      <children>
+                                        <node id="a-bildes-p14s1w10">
+                                          <m.rf>m#m-bildes-p14s1w10</m.rf>
+                                          <ord>22</ord>
+                                          <role>mod</role>
+                                        </node>
+                                        <node id="a-bildes-p14s1w11">
+                                          <m.rf>m#m-bildes-p14s1w11</m.rf>
+                                          <ord>23</ord>
+                                          <role>basElem</role>
+                                        </node>
+                                      </children>
+                                      <ord>21</ord>
+                                      <tag>vmnip003ppn[passpmn]</tag>
+                                      <xtype>xPred</xtype>
+                                    </xinfo>
+                                  </children>
+                                  <ord>19</ord>
+                                  <role>pred</role>
+                                </node>
+                              </children>
+                              <ord>16</ord>
+                              <pmctype>subrCl</pmctype>
+                            </pmcinfo>
+                          </children>
+                          <ord>15</ord>
+                          <role>motivCl</role>
+                        </node>
+                        <node id="a-bildes-p14s1w5">
+                          <m.rf>m#m-bildes-p14s1w5</m.rf>
+                          <ord>12</ord>
+                          <role>sit</role>
+                        </node>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p14s1w6">
+                              <m.rf>m#m-bildes-p14s1w6</m.rf>
+                              <ord>14</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>13</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>11</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p14s1w3">
+                      <m.rf>m#m-bildes-p14s1w3</m.rf>
+                      <ord>9</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p14s1w4">
+                      <m.rf>m#m-bildes-p14s1w4</m.rf>
+                      <ord>10</ord>
+                      <role>conj</role>
+                    </node>
+                  </children>
+                  <coordtype>crdClauses</coordtype>
+                  <ord>4</ord>
+                </coordinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+            <node id="a-bildes-p14s1w12">
+              <m.rf>m#m-bildes-p14s1w12</m.rf>
+              <ord>24</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p14s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p15s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p15s1w1">
+              <children>
+                <node id="a-bildes-p15s1x1">
+                  <children>
+                    <pmcinfo>
+                      <children>
+                        <node id="a-bildes-p15s1w2">
+                          <m.rf>m#m-bildes-p15s1w2</m.rf>
+                          <ord>6</ord>
+                          <role>punct</role>
+                        </node>
+                        <node id="a-bildes-p15s1w4">
+                          <children>
+                            <node id="a-bildes-p15s1w3">
+                              <m.rf>m#m-bildes-p15s1w3</m.rf>
+                              <ord>7</ord>
+                              <role>adv</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p15s1w4</m.rf>
+                          <ord>8</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>5</ord>
+                      <pmctype>spcPmc</pmctype>
+                    </pmcinfo>
+                  </children>
+                  <ord>4</ord>
+                  <role>spc</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p15s1w1</m.rf>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p15s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p16s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p16s1x1">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p16s1w1">
+                      <m.rf>m#m-bildes-p16s1w1</m.rf>
+                      <ord>5</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p16s1w2">
+                      <m.rf>m#m-bildes-p16s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>4</ord>
+                  <pmctype>insPmc</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>3</ord>
+              <role>no</role>
+            </node>
+            <node id="a-bildes-p16s1w4">
+              <children>
+                <node id="a-bildes-p16s1w3">
+                  <m.rf>m#m-bildes-p16s1w3</m.rf>
+                  <ord>7</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p16s1w4</m.rf>
+              <ord>8</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p16s1w5">
+              <m.rf>m#m-bildes-p16s1w5</m.rf>
+              <ord>9</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p16s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p17s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p17s1x1">
+              <children>
+                <node id="a-bildes-p17s1w1">
+                  <m.rf>m#m-bildes-p17s1w1</m.rf>
+                  <ord>4</ord>
+                  <role>subj</role>
+                </node>
+                <xinfo>
+                  <children>
+                    <node id="a-bildes-p17s1w2">
+                      <m.rf>m#m-bildes-p17s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>auxVerb</role>
+                    </node>
+                    <node id="a-bildes-p17s1w4">
+                      <children>
+                        <node id="a-bildes-p17s1w3">
+                          <m.rf>m#m-bildes-p17s1w3</m.rf>
+                          <ord>7</ord>
+                          <role>adv</role>
+                        </node>
+                      </children>
+                      <m.rf>m#m-bildes-p17s1w4</m.rf>
+                      <ord>8</ord>
+                      <role>basElem</role>
+                    </node>
+                  </children>
+                  <ord>5</ord>
+                  <tag>vm0ip003pan[adjsfn]</tag>
+                  <xtype>xPred</xtype>
+                </xinfo>
+              </children>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p17s1x2">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p17s1x3">
+                      <children>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p17s1w7">
+                              <m.rf>m#m-bildes-p17s1w7</m.rf>
+                              <ord>15</ord>
+                              <role>no</role>
+                            </node>
+                            <node id="a-bildes-p17s1w9">
+                              <children>
+                                <node id="a-bildes-p17s1w6">
+                                  <m.rf>m#m-bildes-p17s1w6</m.rf>
+                                  <ord>14</ord>
+                                  <role>obj</role>
+                                </node>
+                                <node id="a-bildes-p17s1w8">
+                                  <m.rf>m#m-bildes-p17s1w8</m.rf>
+                                  <ord>16</ord>
+                                  <role>subj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p17s1w9</m.rf>
+                              <ord>17</ord>
+                              <role>pred</role>
+                            </node>
+                            <node id="a-bildes-p17s1w10">
+                              <m.rf>m#m-bildes-p17s1w10</m.rf>
+                              <ord>18</ord>
+                              <role>punct</role>
+                            </node>
+                          </children>
+                          <ord>13</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>12</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p17s1w5">
+                      <m.rf>m#m-bildes-p17s1w5</m.rf>
+                      <ord>11</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p17s1w11">
+                      <m.rf>m#m-bildes-p17s1w11</m.rf>
+                      <ord>19</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>10</ord>
+                  <pmctype>insPmc</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>9</ord>
+              <role>ins</role>
+            </node>
+            <node id="a-bildes-p17s1w12">
+              <m.rf>m#m-bildes-p17s1w12</m.rf>
+              <ord>20</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p17s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p18s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p18s1w6">
+              <children>
+                <node id="a-bildes-p18s1x1">
+                  <children>
+                    <pmcinfo>
+                      <children>
+                        <node id="a-bildes-p18s1x2">
+                          <children>
+                            <xinfo>
+                              <children>
+                                <node id="a-bildes-p18s1w2">
+                                  <children>
+                                    <node id="a-bildes-p18s1w1">
+                                      <m.rf>m#m-bildes-p18s1w1</m.rf>
+                                      <ord>7</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <m.rf>m#m-bildes-p18s1w2</m.rf>
+                                  <ord>8</ord>
+                                  <role>basElem</role>
+                                </node>
+                              </children>
+                              <ord>6</ord>
+                              <tag>npfsn0</tag>
+                              <xtype>namedEnt</xtype>
+                            </xinfo>
+                          </children>
+                          <ord>5</ord>
+                          <role>basElem</role>
+                        </node>
+                        <node id="a-bildes-p18s1x3">
+                          <children>
+                            <pmcinfo>
+                              <children>
+                                <node id="a-bildes-p18s1w3">
+                                  <m.rf>m#m-bildes-p18s1w3</m.rf>
+                                  <ord>11</ord>
+                                  <role>punct</role>
+                                </node>
+                                <node id="a-bildes-p18s1w4">
+                                  <m.rf>m#m-bildes-p18s1w4</m.rf>
+                                  <ord>12</ord>
+                                  <role>basElem</role>
+                                </node>
+                                <node id="a-bildes-p18s1w5">
+                                  <m.rf>m#m-bildes-p18s1w5</m.rf>
+                                  <ord>13</ord>
+                                  <role>punct</role>
+                                </node>
+                              </children>
+                              <ord>10</ord>
+                              <pmctype>insPmc</pmctype>
+                            </pmcinfo>
+                          </children>
+                          <ord>9</ord>
+                          <role>ins</role>
+                        </node>
+                      </children>
+                      <ord>4</ord>
+                      <pmctype>tied</pmctype>
+                    </pmcinfo>
+                  </children>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+                <node id="a-bildes-p18s1w7">
+                  <m.rf>m#m-bildes-p18s1w7</m.rf>
+                  <ord>15</ord>
+                  <role>adv</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p18s1w6</m.rf>
+              <ord>14</ord>
+              <role>N/A</role>
+            </node>
+            <node id="a-bildes-p18s1w8">
+              <m.rf>m#m-bildes-p18s1w8</m.rf>
+              <ord>16</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p18s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p19s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p19s1x1">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p19s1w2">
+                      <children>
+                        <node id="a-bildes-p19s1w1">
+                          <m.rf>m#m-bildes-p19s1w1</m.rf>
+                          <ord>5</ord>
+                          <role>attr</role>
+                        </node>
+                      </children>
+                      <m.rf>m#m-bildes-p19s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p19s1w3">
+                      <m.rf>m#m-bildes-p19s1w3</m.rf>
+                      <ord>7</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>4</ord>
+                  <pmctype>address</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>3</ord>
+              <role>no</role>
+            </node>
+            <node id="a-bildes-p19s1w5">
+              <children>
+                <node id="a-bildes-p19s1w4">
+                  <m.rf>m#m-bildes-p19s1w4</m.rf>
+                  <ord>8</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p19s1w5</m.rf>
+              <ord>9</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p19s1w6">
+              <m.rf>m#m-bildes-p19s1w6</m.rf>
+              <ord>10</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p19s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p20s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p20s1x1">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p20s1w2">
+                      <children>
+                        <node id="a-bildes-p20s1w1">
+                          <m.rf>m#m-bildes-p20s1w1</m.rf>
+                          <ord>5</ord>
+                          <role>subj</role>
+                        </node>
+                      </children>
+                      <m.rf>m#m-bildes-p20s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>pred</role>
+                    </node>
+                    <node id="a-bildes-p20s1w3">
+                      <m.rf>m#m-bildes-p20s1w3</m.rf>
+                      <ord>7</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>4</ord>
+                  <pmctype>report</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+            <node id="a-bildes-p20s1x2">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p20s1w4">
+                      <m.rf>m#m-bildes-p20s1w4</m.rf>
+                      <ord>10</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p20s1w5">
+                      <m.rf>m#m-bildes-p20s1w5</m.rf>
+                      <ord>11</ord>
+                      <role>pred</role>
+                    </node>
+                    <node id="a-bildes-p20s1w6">
+                      <m.rf>m#m-bildes-p20s1w6</m.rf>
+                      <ord>12</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p20s1w7">
+                      <m.rf>m#m-bildes-p20s1w7</m.rf>
+                      <ord>13</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>9</ord>
+                  <pmctype>dirSp</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>8</ord>
+              <role>basElem</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p20s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p21s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p21s1x1">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p21s1x3">
+                      <children>
+                        <coordinfo>
+                          <children>
+                            <node id="a-bildes-p21s1x4">
+                              <children>
+                                <pmcinfo>
+                                  <children>
+                                    <node id="a-bildes-p21s1w9">
+                                      <m.rf>m#m-bildes-p21s1w9</m.rf>
+                                      <ord>19</ord>
+                                      <role>no</role>
+                                    </node>
+                                    <node id="a-bildes-p21s1w10">
+                                      <children>
+                                        <node id="a-bildes-p21s1w2">
+                                          <m.rf>m#m-bildes-p21s1w2</m.rf>
+                                          <ord>10</ord>
+                                          <role>subj</role>
+                                        </node>
+                                        <node id="a-bildes-p21s1w11">
+                                          <m.rf>m#m-bildes-p21s1w11</m.rf>
+                                          <ord>21</ord>
+                                          <role>adv</role>
+                                        </node>
+                                      </children>
+                                      <m.rf>m#m-bildes-p21s1w10</m.rf>
+                                      <ord>20</ord>
+                                      <role>pred</role>
+                                    </node>
+                                  </children>
+                                  <ord>9</ord>
+                                  <pmctype>mainCl</pmctype>
+                                </pmcinfo>
+                              </children>
+                              <ord>8</ord>
+                              <role>crdPart</role>
+                            </node>
+                            <node id="a-bildes-p21s1w12">
+                              <m.rf>m#m-bildes-p21s1w12</m.rf>
+                              <ord>22</ord>
+                              <role>punct</role>
+                            </node>
+                            <node id="a-bildes-p21s1w13">
+                              <m.rf>m#m-bildes-p21s1w13</m.rf>
+                              <ord>23</ord>
+                              <role>conj</role>
+                            </node>
+                            <node id="a-bildes-p21s1x5">
+                              <children>
+                                <pmcinfo>
+                                  <children>
+                                    <node id="a-bildes-p21s1x6">
+                                      <children>
+                                        <pmcinfo>
+                                          <children>
+                                            <node id="a-bildes-p21s1w14">
+                                              <m.rf>m#m-bildes-p21s1w14</m.rf>
+                                              <ord>28</ord>
+                                              <role>punct</role>
+                                            </node>
+                                            <node id="a-bildes-p21s1w15">
+                                              <m.rf>m#m-bildes-p21s1w15</m.rf>
+                                              <ord>29</ord>
+                                              <role>basElem</role>
+                                            </node>
+                                            <node id="a-bildes-p21s1w16">
+                                              <m.rf>m#m-bildes-p21s1w16</m.rf>
+                                              <ord>30</ord>
+                                              <role>punct</role>
+                                            </node>
+                                          </children>
+                                          <ord>27</ord>
+                                          <pmctype>address</pmctype>
+                                        </pmcinfo>
+                                      </children>
+                                      <ord>26</ord>
+                                      <role>no</role>
+                                    </node>
+                                    <node id="a-bildes-p21s1x7">
+                                      <children>
+                                        <node id="a-bildes-p21s1w17">
+                                          <m.rf>m#m-bildes-p21s1w17</m.rf>
+                                          <ord>32</ord>
+                                          <role>subj</role>
+                                        </node>
+                                        <xinfo>
+                                          <children>
+                                            <node id="a-bildes-p21s1w18">
+                                              <m.rf>m#m-bildes-p21s1w18</m.rf>
+                                              <ord>34</ord>
+                                              <role>mod</role>
+                                            </node>
+                                            <node id="a-bildes-p21s1w19">
+                                              <m.rf>m#m-bildes-p21s1w19</m.rf>
+                                              <ord>35</ord>
+                                              <role>basElem</role>
+                                            </node>
+                                          </children>
+                                          <ord>33</ord>
+                                          <tag>vmnipi02san[modals00]</tag>
+                                          <xtype>xPred</xtype>
+                                        </xinfo>
+                                      </children>
+                                      <ord>31</ord>
+                                      <role>pred</role>
+                                    </node>
+                                  </children>
+                                  <ord>25</ord>
+                                  <pmctype>mainCl</pmctype>
+                                </pmcinfo>
+                              </children>
+                              <ord>24</ord>
+                              <role>crdPart</role>
+                            </node>
+                          </children>
+                          <coordtype>crdClauses</coordtype>
+                          <ord>7</ord>
+                        </coordinfo>
+                      </children>
+                      <ord>6</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p21s1w1">
+                      <m.rf>m#m-bildes-p21s1w1</m.rf>
+                      <ord>5</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p21s1w4">
+                      <m.rf>m#m-bildes-p21s1w4</m.rf>
+                      <ord>14</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p21s1w8">
+                      <m.rf>m#m-bildes-p21s1w8</m.rf>
+                      <ord>18</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p21s1w20">
+                      <m.rf>m#m-bildes-p21s1w20</m.rf>
+                      <ord>36</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p21s1w21">
+                      <m.rf>m#m-bildes-p21s1w21</m.rf>
+                      <ord>37</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>4</ord>
+                  <pmctype>dirSp</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+            <node id="a-bildes-p21s1x2">
+              <children>
+                <pmcinfo>
+                  <children>
+                    <node id="a-bildes-p21s1w3">
+                      <m.rf>m#m-bildes-p21s1w3</m.rf>
+                      <ord>13</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p21s1w6">
+                      <children>
+                        <node id="a-bildes-p21s1w5">
+                          <m.rf>m#m-bildes-p21s1w5</m.rf>
+                          <ord>15</ord>
+                          <role>subj</role>
+                        </node>
+                      </children>
+                      <m.rf>m#m-bildes-p21s1w6</m.rf>
+                      <ord>16</ord>
+                      <role>pred</role>
+                    </node>
+                    <node id="a-bildes-p21s1w7">
+                      <m.rf>m#m-bildes-p21s1w7</m.rf>
+                      <ord>17</ord>
+                      <role>punct</role>
+                    </node>
+                  </children>
+                  <ord>12</ord>
+                  <pmctype>report</pmctype>
+                </pmcinfo>
+              </children>
+              <ord>11</ord>
+              <role>basElem</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p21s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p22s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p22s1x1">
+              <children>
+                <coordinfo>
+                  <children>
+                    <node id="a-bildes-p22s1x2">
+                      <children>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p22s1w2">
+                              <children>
+                                <node id="a-bildes-p22s1w1">
+                                  <m.rf>m#m-bildes-p22s1w1</m.rf>
+                                  <ord>7</ord>
+                                  <role>subj</role>
+                                </node>
+                                <node id="a-bildes-p22s1w4">
+                                  <children>
+                                    <node id="a-bildes-p22s1w3">
+                                      <m.rf>m#m-bildes-p22s1w3</m.rf>
+                                      <ord>9</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <m.rf>m#m-bildes-p22s1w4</m.rf>
+                                  <ord>10</ord>
+                                  <role>obj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p22s1w2</m.rf>
+                              <ord>8</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>6</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>5</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p22s1x3">
+                      <children>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p22s1w9">
+                              <children>
+                                <node id="a-bildes-p22s1x4">
+                                  <children>
+                                    <node id="a-bildes-p22s1w10">
+                                      <m.rf>m#m-bildes-p22s1w10</m.rf>
+                                      <ord>19</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <ord>18</ord>
+                                  <reduction>ncfsa4(ražošanu)</reduction>
+                                  <role>obj</role>
+                                </node>
+                                <node id="a-bildes-p22s1w8">
+                                  <children>
+                                    <node id="a-bildes-p22s1w7">
+                                      <m.rf>m#m-bildes-p22s1w7</m.rf>
+                                      <ord>15</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <m.rf>m#m-bildes-p22s1w8</m.rf>
+                                  <ord>16</ord>
+                                  <role>subj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p22s1w9</m.rf>
+                              <ord>17</ord>
+                              <reduction>vmnipt130an(pārtrauc)</reduction>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>14</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>13</ord>
+                      <role>crdPart</role>
+                    </node>
+                    <node id="a-bildes-p22s1w5">
+                      <m.rf>m#m-bildes-p22s1w5</m.rf>
+                      <ord>11</ord>
+                      <role>punct</role>
+                    </node>
+                    <node id="a-bildes-p22s1w6">
+                      <m.rf>m#m-bildes-p22s1w6</m.rf>
+                      <ord>12</ord>
+                      <role>conj</role>
+                    </node>
+                  </children>
+                  <coordtype>crdClauses</coordtype>
+                  <ord>4</ord>
+                </coordinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+            <node id="a-bildes-p22s1w11">
+              <m.rf>m#m-bildes-p22s1w11</m.rf>
+              <ord>20</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p22s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p23s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p23s1x1">
+              <children>
+                <coordinfo>
+                  <children>
+                    <node id="a-bildes-p23s1x2">
+                      <children>
+                        <pmcinfo>
+                          <children>
+                            <node id="a-bildes-p23s1w13">
+                              <children>
+                                <node id="a-bildes-p23s1x3">
+                                  <children>
+                                    <pmcinfo>
+                                      <children>
+                                        <node id="a-bildes-p23s1x4">
+                                          <children>
+                                            <pmcinfo>
+                                              <children>
+                                                <node id="a-bildes-p23s1x6">
+                                                  <children>
+                                                    <xinfo>
+                                                      <children>
+                                                        <node id="a-bildes-p23s1w5">
+                                                          <children>
+                                                            <node id="a-bildes-p23s1x9">
+                                                              <children>
+                                                                <xinfo>
+                                                                  <children>
+                                                                    <node id="a-bildes-p23s1w2">
+                                                                      <m.rf>m#m-bildes-p23s1w2</m.rf>
+                                                                      <ord>16</ord>
+                                                                      <role>basElem</role>
+                                                                    </node>
+                                                                    <node id="a-bildes-p23s1w3">
+                                                                      <m.rf>m#m-bildes-p23s1w3</m.rf>
+                                                                      <ord>17</ord>
+                                                                      <role>basElem</role>
+                                                                    </node>
+                                                                  </children>
+                                                                  <ord>15</ord>
+                                                                  <tag>npmsg0</tag>
+                                                                  <xtype>namedEnt</xtype>
+                                                                </xinfo>
+                                                              </children>
+                                                              <ord>14</ord>
+                                                              <role>attr</role>
+                                                            </node>
+                                                            <node id="a-bildes-p23s1w4">
+                                                              <m.rf>m#m-bildes-p23s1w4</m.rf>
+                                                              <ord>18</ord>
+                                                              <role>attr</role>
+                                                            </node>
+                                                          </children>
+                                                          <m.rf>m#m-bildes-p23s1w5</m.rf>
+                                                          <ord>19</ord>
+                                                          <role>basElem</role>
+                                                        </node>
+                                                      </children>
+                                                      <ord>13</ord>
+                                                      <tag>npssn0</tag>
+                                                      <xtype>namedEnt</xtype>
+                                                    </xinfo>
+                                                  </children>
+                                                  <ord>12</ord>
+                                                  <role>basElem</role>
+                                                </node>
+                                                <node id="a-bildes-p23s1w1">
+                                                  <m.rf>m#m-bildes-p23s1w1</m.rf>
+                                                  <ord>11</ord>
+                                                  <role>punct</role>
+                                                </node>
+                                                <node id="a-bildes-p23s1w6">
+                                                  <m.rf>m#m-bildes-p23s1w6</m.rf>
+                                                  <ord>20</ord>
+                                                  <role>punct</role>
+                                                </node>
+                                              </children>
+                                              <ord>10</ord>
+                                              <pmctype>quot</pmctype>
+                                            </pmcinfo>
+                                          </children>
+                                          <ord>9</ord>
+                                          <role>basElem</role>
+                                        </node>
+                                        <node id="a-bildes-p23s1x5">
+                                          <children>
+                                            <pmcinfo>
+                                              <children>
+                                                <node id="a-bildes-p23s1x7">
+                                                  <children>
+                                                    <node id="a-bildes-p23s1w8">
+                                                      <m.rf>m#m-bildes-p23s1w8</m.rf>
+                                                      <ord>25</ord>
+                                                      <role>adv</role>
+                                                    </node>
+                                                    <node id="a-bildes-p23s1w9">
+                                                      <m.rf>m#m-bildes-p23s1w9</m.rf>
+                                                      <ord>26</ord>
+                                                      <role>adv</role>
+                                                    </node>
+                                                    <node id="a-bildes-p23s1w11">
+                                                      <m.rf>m#m-bildes-p23s1w11</m.rf>
+                                                      <ord>30</ord>
+                                                      <role>subj</role>
+                                                    </node>
+                                                    <xinfo>
+                                                      <children>
+                                                        <node id="a-bildes-p23s1x8">
+                                                          <ord>28</ord>
+                                                          <reduction>vtnifi130an(tiks)</reduction>
+                                                          <role>auxVerb</role>
+                                                        </node>
+                                                        <node id="a-bildes-p23s1w10">
+                                                          <m.rf>m#m-bildes-p23s1w10</m.rf>
+                                                          <ord>29</ord>
+                                                          <reduction>vmnpdmsnpsn(saukts)</reduction>
+                                                          <role>basElem</role>
+                                                        </node>
+                                                      </children>
+                                                      <ord>27</ord>
+                                                      <tag>vmnif003spn[passsmn]</tag>
+                                                      <xtype>xPred</xtype>
+                                                    </xinfo>
+                                                  </children>
+                                                  <ord>24</ord>
+                                                  <role>pred</role>
+                                                </node>
+                                                <node id="a-bildes-p23s1w7">
+                                                  <m.rf>m#m-bildes-p23s1w7</m.rf>
+                                                  <ord>23</ord>
+                                                  <role>punct</role>
+                                                </node>
+                                                <node id="a-bildes-p23s1w12">
+                                                  <m.rf>m#m-bildes-p23s1w12</m.rf>
+                                                  <ord>31</ord>
+                                                  <role>punct</role>
+                                                </node>
+                                              </children>
+                                              <ord>22</ord>
+                                              <pmctype>insPmc</pmctype>
+                                            </pmcinfo>
+                                          </children>
+                                          <ord>21</ord>
+                                          <role>ins</role>
+                                        </node>
+                                      </children>
+                                      <ord>8</ord>
+                                      <pmctype>tied</pmctype>
+                                    </pmcinfo>
+                                  </children>
+                                  <ord>7</ord>
+                                  <role>subj</role>
+                                </node>
+                                <node id="a-bildes-p23s1w15">
+                                  <children>
+                                    <node id="a-bildes-p23s1w14">
+                                      <m.rf>m#m-bildes-p23s1w14</m.rf>
+                                      <ord>33</ord>
+                                      <role>attr</role>
+                                    </node>
+                                  </children>
+                                  <m.rf>m#m-bildes-p23s1w15</m.rf>
+                                  <ord>34</ord>
+                                  <role>obj</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p23s1w13</m.rf>
+                              <ord>32</ord>
+                              <role>pred</role>
+                            </node>
+                          </children>
+                          <ord>6</ord>
+                          <pmctype>mainCl</pmctype>
+                        </pmcinfo>
+                      </children>
+                      <ord>5</ord>
+                      <role>crdPart</role>
+                    </node>
+                  </children>
+                  <coordtype>crdClauses</coordtype>
+                  <ord>4</ord>
+                </coordinfo>
+              </children>
+              <ord>3</ord>
+              <role>basElem</role>
+            </node>
+            <node id="a-bildes-p23s1w16">
+              <m.rf>m#m-bildes-p23s1w16</m.rf>
+              <ord>35</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p23s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p24s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p24s1w2">
+              <children>
+                <node id="a-bildes-p24s1x1">
+                  <children>
+                    <pmcinfo>
+                      <children>
+                        <node id="a-bildes-p24s1x2">
+                          <children>
+                            <node id="a-bildes-p24s1w4">
+                              <m.rf>m#m-bildes-p24s1w4</m.rf>
+                              <ord>9</ord>
+                              <role>adv</role>
+                            </node>
+                          </children>
+                          <ord>8</ord>
+                          <reduction>vmnn0000000</reduction>
+                          <role>pred</role>
+                        </node>
+                        <node id="a-bildes-p24s1w3">
+                          <m.rf>m#m-bildes-p24s1w3</m.rf>
+                          <ord>7</ord>
+                          <role>punct</role>
+                        </node>
+                      </children>
+                      <ord>6</ord>
+                      <pmctype>subrCl</pmctype>
+                    </pmcinfo>
+                  </children>
+                  <ord>5</ord>
+                  <role>objCl</role>
+                </node>
+                <node id="a-bildes-p24s1w1">
+                  <m.rf>m#m-bildes-p24s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p24s1w2</m.rf>
+              <ord>4</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p24s1w5">
+              <m.rf>m#m-bildes-p24s1w5</m.rf>
+              <ord>10</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p24s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p25s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p25s1x1">
+              <children>
+                <node id="a-bildes-p25s1w1">
+                  <m.rf>m#m-bildes-p25s1w1</m.rf>
+                  <ord>4</ord>
+                  <role>subj</role>
+                </node>
+                <xinfo>
+                  <children>
+                    <node id="a-bildes-p25s1x2">
+                      <children>
+                        <coordinfo>
+                          <children>
+                            <node id="a-bildes-p25s1w3">
+                              <m.rf>m#m-bildes-p25s1w3</m.rf>
+                              <ord>9</ord>
+                              <role>crdPart</role>
+                            </node>
+                            <node id="a-bildes-p25s1w4">
+                              <m.rf>m#m-bildes-p25s1w4</m.rf>
+                              <ord>10</ord>
+                              <role>conj</role>
+                            </node>
+                            <node id="a-bildes-p25s1w5">
+                              <m.rf>m#m-bildes-p25s1w5</m.rf>
+                              <ord>11</ord>
+                              <role>crdPart</role>
+                            </node>
+                          </children>
+                          <coordtype>crdParts</coordtype>
+                          <ord>8</ord>
+                          <tag>afmsnnp</tag>
+                        </coordinfo>
+                      </children>
+                      <ord>7</ord>
+                      <role>basElem</role>
+                    </node>
+                    <node id="a-bildes-p25s1w2">
+                      <m.rf>m#m-bildes-p25s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>auxVerb</role>
+                    </node>
+                  </children>
+                  <ord>5</ord>
+                  <tag>vm0is003san[adjsmn]</tag>
+                  <xtype>xPred</xtype>
+                </xinfo>
+              </children>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p25s1w6">
+              <m.rf>m#m-bildes-p25s1w6</m.rf>
+              <ord>12</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p25s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p26s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p26s1w7">
+              <children>
+                <node id="a-bildes-p26s1w1">
+                  <children>
+                    <node id="a-bildes-p26s1x1">
+                      <children>
+                        <node id="a-bildes-p26s1w2">
+                          <m.rf>m#m-bildes-p26s1w2</m.rf>
+                          <ord>5</ord>
+                          <role>adv</role>
+                        </node>
+                        <xinfo>
+                          <children>
+                            <node id="a-bildes-p26s1x2">
+                              <children>
+                                <xinfo>
+                                  <children>
+                                    <node id="a-bildes-p26s1w4">
+                                      <m.rf>m#m-bildes-p26s1w4</m.rf>
+                                      <ord>10</ord>
+                                      <role>basElem</role>
+                                    </node>
+                                    <node id="a-bildes-p26s1w5">
+                                      <m.rf>m#m-bildes-p26s1w5</m.rf>
+                                      <ord>11</ord>
+                                      <role>basElem</role>
+                                    </node>
+                                  </children>
+                                  <ord>9</ord>
+                                  <tag>r0p</tag>
+                                  <xtype>wGrAnal</xtype>
+                                </xinfo>
+                              </children>
+                              <ord>8</ord>
+                              <role>basElem</role>
+                            </node>
+                            <node id="a-bildes-p26s1w3">
+                              <m.rf>m#m-bildes-p26s1w3</m.rf>
+                              <ord>7</ord>
+                              <role>prep</role>
+                            </node>
+                          </children>
+                          <ord>6</ord>
+                          <tag>r0p[spksd]</tag>
+                          <xtype>xSimile</xtype>
+                        </xinfo>
+                      </children>
+                      <ord>4</ord>
+                      <role>adv</role>
+                    </node>
+                  </children>
+                  <m.rf>m#m-bildes-p26s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>adv</role>
+                </node>
+                <node id="a-bildes-p26s1w6">
+                  <m.rf>m#m-bildes-p26s1w6</m.rf>
+                  <ord>12</ord>
+                  <role>subj</role>
+                </node>
+                <node id="a-bildes-p26s1w9">
+                  <children>
+                    <node id="a-bildes-p26s1w8">
+                      <m.rf>m#m-bildes-p26s1w8</m.rf>
+                      <ord>14</ord>
+                      <role>adv</role>
+                    </node>
+                  </children>
+                  <m.rf>m#m-bildes-p26s1w9</m.rf>
+                  <ord>15</ord>
+                  <role>spc</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p26s1w7</m.rf>
+              <ord>13</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p26s1w10">
+              <m.rf>m#m-bildes-p26s1w10</m.rf>
+              <ord>16</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p26s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p27s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p27s1w2">
+              <children>
+                <node id="a-bildes-p27s1x1">
+                  <children>
+                    <xinfo>
+                      <children>
+                        <node id="a-bildes-p27s1w3">
+                          <m.rf>m#m-bildes-p27s1w3</m.rf>
+                          <ord>7</ord>
+                          <role>prep</role>
+                        </node>
+                        <node id="a-bildes-p27s1w7">
+                          <children>
+                            <node id="a-bildes-p27s1w6">
+                              <children>
+                                <node id="a-bildes-p27s1x2">
+                                  <children>
+                                    <xinfo>
+                                      <children>
+                                        <node id="a-bildes-p27s1w4">
+                                          <m.rf>m#m-bildes-p27s1w4</m.rf>
+                                          <ord>10</ord>
+                                          <role>basElem</role>
+                                        </node>
+                                        <node id="a-bildes-p27s1w5">
+                                          <m.rf>m#m-bildes-p27s1w5</m.rf>
+                                          <ord>11</ord>
+                                          <role>basElem</role>
+                                        </node>
+                                      </children>
+                                      <ord>9</ord>
+                                      <tag>rcq</tag>
+                                      <xtype>wGrAnal</xtype>
+                                    </xinfo>
+                                  </children>
+                                  <ord>8</ord>
+                                  <role>adv</role>
+                                </node>
+                              </children>
+                              <m.rf>m#m-bildes-p27s1w6</m.rf>
+                              <ord>12</ord>
+                              <role>attr</role>
+                            </node>
+                          </children>
+                          <m.rf>m#m-bildes-p27s1w7</m.rf>
+                          <ord>13</ord>
+                          <role>basElem</role>
+                        </node>
+                      </children>
+                      <ord>6</ord>
+                      <tag>ncfsa0[pren]</tag>
+                      <xtype>xPrep</xtype>
+                    </xinfo>
+                  </children>
+                  <ord>5</ord>
+                  <role>adv</role>
+                </node>
+                <node id="a-bildes-p27s1w1">
+                  <m.rf>m#m-bildes-p27s1w1</m.rf>
+                  <ord>3</ord>
+                  <role>subj</role>
+                </node>
+              </children>
+              <m.rf>m#m-bildes-p27s1w2</m.rf>
+              <ord>4</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p27s1w8">
+              <m.rf>m#m-bildes-p27s1w8</m.rf>
+              <ord>14</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p27s1</s.rf>
+    </LM>
+    <LM id="a-bildes-p28s1">
+      <children>
+        <pmcinfo>
+          <children>
+            <node id="a-bildes-p28s1x1">
+              <children>
+                <node id="a-bildes-p28s1w1">
+                  <m.rf>m#m-bildes-p28s1w1</m.rf>
+                  <ord>4</ord>
+                  <role>obj</role>
+                </node>
+                <node id="a-bildes-p28s1w8">
+                  <children>
+                    <node id="a-bildes-p28s1w7">
+                      <children>
+                        <node id="a-bildes-p28s1x2">
+                          <children>
+                            <xinfo>
+                              <children>
+                                <node id="a-bildes-p28s1w4">
+                                  <m.rf>m#m-bildes-p28s1w4</m.rf>
+                                  <ord>10</ord>
+                                  <role>basElem</role>
+                                </node>
+                                <node id="a-bildes-p28s1w5">
+                                  <m.rf>m#m-bildes-p28s1w5</m.rf>
+                                  <ord>11</ord>
+                                  <role>basElem</role>
+                                </node>
+                                <node id="a-bildes-p28s1w6">
+                                  <m.rf>m#m-bildes-p28s1w6</m.rf>
+                                  <ord>12</ord>
+                                  <role>basElem</role>
+                                </node>
+                              </children>
+                              <ord>9</ord>
+                              <tag>rcq</tag>
+                              <xtype>wGrAnal</xtype>
+                            </xinfo>
+                          </children>
+                          <ord>8</ord>
+                          <role>adv</role>
+                        </node>
+                      </children>
+                      <m.rf>m#m-bildes-p28s1w7</m.rf>
+                      <ord>13</ord>
+                      <role>attr</role>
+                    </node>
+                  </children>
+                  <m.rf>m#m-bildes-p28s1w8</m.rf>
+                  <ord>14</ord>
+                  <role>obj</role>
+                </node>
+                <xinfo>
+                  <children>
+                    <node id="a-bildes-p28s1w2">
+                      <m.rf>m#m-bildes-p28s1w2</m.rf>
+                      <ord>6</ord>
+                      <role>mod</role>
+                    </node>
+                    <node id="a-bildes-p28s1w3">
+                      <m.rf>m#m-bildes-p28s1w3</m.rf>
+                      <ord>7</ord>
+                      <role>basElem</role>
+                    </node>
+                  </children>
+                  <ord>5</ord>
+                  <tag>vmnipt030an[modals00]</tag>
+                  <xtype>xPred</xtype>
+                </xinfo>
+              </children>
+              <ord>3</ord>
+              <role>pred</role>
+            </node>
+            <node id="a-bildes-p28s1w9">
+              <m.rf>m#m-bildes-p28s1w9</m.rf>
+              <ord>15</ord>
+              <role>punct</role>
+            </node>
+          </children>
+          <ord>2</ord>
+          <pmctype>sent</pmctype>
+        </pmcinfo>
+      </children>
+      <ord>1</ord>
+      <s.rf>m#m-bildes-p28s1</s.rf>
+    </LM>
+  </trees>
+</lvadata>

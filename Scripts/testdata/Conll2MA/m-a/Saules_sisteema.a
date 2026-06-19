@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lvadata xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
+	<head>
+		<schema href="lvaschema.xml" />
+		<references>
+			<reffile id="m" name="mdata" href="Saules_sisteema.m" />
+			<reffile id="w" name="wdata" href="Saules_sisteema.w" />
+		</references>
+	</head>
+	<meta>
+		<annotation_info>
+			<desc>CoNLL automātiskais konvertors, 0.4,  Fri Jun 19 18:03:19 2026</desc>
+		</annotation_info>
+	</meta>
+
+	<trees>
+
+		<LM id="a-Saules_par-p1s1">
+			<s.rf>m#m-Saules_par-p1s1</s.rf>
+			<comment>AUTO</comment>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p1s1w2">	<!-- sistēma -->
+							<m.rf>m#m-Saules_par-p1s1w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p1s1w1">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p1s1w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p2s2">
+			<s.rf>m#m-Saules_par-p2s2</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p2s2w10">	<!-- riņķo -->
+							<m.rf>m#m-Saules_par-p2s2w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w11">	<!-- ap -->
+							<m.rf>m#m-Saules_par-p2s2w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w1">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p2s2w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w6">	<!-- un -->
+							<m.rf>m#m-Saules_par-p2s2w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w9">	<!-- kas -->
+							<m.rf>m#m-Saules_par-p2s2w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w12">	<!-- to -->
+							<m.rf>m#m-Saules_par-p2s2w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w5">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p2s2w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w2">	<!-- sistēma -->
+							<m.rf>m#m-Saules_par-p2s2w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w4">	<!-- no -->
+							<m.rf>m#m-Saules_par-p2s2w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w3">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p2s2w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w7">	<!-- objektiem -->
+							<m.rf>m#m-Saules_par-p2s2w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w13">	<!-- . -->
+							<m.rf>m#m-Saules_par-p2s2w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p2s2w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s2w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p2s3">
+			<s.rf>m#m-Saules_par-p2s3</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p2s3w34">	<!-- sistēmas -->
+							<m.rf>m#m-Saules_par-p2s3w34</m.rf>
+							<role>N/A</role>
+							<ord>34</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w10">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p2s3w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w24">	<!-- ievērojami -->
+							<m.rf>m#m-Saules_par-p2s3w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w26">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p2s3w26</m.rf>
+							<role>N/A</role>
+							<ord>26</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w15">	<!-- veido -->
+							<m.rf>m#m-Saules_par-p2s3w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w32">	<!-- mazie -->
+							<m.rf>m#m-Saules_par-p2s3w32</m.rf>
+							<role>N/A</role>
+							<ord>32</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w7">	<!-- ap -->
+							<m.rf>m#m-Saules_par-p2s3w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w18">	<!-- ap -->
+							<m.rf>m#m-Saules_par-p2s3w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w22">	<!-- pārējie -->
+							<m.rf>m#m-Saules_par-p2s3w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w40">	<!-- un -->
+							<m.rf>m#m-Saules_par-p2s3w40</m.rf>
+							<role>N/A</role>
+							<ord>40</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w36">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w36</m.rf>
+							<role>N/A</role>
+							<ord>36</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w1">	<!-- No -->
+							<m.rf>m#m-Saules_par-p2s3w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w11">	<!-- astoņas -->
+							<m.rf>m#m-Saules_par-p2s3w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w8">	<!-- Sauli -->
+							<m.rf>m#m-Saules_par-p2s3w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w13">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w19">	<!-- tām -->
+							<m.rf>m#m-Saules_par-p2s3w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w27">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w27</m.rf>
+							<role>N/A</role>
+							<ord>27</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w4">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w41">	<!-- asteroīdi -->
+							<m.rf>m#m-Saules_par-p2s3w41</m.rf>
+							<role>N/A</role>
+							<ord>41</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w5">	<!-- kas -->
+							<m.rf>m#m-Saules_par-p2s3w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w37">	<!-- piemēram -->
+							<m.rf>m#m-Saules_par-p2s3w37</m.rf>
+							<role>N/A</role>
+							<ord>37</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w6">	<!-- riņķo -->
+							<m.rf>m#m-Saules_par-p2s3w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w39">	<!-- komētas -->
+							<m.rf>m#m-Saules_par-p2s3w39</m.rf>
+							<role>N/A</role>
+							<ord>39</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w33">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p2s3w33</m.rf>
+							<role>N/A</role>
+							<ord>33</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w29">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w29</m.rf>
+							<role>N/A</role>
+							<ord>29</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w23">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p2s3w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w17">	<!-- sistēmas -->
+							<m.rf>m#m-Saules_par-p2s3w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w21">	<!-- bet -->
+							<m.rf>m#m-Saules_par-p2s3w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w3">	<!-- objektiem -->
+							<m.rf>m#m-Saules_par-p2s3w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w2">	<!-- tiem -->
+							<m.rf>m#m-Saules_par-p2s3w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w31">	<!-- un -->
+							<m.rf>m#m-Saules_par-p2s3w31</m.rf>
+							<role>N/A</role>
+							<ord>31</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w9">	<!-- vislielākās -->
+							<m.rf>m#m-Saules_par-p2s3w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w12">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p2s3w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w38">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w38</m.rf>
+							<role>N/A</role>
+							<ord>38</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w35">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p2s3w35</m.rf>
+							<role>N/A</role>
+							<ord>35</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w16">	<!-- planētu -->
+							<m.rf>m#m-Saules_par-p2s3w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w25">	<!-- mazāki -->
+							<m.rf>m#m-Saules_par-p2s3w25</m.rf>
+							<role>N/A</role>
+							<ord>25</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w28">	<!-- piemēram -->
+							<m.rf>m#m-Saules_par-p2s3w28</m.rf>
+							<role>N/A</role>
+							<ord>28</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w14">	<!-- kas -->
+							<m.rf>m#m-Saules_par-p2s3w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w20">	<!-- , -->
+							<m.rf>m#m-Saules_par-p2s3w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w42">	<!-- . -->
+							<m.rf>m#m-Saules_par-p2s3w42</m.rf>
+							<role>N/A</role>
+							<ord>42</ord>
+						</node>
+						<node id="a-Saules_par-p2s3w30">	<!-- pundurplanētas -->
+							<m.rf>m#m-Saules_par-p2s3w30</m.rf>
+							<role>N/A</role>
+							<ord>30</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s4">
+			<s.rf>m#m-Saules_par-p3s4</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s4w22">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s4w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w2">	<!-- sistēmas -->
+							<m.rf>m#m-Saules_par-p3s4w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w21">	<!-- sabrukums -->
+							<m.rf>m#m-Saules_par-p3s4w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w15">	<!-- milzīga -->
+							<m.rf>m#m-Saules_par-p3s4w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w3">	<!-- veidošanās -->
+							<m.rf>m#m-Saules_par-p3s4w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w18">	<!-- nelielas -->
+							<m.rf>m#m-Saules_par-p3s4w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w7">	<!-- sākusies -->
+							<m.rf>m#m-Saules_par-p3s4w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w10">	<!-- miljardiem -->
+							<m.rf>m#m-Saules_par-p3s4w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w17">	<!-- mākoņa -->
+							<m.rf>m#m-Saules_par-p3s4w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w6">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p3s4w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w5">	<!-- evolūcija -->
+							<m.rf>m#m-Saules_par-p3s4w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w19">	<!-- daļas -->
+							<m.rf>m#m-Saules_par-p3s4w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w13">	<!-- kad -->
+							<m.rf>m#m-Saules_par-p3s4w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w20">	<!-- gravitācijas -->
+							<m.rf>m#m-Saules_par-p3s4w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w8">	<!-- pirms -->
+							<m.rf>m#m-Saules_par-p3s4w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w14">	<!-- sākās -->
+							<m.rf>m#m-Saules_par-p3s4w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w4">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s4w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w16">	<!-- molekulārā -->
+							<m.rf>m#m-Saules_par-p3s4w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w11">	<!-- gadu -->
+							<m.rf>m#m-Saules_par-p3s4w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w1">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p3s4w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w12">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s4w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s4w9">	<!-- 4,6 -->
+							<m.rf>m#m-Saules_par-p3s4w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s5">
+			<s.rf>m#m-Saules_par-p3s5</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s5w33">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p3s5w33</m.rf>
+							<role>N/A</role>
+							<ord>33</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w6">	<!-- sakoncentrējās -->
+							<m.rf>m#m-Saules_par-p3s5w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w17">	<!-- palika -->
+							<m.rf>m#m-Saules_par-p3s5w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w29">	<!-- citi -->
+							<m.rf>m#m-Saules_par-p3s5w29</m.rf>
+							<role>N/A</role>
+							<ord>29</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w23">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s5w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w3">	<!-- no -->
+							<m.rf>m#m-Saules_par-p3s5w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w21">	<!-- kur -->
+							<m.rf>m#m-Saules_par-p3s5w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w31">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p3s5w31</m.rf>
+							<role>N/A</role>
+							<ord>31</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w2">	<!-- daļa -->
+							<m.rf>m#m-Saules_par-p3s5w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w9">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s5w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w12">	<!-- izveidojoties -->
+							<m.rf>m#m-Saules_par-p3s5w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w28">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s5w28</m.rf>
+							<role>N/A</role>
+							<ord>28</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w16">	<!-- pārējais -->
+							<m.rf>m#m-Saules_par-p3s5w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w25">	<!-- pavadoņi -->
+							<m.rf>m#m-Saules_par-p3s5w25</m.rf>
+							<role>N/A</role>
+							<ord>25</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w14">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s5w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w20">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s5w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w30">	<!-- mazie -->
+							<m.rf>m#m-Saules_par-p3s5w30</m.rf>
+							<role>N/A</role>
+							<ord>30</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w34">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s5w34</m.rf>
+							<role>N/A</role>
+							<ord>34</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w10">	<!-- tādā -->
+							<m.rf>m#m-Saules_par-p3s5w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w24">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s5w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w32">	<!-- sistēmas -->
+							<m.rf>m#m-Saules_par-p3s5w32</m.rf>
+							<role>N/A</role>
+							<ord>32</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w7">	<!-- mākoņa -->
+							<m.rf>m#m-Saules_par-p3s5w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w18">	<!-- protoplanetārajā -->
+							<m.rf>m#m-Saules_par-p3s5w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w15">	<!-- bet -->
+							<m.rf>m#m-Saules_par-p3s5w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w26">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s5w26</m.rf>
+							<role>N/A</role>
+							<ord>26</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w22">	<!-- izveidojās -->
+							<m.rf>m#m-Saules_par-p3s5w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w1">	<!-- Lielākā -->
+							<m.rf>m#m-Saules_par-p3s5w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w11">	<!-- veidā -->
+							<m.rf>m#m-Saules_par-p3s5w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w4">	<!-- sabrukušās -->
+							<m.rf>m#m-Saules_par-p3s5w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w8">	<!-- centrā -->
+							<m.rf>m#m-Saules_par-p3s5w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w19">	<!-- diskā -->
+							<m.rf>m#m-Saules_par-p3s5w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w13">	<!-- Saulei -->
+							<m.rf>m#m-Saules_par-p3s5w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w27">	<!-- asteroīdi -->
+							<m.rf>m#m-Saules_par-p3s5w27</m.rf>
+							<role>N/A</role>
+							<ord>27</ord>
+						</node>
+						<node id="a-Saules_par-p3s5w5">	<!-- masas -->
+							<m.rf>m#m-Saules_par-p3s5w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s6">
+			<s.rf>m#m-Saules_par-p3s6</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s6w28">	<!-- metāla -->
+							<m.rf>m#m-Saules_par-p3s6w28</m.rf>
+							<role>N/A</role>
+							<ord>28</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w25">	<!-- no -->
+							<m.rf>m#m-Saules_par-p3s6w25</m.rf>
+							<role>N/A</role>
+							<ord>25</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w16">	<!-- par -->
+							<m.rf>m#m-Saules_par-p3s6w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w9">	<!-- Zeme -->
+							<m.rf>m#m-Saules_par-p3s6w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w12">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s6w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w20">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s6w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w14">	<!-- sauktas -->
+							<m.rf>m#m-Saules_par-p3s6w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w23">	<!-- galvenokārt -->
+							<m.rf>m#m-Saules_par-p3s6w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w17">	<!-- zemes -->
+							<m.rf>m#m-Saules_par-p3s6w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w29">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s6w29</m.rf>
+							<role>N/A</role>
+							<ord>29</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w6">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s6w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w2">	<!-- iekšējās -->
+							<m.rf>m#m-Saules_par-p3s6w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w3">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s6w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w21">	<!-- jo -->
+							<m.rf>m#m-Saules_par-p3s6w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w11">	<!-- Marss -->
+							<m.rf>m#m-Saules_par-p3s6w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w1">	<!-- Četras -->
+							<m.rf>m#m-Saules_par-p3s6w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w5">	<!-- Merkurs -->
+							<m.rf>m#m-Saules_par-p3s6w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w4">	<!-- — -->
+							<m.rf>m#m-Saules_par-p3s6w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w27">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s6w27</m.rf>
+							<role>N/A</role>
+							<ord>27</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w13">	<!-- tiek -->
+							<m.rf>m#m-Saules_par-p3s6w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w19">	<!-- planētām -->
+							<m.rf>m#m-Saules_par-p3s6w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s6w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w24">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p3s6w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w10">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s6w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w22">	<!-- tās -->
+							<m.rf>m#m-Saules_par-p3s6w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w7">	<!-- Venera -->
+							<m.rf>m#m-Saules_par-p3s6w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w18">	<!-- grupas -->
+							<m.rf>m#m-Saules_par-p3s6w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w26">	<!-- iežiem -->
+							<m.rf>m#m-Saules_par-p3s6w26</m.rf>
+							<role>N/A</role>
+							<ord>26</ord>
+						</node>
+						<node id="a-Saules_par-p3s6w15">	<!-- arī -->
+							<m.rf>m#m-Saules_par-p3s6w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s7">
+			<s.rf>m#m-Saules_par-p3s7</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s7w4">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s7w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w8">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p3s7w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w14">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s7w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w13">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s7w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w5">	<!-- milzu -->
+							<m.rf>m#m-Saules_par-p3s7w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w9">	<!-- ievērojami -->
+							<m.rf>m#m-Saules_par-p3s7w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w12">	<!-- iekšējās -->
+							<m.rf>m#m-Saules_par-p3s7w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w1">	<!-- Četras -->
+							<m.rf>m#m-Saules_par-p3s7w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w11">	<!-- nekā -->
+							<m.rf>m#m-Saules_par-p3s7w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w7">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s7w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w3">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s7w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w2">	<!-- ārējās -->
+							<m.rf>m#m-Saules_par-p3s7w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w6">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s7w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s7w10">	<!-- lielākas -->
+							<m.rf>m#m-Saules_par-p3s7w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s8">
+			<s.rf>m#m-Saules_par-p3s8</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s8w7">	<!-- Saturns -->
+							<m.rf>m#m-Saules_par-p3s8w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w26">	<!-- no -->
+							<m.rf>m#m-Saules_par-p3s8w26</m.rf>
+							<role>N/A</role>
+							<ord>26</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w36">	<!-- ūdeņradi -->
+							<m.rf>m#m-Saules_par-p3s8w36</m.rf>
+							<role>N/A</role>
+							<ord>36</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w34">	<!-- salīdzinot -->
+							<m.rf>m#m-Saules_par-p3s8w34</m.rf>
+							<role>N/A</role>
+							<ord>34</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w24">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p3s8w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w4">	<!-- giganti -->
+							<m.rf>m#m-Saules_par-p3s8w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w8">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p3s8w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w41">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s8w41</m.rf>
+							<role>N/A</role>
+							<ord>41</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w1">	<!-- Divi -->
+							<m.rf>m#m-Saules_par-p3s8w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w11">	<!-- ūdeņraža -->
+							<m.rf>m#m-Saules_par-p3s8w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w3">	<!-- gāzes -->
+							<m.rf>m#m-Saules_par-p3s8w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w21">	<!-- Urāns -->
+							<m.rf>m#m-Saules_par-p3s8w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w31">	<!-- kušanas -->
+							<m.rf>m#m-Saules_par-p3s8w31</m.rf>
+							<role>N/A</role>
+							<ord>31</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w2">	<!-- lielākie -->
+							<m.rf>m#m-Saules_par-p3s8w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w6">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s8w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w14">	<!-- ; -->
+							<m.rf>m#m-Saules_par-p3s8w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w46">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s8w46</m.rf>
+							<role>N/A</role>
+							<ord>46</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w44">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s8w44</m.rf>
+							<role>N/A</role>
+							<ord>44</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w9">	<!-- galvenokārt -->
+							<m.rf>m#m-Saules_par-p3s8w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w16">	<!-- tālākās -->
+							<m.rf>m#m-Saules_par-p3s8w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w32">	<!-- temperatūru -->
+							<m.rf>m#m-Saules_par-p3s8w32</m.rf>
+							<role>N/A</role>
+							<ord>32</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w18">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s8w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w15">	<!-- pašas -->
+							<m.rf>m#m-Saules_par-p3s8w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w40">	<!-- piemēram -->
+							<m.rf>m#m-Saules_par-p3s8w40</m.rf>
+							<role>N/A</role>
+							<ord>40</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w22">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s8w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w45">	<!-- amonjaks -->
+							<m.rf>m#m-Saules_par-p3s8w45</m.rf>
+							<role>N/A</role>
+							<ord>45</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w48">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s8w48</m.rf>
+							<role>N/A</role>
+							<ord>48</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w10">	<!-- no -->
+							<m.rf>m#m-Saules_par-p3s8w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w27">	<!-- vielām -->
+							<m.rf>m#m-Saules_par-p3s8w27</m.rf>
+							<role>N/A</role>
+							<ord>27</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w13">	<!-- hēlija -->
+							<m.rf>m#m-Saules_par-p3s8w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w19">	<!-- ledus -->
+							<m.rf>m#m-Saules_par-p3s8w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w5">	<!-- Jupiters -->
+							<m.rf>m#m-Saules_par-p3s8w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w37">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s8w37</m.rf>
+							<role>N/A</role>
+							<ord>37</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w43">	<!-- ūdens -->
+							<m.rf>m#m-Saules_par-p3s8w43</m.rf>
+							<role>N/A</role>
+							<ord>43</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w47">	<!-- metāns -->
+							<m.rf>m#m-Saules_par-p3s8w47</m.rf>
+							<role>N/A</role>
+							<ord>47</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w33">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s8w33</m.rf>
+							<role>N/A</role>
+							<ord>33</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w39">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s8w39</m.rf>
+							<role>N/A</role>
+							<ord>39</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w17">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p3s8w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w29">	<!-- relatīvi -->
+							<m.rf>m#m-Saules_par-p3s8w29</m.rf>
+							<role>N/A</role>
+							<ord>29</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w23">	<!-- Neptūns -->
+							<m.rf>m#m-Saules_par-p3s8w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w42">	<!-- sasalis -->
+							<m.rf>m#m-Saules_par-p3s8w42</m.rf>
+							<role>N/A</role>
+							<ord>42</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w20">	<!-- giganti -->
+							<m.rf>m#m-Saules_par-p3s8w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w30">	<!-- augstu -->
+							<m.rf>m#m-Saules_par-p3s8w30</m.rf>
+							<role>N/A</role>
+							<ord>30</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w35">	<!-- ar -->
+							<m.rf>m#m-Saules_par-p3s8w35</m.rf>
+							<role>N/A</role>
+							<ord>35</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w12">	<!-- un -->
+							<m.rf>m#m-Saules_par-p3s8w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w38">	<!-- hēliju -->
+							<m.rf>m#m-Saules_par-p3s8w38</m.rf>
+							<role>N/A</role>
+							<ord>38</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w28">	<!-- ar -->
+							<m.rf>m#m-Saules_par-p3s8w28</m.rf>
+							<role>N/A</role>
+							<ord>28</ord>
+						</node>
+						<node id="a-Saules_par-p3s8w25">	<!-- galvenokārt -->
+							<m.rf>m#m-Saules_par-p3s8w25</m.rf>
+							<role>N/A</role>
+							<ord>25</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p3s9">
+			<s.rf>m#m-Saules_par-p3s9</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p3s9w17">	<!-- par -->
+							<m.rf>m#m-Saules_par-p3s9w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w10">	<!-- uz -->
+							<m.rf>m#m-Saules_par-p3s9w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w6">	<!-- orbīta -->
+							<m.rf>m#m-Saules_par-p3s9w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w2">	<!-- planētām -->
+							<m.rf>m#m-Saules_par-p3s9w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w15">	<!-- kuru -->
+							<m.rf>m#m-Saules_par-p3s9w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w7">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s9w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w18">	<!-- ekliptiku -->
+							<m.rf>m#m-Saules_par-p3s9w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w3">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p3s9w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w16">	<!-- sauc -->
+							<m.rf>m#m-Saules_par-p3s9w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w11">	<!-- gandrīz -->
+							<m.rf>m#m-Saules_par-p3s9w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w1">	<!-- Visām -->
+							<m.rf>m#m-Saules_par-p3s9w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w12">	<!-- plakana -->
+							<m.rf>m#m-Saules_par-p3s9w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w9">	<!-- atrodas -->
+							<m.rf>m#m-Saules_par-p3s9w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w5">	<!-- apļveida -->
+							<m.rf>m#m-Saules_par-p3s9w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w19">	<!-- . -->
+							<m.rf>m#m-Saules_par-p3s9w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w13">	<!-- diska -->
+							<m.rf>m#m-Saules_par-p3s9w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w8">	<!-- kas -->
+							<m.rf>m#m-Saules_par-p3s9w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w14">	<!-- , -->
+							<m.rf>m#m-Saules_par-p3s9w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p3s9w4">	<!-- gandrīz -->
+							<m.rf>m#m-Saules_par-p3s9w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s10">
+			<s.rf>m#m-Saules_par-p4s10</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s10w4">	<!-- arī -->
+							<m.rf>m#m-Saules_par-p4s10w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w5">	<!-- mazāki -->
+							<m.rf>m#m-Saules_par-p4s10w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w3">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s10w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w7">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s10w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w1">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p4s10w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w6">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p4s10w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s10w2">	<!-- sistēmā -->
+							<m.rf>m#m-Saules_par-p4s10w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s11">
+			<s.rf>m#m-Saules_par-p4s11</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s11w22">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s11w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w18">	<!-- zemes -->
+							<m.rf>m#m-Saules_par-p4s11w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w16">	<!-- kādi -->
+							<m.rf>m#m-Saules_par-p4s11w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w3">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s11w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w9">	<!-- Jupiteru -->
+							<m.rf>m#m-Saules_par-p4s11w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w20">	<!-- planētu -->
+							<m.rf>m#m-Saules_par-p4s11w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w1">	<!-- Asteroīdu -->
+							<m.rf>m#m-Saules_par-p4s11w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w15">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s11w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w21">	<!-- sastāvā -->
+							<m.rf>m#m-Saules_par-p4s11w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w19">	<!-- grupas -->
+							<m.rf>m#m-Saules_par-p4s11w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w8">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s11w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w5">	<!-- atrodas -->
+							<m.rf>m#m-Saules_par-p4s11w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w24">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s11w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w27">	<!-- metāla -->
+							<m.rf>m#m-Saules_par-p4s11w27</m.rf>
+							<role>N/A</role>
+							<ord>27</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w13">	<!-- no -->
+							<m.rf>m#m-Saules_par-p4s11w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w28">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s11w28</m.rf>
+							<role>N/A</role>
+							<ord>28</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w26">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s11w26</m.rf>
+							<role>N/A</role>
+							<ord>26</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w12">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p4s11w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w4">	<!-- kura -->
+							<m.rf>m#m-Saules_par-p4s11w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w25">	<!-- akmens -->
+							<m.rf>m#m-Saules_par-p4s11w25</m.rf>
+							<role>N/A</role>
+							<ord>25</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w6">	<!-- starp -->
+							<m.rf>m#m-Saules_par-p4s11w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w10">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s11w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w2">	<!-- josla -->
+							<m.rf>m#m-Saules_par-p4s11w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w11">	<!-- galvenokārt -->
+							<m.rf>m#m-Saules_par-p4s11w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w23">	<!-- piemēram -->
+							<m.rf>m#m-Saules_par-p4s11w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w7">	<!-- Marsu -->
+							<m.rf>m#m-Saules_par-p4s11w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w14">	<!-- objektiem -->
+							<m.rf>m#m-Saules_par-p4s11w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s11w17">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s11w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s12">
+			<s.rf>m#m-Saules_par-p4s12</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s12w6">	<!-- josla -->
+							<m.rf>m#m-Saules_par-p4s12w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w7">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s12w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w1">	<!-- Aiz -->
+							<m.rf>m#m-Saules_par-p4s12w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w10">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s12w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w2">	<!-- Neptūna -->
+							<m.rf>m#m-Saules_par-p4s12w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w8">	<!-- izkliedētais -->
+							<m.rf>m#m-Saules_par-p4s12w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w9">	<!-- disks -->
+							<m.rf>m#m-Saules_par-p4s12w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w3">	<!-- orbītas -->
+							<m.rf>m#m-Saules_par-p4s12w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w5">	<!-- Koipera -->
+							<m.rf>m#m-Saules_par-p4s12w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s12w4">	<!-- atrodas -->
+							<m.rf>m#m-Saules_par-p4s12w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s13">
+			<s.rf>m#m-Saules_par-p4s13</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s13w4">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p4s13w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w9">	<!-- bet -->
+							<m.rf>m#m-Saules_par-p4s13w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w3">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p4s13w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w12">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s13w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w2">	<!-- transneptūna -->
+							<m.rf>m#m-Saules_par-p4s13w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w15">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s13w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w10">	<!-- aiz -->
+							<m.rf>m#m-Saules_par-p4s13w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w1">	<!-- Šie -->
+							<m.rf>m#m-Saules_par-p4s13w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w6">	<!-- no -->
+							<m.rf>m#m-Saules_par-p4s13w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w5">	<!-- galvenokārt -->
+							<m.rf>m#m-Saules_par-p4s13w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w11">	<!-- tām -->
+							<m.rf>m#m-Saules_par-p4s13w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s13w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w14">	<!-- sednoidi -->
+							<m.rf>m#m-Saules_par-p4s13w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w13">	<!-- atklāti -->
+							<m.rf>m#m-Saules_par-p4s13w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s13w7">	<!-- ledus -->
+							<m.rf>m#m-Saules_par-p4s13w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s14">
+			<s.rf>m#m-Saules_par-p4s14</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s14w15">	<!-- kuri -->
+							<m.rf>m#m-Saules_par-p4s14w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w1">	<!-- Ir -->
+							<m.rf>m#m-Saules_par-p4s14w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w20">	<!-- lai -->
+							<m.rf>m#m-Saules_par-p4s14w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w16">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s14w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w3">	<!-- grupa -->
+							<m.rf>m#m-Saules_par-p4s14w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w9">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s14w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w18">	<!-- lieli -->
+							<m.rf>m#m-Saules_par-p4s14w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w22">	<!-- ap -->
+							<m.rf>m#m-Saules_par-p4s14w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w13">	<!-- objektu -->
+							<m.rf>m#m-Saules_par-p4s14w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w24">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s14w24</m.rf>
+							<role>N/A</role>
+							<ord>24</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w5">	<!-- vairākiem -->
+							<m.rf>m#m-Saules_par-p4s14w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w19">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s14w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w8">	<!-- iespējams -->
+							<m.rf>m#m-Saules_par-p4s14w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w21">	<!-- rinķotu -->
+							<m.rf>m#m-Saules_par-p4s14w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w2">	<!-- arī -->
+							<m.rf>m#m-Saules_par-p4s14w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w10">	<!-- pat -->
+							<m.rf>m#m-Saules_par-p4s14w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w6">	<!-- desmitiem -->
+							<m.rf>m#m-Saules_par-p4s14w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w4">	<!-- ar -->
+							<m.rf>m#m-Saules_par-p4s14w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w12">	<!-- tūkstošu -->
+							<m.rf>m#m-Saules_par-p4s14w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w17">	<!-- pietiekami -->
+							<m.rf>m#m-Saules_par-p4s14w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w14">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s14w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w7">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s14w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w23">	<!-- zvaigzni -->
+							<m.rf>m#m-Saules_par-p4s14w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p4s14w11">	<!-- desmitiem -->
+							<m.rf>m#m-Saules_par-p4s14w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s15">
+			<s.rf>m#m-Saules_par-p4s15</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s15w5">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p4s15w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w4">	<!-- Šie -->
+							<m.rf>m#m-Saules_par-p4s15w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w3">	<!-- ] -->
+							<m.rf>m#m-Saules_par-p4s15w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w9">	<!-- pundurplanētām -->
+							<m.rf>m#m-Saules_par-p4s15w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w8">	<!-- par -->
+							<m.rf>m#m-Saules_par-p4s15w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w2">	<!-- 1 -->
+							<m.rf>m#m-Saules_par-p4s15w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w10">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s15w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w7">	<!-- nosaukti -->
+							<m.rf>m#m-Saules_par-p4s15w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w1">	<!-- [ -->
+							<m.rf>m#m-Saules_par-p4s15w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s15w6">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s15w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s16">
+			<s.rf>m#m-Saules_par-p4s16</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s16w7">	<!-- Cerera -->
+							<m.rf>m#m-Saules_par-p4s16w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w13">	<!-- Erīda -->
+							<m.rf>m#m-Saules_par-p4s16w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w14">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s16w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w5">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p4s16w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w11">	<!-- Plūtons -->
+							<m.rf>m#m-Saules_par-p4s16w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w8">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s16w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w6">	<!-- asteroīds -->
+							<m.rf>m#m-Saules_par-p4s16w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w1">	<!-- Vieni -->
+							<m.rf>m#m-Saules_par-p4s16w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w2">	<!-- no -->
+							<m.rf>m#m-Saules_par-p4s16w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w10">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p4s16w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w9">	<!-- transneptūna -->
+							<m.rf>m#m-Saules_par-p4s16w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w3">	<!-- identificētajām -->
+							<m.rf>m#m-Saules_par-p4s16w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w4">	<!-- pundurplanētām -->
+							<m.rf>m#m-Saules_par-p4s16w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s16w12">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s16w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s17">
+			<s.rf>m#m-Saules_par-p4s17</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s17w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s17w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w11">	<!-- kosmiskie -->
+							<m.rf>m#m-Saules_par-p4s17w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w19">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s17w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w5">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s17w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w13">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s17w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w14">	<!-- brīvi -->
+							<m.rf>m#m-Saules_par-p4s17w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w17">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p4s17w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w7">	<!-- komētas -->
+							<m.rf>m#m-Saules_par-p4s17w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w12">	<!-- putekļi -->
+							<m.rf>m#m-Saules_par-p4s17w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w18">	<!-- sistēmu -->
+							<m.rf>m#m-Saules_par-p4s17w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w3">	<!-- mazi -->
+							<m.rf>m#m-Saules_par-p4s17w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w9">	<!-- Kentaurs -->
+							<m.rf>m#m-Saules_par-p4s17w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w16">	<!-- pa -->
+							<m.rf>m#m-Saules_par-p4s17w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w4">	<!-- objekti -->
+							<m.rf>m#m-Saules_par-p4s17w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w10">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s17w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w15">	<!-- ceļo -->
+							<m.rf>m#m-Saules_par-p4s17w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w2">	<!-- citi -->
+							<m.rf>m#m-Saules_par-p4s17w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w6">	<!-- tostarp -->
+							<m.rf>m#m-Saules_par-p4s17w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s17w1">	<!-- Dažādi -->
+							<m.rf>m#m-Saules_par-p4s17w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s18">
+			<s.rf>m#m-Saules_par-p4s18</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s18w23">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s18w23</m.rf>
+							<role>N/A</role>
+							<ord>23</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w7">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s18w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w14">	<!-- satelīti -->
+							<m.rf>m#m-Saules_par-p4s18w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w13">	<!-- dabiskie -->
+							<m.rf>m#m-Saules_par-p4s18w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w17">	<!-- parasti -->
+							<m.rf>m#m-Saules_par-p4s18w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w21">	<!-- pavadoņus -->
+							<m.rf>m#m-Saules_par-p4s18w21</m.rf>
+							<role>N/A</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w19">	<!-- kā -->
+							<m.rf>m#m-Saules_par-p4s18w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w8">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s18w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w11">	<!-- objektus -->
+							<m.rf>m#m-Saules_par-p4s18w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w5">	<!-- trīs -->
+							<m.rf>m#m-Saules_par-p4s18w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w20">	<!-- " -->
+							<m.rf>m#m-Saules_par-p4s18w20</m.rf>
+							<role>N/A</role>
+							<ord>20</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w1">	<!-- Sešas -->
+							<m.rf>m#m-Saules_par-p4s18w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w6">	<!-- pundurplanētas -->
+							<m.rf>m#m-Saules_par-p4s18w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w10">	<!-- mazākus -->
+							<m.rf>m#m-Saules_par-p4s18w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w15">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s18w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w2">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p4s18w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w22">	<!-- " -->
+							<m.rf>m#m-Saules_par-p4s18w22</m.rf>
+							<role>N/A</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w12">	<!-- apriņķo -->
+							<m.rf>m#m-Saules_par-p4s18w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w18">	<!-- apzīmē -->
+							<m.rf>m#m-Saules_par-p4s18w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w16">	<!-- kurus -->
+							<m.rf>m#m-Saules_par-p4s18w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w4">	<!-- vismaz -->
+							<m.rf>m#m-Saules_par-p4s18w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w9">	<!-- daudzus -->
+							<m.rf>m#m-Saules_par-p4s18w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s18w3">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s18w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p4s19">
+			<s.rf>m#m-Saules_par-p4s19</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p4s19w12">	<!-- putekļiem -->
+							<m.rf>m#m-Saules_par-p4s19w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w16">	<!-- objektiem -->
+							<m.rf>m#m-Saules_par-p4s19w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w4">	<!-- planētu -->
+							<m.rf>m#m-Saules_par-p4s19w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w9">	<!-- kas -->
+							<m.rf>m#m-Saules_par-p4s19w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w3">	<!-- ārējo -->
+							<m.rf>m#m-Saules_par-p4s19w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w15">	<!-- maziem -->
+							<m.rf>m#m-Saules_par-p4s19w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w10">	<!-- sastāv -->
+							<m.rf>m#m-Saules_par-p4s19w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w2">	<!-- katru -->
+							<m.rf>m#m-Saules_par-p4s19w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w1">	<!-- Ap -->
+							<m.rf>m#m-Saules_par-p4s19w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w6">	<!-- planētas -->
+							<m.rf>m#m-Saules_par-p4s19w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p4s19w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w11">	<!-- no -->
+							<m.rf>m#m-Saules_par-p4s19w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w5">	<!-- riņķo -->
+							<m.rf>m#m-Saules_par-p4s19w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w13">	<!-- un -->
+							<m.rf>m#m-Saules_par-p4s19w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w14">	<!-- citiem -->
+							<m.rf>m#m-Saules_par-p4s19w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w17">	<!-- . -->
+							<m.rf>m#m-Saules_par-p4s19w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p4s19w7">	<!-- gredzens -->
+							<m.rf>m#m-Saules_par-p4s19w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p5s20">
+			<s.rf>m#m-Saules_par-p5s20</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p5s20w12">	<!-- līdz -->
+							<m.rf>m#m-Saules_par-p5s20w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w18">	<!-- heliosfēru -->
+							<m.rf>m#m-Saules_par-p5s20w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w9">	<!-- kurš -->
+							<m.rf>m#m-Saules_par-p5s20w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w3">	<!-- arī -->
+							<m.rf>m#m-Saules_par-p5s20w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w16">	<!-- , -->
+							<m.rf>m#m-Saules_par-p5s20w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w4">	<!-- tā -->
+							<m.rf>m#m-Saules_par-p5s20w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w10">	<!-- izplatās -->
+							<m.rf>m#m-Saules_par-p5s20w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w15">	<!-- vidum -->
+							<m.rf>m#m-Saules_par-p5s20w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w2">	<!-- izstaro -->
+							<m.rf>m#m-Saules_par-p5s20w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w6">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p5s20w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w1">	<!-- Saule -->
+							<m.rf>m#m-Saules_par-p5s20w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w8">	<!-- , -->
+							<m.rf>m#m-Saules_par-p5s20w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w11">	<!-- pat -->
+							<m.rf>m#m-Saules_par-p5s20w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w19">	<!-- . -->
+							<m.rf>m#m-Saules_par-p5s20w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w5">	<!-- saukto -->
+							<m.rf>m#m-Saules_par-p5s20w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w13">	<!-- izkliedētā -->
+							<m.rf>m#m-Saules_par-p5s20w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w14">	<!-- diska -->
+							<m.rf>m#m-Saules_par-p5s20w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w17">	<!-- veidojot -->
+							<m.rf>m#m-Saules_par-p5s20w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-Saules_par-p5s20w7">	<!-- vēju -->
+							<m.rf>m#m-Saules_par-p5s20w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p5s21">
+			<s.rf>m#m-Saules_par-p5s21</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p5s21w12">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p5s21w12</m.rf>
+							<role>N/A</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w18">	<!-- spiedienu -->
+							<m.rf>m#m-Saules_par-p5s21w18</m.rf>
+							<role>N/A</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w3">	<!-- punkts -->
+							<m.rf>m#m-Saules_par-p5s21w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w9">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p5s21w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w4">	<!-- , -->
+							<m.rf>m#m-Saules_par-p5s21w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w16">	<!-- vēja -->
+							<m.rf>m#m-Saules_par-p5s21w16</m.rf>
+							<role>N/A</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w6">	<!-- kura -->
+							<m.rf>m#m-Saules_par-p5s21w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w1">	<!-- Tas -->
+							<m.rf>m#m-Saules_par-p5s21w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w15">	<!-- starpzvaigžņu -->
+							<m.rf>m#m-Saules_par-p5s21w15</m.rf>
+							<role>N/A</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w10">	<!-- vēja -->
+							<m.rf>m#m-Saules_par-p5s21w10</m.rf>
+							<role>N/A</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w2">	<!-- ir -->
+							<m.rf>m#m-Saules_par-p5s21w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w11">	<!-- spiediena -->
+							<m.rf>m#m-Saules_par-p5s21w11</m.rf>
+							<role>N/A</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w8">	<!-- no -->
+							<m.rf>m#m-Saules_par-p5s21w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w19">	<!-- . -->
+							<m.rf>m#m-Saules_par-p5s21w19</m.rf>
+							<role>N/A</role>
+							<ord>19</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w5">	<!-- pie -->
+							<m.rf>m#m-Saules_par-p5s21w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w7">	<!-- heliopause -->
+							<m.rf>m#m-Saules_par-p5s21w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w14">	<!-- ar -->
+							<m.rf>m#m-Saules_par-p5s21w14</m.rf>
+							<role>N/A</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w13">	<!-- vienāda -->
+							<m.rf>m#m-Saules_par-p5s21w13</m.rf>
+							<role>N/A</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-Saules_par-p5s21w17">	<!-- pretējo -->
+							<m.rf>m#m-Saules_par-p5s21w17</m.rf>
+							<role>N/A</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p5s22">
+			<s.rf>m#m-Saules_par-p5s22</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p5s22w8">	<!-- periodu -->
+							<m.rf>m#m-Saules_par-p5s22w8</m.rf>
+							<role>N/A</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w4">	<!-- komētas -->
+							<m.rf>m#m-Saules_par-p5s22w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w5">	<!-- ar -->
+							<m.rf>m#m-Saules_par-p5s22w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w9">	<!-- . -->
+							<m.rf>m#m-Saules_par-p5s22w9</m.rf>
+							<role>N/A</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w3">	<!-- veidojas -->
+							<m.rf>m#m-Saules_par-p5s22w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w1">	<!-- Orta -->
+							<m.rf>m#m-Saules_par-p5s22w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w7">	<!-- apriņķošanas -->
+							<m.rf>m#m-Saules_par-p5s22w7</m.rf>
+							<role>N/A</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w6">	<!-- lielu -->
+							<m.rf>m#m-Saules_par-p5s22w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-Saules_par-p5s22w2">	<!-- mākonī -->
+							<m.rf>m#m-Saules_par-p5s22w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-Saules_par-p5s23">
+			<s.rf>m#m-Saules_par-p5s23</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-Saules_par-p5s23w2">	<!-- sistēma -->
+							<m.rf>m#m-Saules_par-p5s23w2</m.rf>
+							<role>N/A</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-Saules_par-p5s23w4">	<!-- Oriona -->
+							<m.rf>m#m-Saules_par-p5s23w4</m.rf>
+							<role>N/A</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-Saules_par-p5s23w5">	<!-- rokās -->
+							<m.rf>m#m-Saules_par-p5s23w5</m.rf>
+							<role>N/A</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-Saules_par-p5s23w3">	<!-- atrodas -->
+							<m.rf>m#m-Saules_par-p5s23w3</m.rf>
+							<role>N/A</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-Saules_par-p5s23w1">	<!-- Saules -->
+							<m.rf>m#m-Saules_par-p5s23w1</m.rf>
+							<role>N/A</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-Saules_par-p5s23w6">	<!-- , -->
+							<m.rf>m#m-Saules_par-p5s23w6</m.rf>
+							<role>N/A</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+	</trees>
+</lvadata>

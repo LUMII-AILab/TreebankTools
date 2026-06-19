@@ -1,0 +1,4460 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lvadata xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
+	<head>
+		<schema href="lvaschema.xml" />
+		<references>
+			<reffile id="m" name="mdata" href="zeens.m" />
+			<reffile id="w" name="wdata" href="zeens.w" />
+		</references>
+	</head>
+	<meta>
+		<annotation_info>
+			<desc>CoNLL automātiskais konvertors, 0.4,  Fri Jun 19 18:03:19 2026</desc>
+		</annotation_info>
+	</meta>
+
+	<trees>
+
+		<LM id="a-zeens-p1s1">
+			<s.rf>m#m-zeens-p1s1</s.rf>
+			<comment>AUTO</comment>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p1s1w2">
+							<role>pred</role>
+							<!-- gāja -->
+							<m.rf>m#m-zeens-p1s1w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p1s1x2">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p1s1w4">	<!-- skolu -->
+							<m.rf>m#m-zeens-p1s1w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p1s1w3">	<!-- uz -->
+							<m.rf>m#m-zeens-p1s1w3</m.rf>
+							<role>prep</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p1s1w1">	<!-- Zēns -->
+							<m.rf>m#m-zeens-p1s1w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p1s1w5">	<!-- . -->
+							<m.rf>m#m-zeens-p1s1w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p1s2">
+			<s.rf>m#m-zeens-p1s2</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p1s2w2">
+							<role>pred</role>
+							<!-- ņēma -->
+							<m.rf>m#m-zeens-p1s2w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p1s2w1">	<!-- Meitene -->
+							<m.rf>m#m-zeens-p1s2w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p1s2w3">	<!-- ābolu -->
+							<m.rf>m#m-zeens-p1s2w3</m.rf>
+							<role>obj</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p1s2w4">	<!-- . -->
+							<m.rf>m#m-zeens-p1s2w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p3s3">
+			<s.rf>m#m-zeens-p3s3</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p3s3w4">	<!-- . -->
+							<m.rf>m#m-zeens-p3s3w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p3s3w3">
+							<role>pred</role>
+							<!-- gāja -->
+							<m.rf>m#m-zeens-p3s3w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p3s3w1">	<!-- Vasarā -->
+							<m.rf>m#m-zeens-p3s3w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p3s3w2">	<!-- zēns -->
+							<m.rf>m#m-zeens-p3s3w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p4s4">
+			<s.rf>m#m-zeens-p4s4</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p4s4w4">	<!-- . -->
+							<m.rf>m#m-zeens-p4s4w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p4s4w3">
+							<role>pred</role>
+							<!-- gāja -->
+							<m.rf>m#m-zeens-p4s4w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p4s4w2">
+							<role>subj</role>
+							<!-- zēns -->
+							<m.rf>m#m-zeens-p4s4w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p4s4w1">	<!-- Skaists -->
+							<m.rf>m#m-zeens-p4s4w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p5s5">
+			<s.rf>m#m-zeens-p5s5</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p5s5w4">	<!-- . -->
+							<m.rf>m#m-zeens-p5s5w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p5s5w3">
+							<role>pred</role>
+							<!-- gāja -->
+							<m.rf>m#m-zeens-p5s5w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p5s5w1">	<!-- Zēns -->
+							<m.rf>m#m-zeens-p5s5w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p5s5w2">	<!-- ātri -->
+							<m.rf>m#m-zeens-p5s5w2</m.rf>
+							<role>adv</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p6s6">
+			<s.rf>m#m-zeens-p6s6</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p6s6w8">	<!-- . -->
+							<m.rf>m#m-zeens-p6s6w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p6s6w5">
+							<role>pred</role>
+							<!-- gāja -->
+							<m.rf>m#m-zeens-p6s6w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p6s6x2">
+							<role>subj</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p6s6w1">	<!-- Zēns -->
+							<m.rf>m#m-zeens-p6s6w1</m.rf>
+							<role>crdPart</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p6s6w4">
+							<role>crdPart</role>
+							<!-- meitene -->
+							<m.rf>m#m-zeens-p6s6w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p6s6w3">	<!-- miegainā -->
+							<m.rf>m#m-zeens-p6s6w3</m.rf>
+							<role>attr</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p6s6w2">	<!-- un -->
+							<m.rf>m#m-zeens-p6s6w2</m.rf>
+							<role>conj</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p6s6x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p6s6w7">	<!-- skolu -->
+							<m.rf>m#m-zeens-p6s6w7</m.rf>
+							<role>basElem</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p6s6w6">	<!-- uz -->
+							<m.rf>m#m-zeens-p6s6w6</m.rf>
+							<role>prep</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p7s7">
+			<s.rf>m#m-zeens-p7s7</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p7s7w11">	<!-- . -->
+							<m.rf>m#m-zeens-p7s7w11</m.rf>
+							<role>punct</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p7s7x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p7s7w3">
+							<role>basElem</role>
+							<!-- gājis -->
+							<m.rf>m#m-zeens-p7s7w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p7s7w1">	<!-- Zēns -->
+							<m.rf>m#m-zeens-p7s7w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p7s7w6">
+							<role>spc</role>
+							<!-- laikā -->
+							<m.rf>m#m-zeens-p7s7w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p7s7x4">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p7s7w7">	<!-- , -->
+							<m.rf>m#m-zeens-p7s7w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p7s7w9">
+							<role>basElem</role>
+							<!-- dzīvoja -->
+							<m.rf>m#m-zeens-p7s7w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p7s7w8">	<!-- kad -->
+							<m.rf>m#m-zeens-p7s7w8</m.rf>
+							<role>adv</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p7s7w10">	<!-- pilsētā -->
+							<m.rf>m#m-zeens-p7s7w10</m.rf>
+							<role>obj</role>
+							<ord>10</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p7s7x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p7s7w5">	<!-- skolu -->
+							<m.rf>m#m-zeens-p7s7w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p7s7w4">	<!-- uz -->
+							<m.rf>m#m-zeens-p7s7w4</m.rf>
+							<role>prep</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p7s7w2">	<!-- ir -->
+							<m.rf>m#m-zeens-p7s7w2</m.rf>
+							<role>auxVerb</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p8s8">
+			<s.rf>m#m-zeens-p8s8</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p8s8w5">
+							<role>pred</role>
+							<!-- guļ -->
+							<m.rf>m#m-zeens-p8s8w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p8s8x2">
+							<role>subj</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p8s8w4">	<!-- māsas -->
+							<m.rf>m#m-zeens-p8s8w4</m.rf>
+							<role>crdPart</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p8s8w2">
+							<role>crdPart</role>
+							<!-- brāļi -->
+							<m.rf>m#m-zeens-p8s8w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p8s8w1">	<!-- Mani -->
+							<m.rf>m#m-zeens-p8s8w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p8s8w3">	<!-- un -->
+							<m.rf>m#m-zeens-p8s8w3</m.rf>
+							<role>conj</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p8s8x3">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p8s8w8">
+							<role>basElem</role>
+							<!-- krākdami -->
+							<m.rf>m#m-zeens-p8s8w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p8s8w7">	<!-- skaļi -->
+							<m.rf>m#m-zeens-p8s8w7</m.rf>
+							<role>adv</role>
+							<ord>7</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p8s8w6">	<!-- , -->
+							<m.rf>m#m-zeens-p8s8w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p8s8w9">	<!-- . -->
+							<m.rf>m#m-zeens-p8s8w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p8s9">
+			<s.rf>m#m-zeens-p8s9</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p8s9w5">	<!-- . -->
+							<m.rf>m#m-zeens-p8s9w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p8s9x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p8s9w4">
+							<role>basElem</role>
+							<!-- silts -->
+							<m.rf>m#m-zeens-p8s9w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p8s9w2">	<!-- ūdens -->
+							<m.rf>m#m-zeens-p8s9w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p8s9w1">	<!-- Vakaros -->
+							<m.rf>m#m-zeens-p8s9w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p8s9w3">	<!-- ir -->
+							<m.rf>m#m-zeens-p8s9w3</m.rf>
+							<role>auxVerb</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p9s10">
+			<s.rf>m#m-zeens-p9s10</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p9s10x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p9s10w6">	<!-- bet -->
+							<m.rf>m#m-zeens-p9s10w6</m.rf>
+							<role>conj</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p9s10w8">
+							<role>crdPart</role>
+							<!-- paliek -->
+							<m.rf>m#m-zeens-p9s10w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p9s10x4">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p9s10w10">	<!-- , -->
+							<m.rf>m#m-zeens-p9s10w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-zeens-p9s10w11">
+							<role>basElem</role>
+							<!-- skatīdamās -->
+							<m.rf>m#m-zeens-p9s10w11</m.rf>
+							<ord>11</ord>
+							<children>
+						<node id="a-zeens-p9s10x5">
+							<role>objCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p9s10w15">
+							<role>basElem</role>
+							<!-- aiziet -->
+							<m.rf>m#m-zeens-p9s10w15</m.rf>
+							<ord>15</ord>
+							<children>
+						<node id="a-zeens-p9s10w13">	<!-- kā -->
+							<m.rf>m#m-zeens-p9s10w13</m.rf>
+							<role>adv</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-zeens-p9s10w14">	<!-- viņš -->
+							<m.rf>m#m-zeens-p9s10w14</m.rf>
+							<role>subj</role>
+							<ord>14</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p9s10w12">	<!-- , -->
+							<m.rf>m#m-zeens-p9s10w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p9s10w7">	<!-- meitene -->
+							<m.rf>m#m-zeens-p9s10w7</m.rf>
+							<role>subj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p9s10w9">	<!-- mājās -->
+							<m.rf>m#m-zeens-p9s10w9</m.rf>
+							<role>spc</role>
+							<ord>9</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p9s10w2">
+							<role>crdPart</role>
+							<!-- iet -->
+							<m.rf>m#m-zeens-p9s10w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p9s10w1">	<!-- Zēns -->
+							<m.rf>m#m-zeens-p9s10w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p9s10x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p9s10w4">	<!-- skolu -->
+							<m.rf>m#m-zeens-p9s10w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p9s10w3">	<!-- uz -->
+							<m.rf>m#m-zeens-p9s10w3</m.rf>
+							<role>prep</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p9s10w16">	<!-- . -->
+							<m.rf>m#m-zeens-p9s10w16</m.rf>
+							<role>punct</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-zeens-p9s10w5">	<!-- , -->
+							<m.rf>m#m-zeens-p9s10w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p10s11">
+			<s.rf>m#m-zeens-p10s11</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p10s11x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p10s11w13">	<!-- taču -->
+							<m.rf>m#m-zeens-p10s11w13</m.rf>
+							<role>conj</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-zeens-p10s11w9">
+							<role>crdPart</role>
+							<!-- brauc -->
+							<m.rf>m#m-zeens-p10s11w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p10s11x4">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p10s11w11">	<!-- divriteni -->
+							<m.rf>m#m-zeens-p10s11w11</m.rf>
+							<role>basElem</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p10s11w10">	<!-- ar -->
+							<m.rf>m#m-zeens-p10s11w10</m.rf>
+							<role>prep</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p10s11w8">	<!-- meitene -->
+							<m.rf>m#m-zeens-p10s11w8</m.rf>
+							<role>subj</role>
+							<ord>8</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p10s11w3">
+							<role>crdPart</role>
+							<!-- iet -->
+							<m.rf>m#m-zeens-p10s11w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p10s11w1">	<!-- Vakaros -->
+							<m.rf>m#m-zeens-p10s11w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p10s11x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p10s11w5">	<!-- kino -->
+							<m.rf>m#m-zeens-p10s11w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p10s11w4">	<!-- uz -->
+							<m.rf>m#m-zeens-p10s11w4</m.rf>
+							<role>prep</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p10s11w2">	<!-- zēns -->
+							<m.rf>m#m-zeens-p10s11w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p10s11w7">	<!-- bet -->
+							<m.rf>m#m-zeens-p10s11w7</m.rf>
+							<role>conj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p10s11w16">
+							<role>crdPart</role>
+							<!-- satiekas -->
+							<m.rf>m#m-zeens-p10s11w16</m.rf>
+							<ord>16</ord>
+							<children>
+						<node id="a-zeens-p10s11w15">	<!-- viņi -->
+							<m.rf>m#m-zeens-p10s11w15</m.rf>
+							<role>subj</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-zeens-p10s11w14">	<!-- pusdienlaikos -->
+							<m.rf>m#m-zeens-p10s11w14</m.rf>
+							<role>spc</role>
+							<ord>14</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p10s11w12">	<!-- , -->
+							<m.rf>m#m-zeens-p10s11w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p10s11w6">	<!-- , -->
+							<m.rf>m#m-zeens-p10s11w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p10s11w17">	<!-- . -->
+							<m.rf>m#m-zeens-p10s11w17</m.rf>
+							<role>punct</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p11s12">
+			<s.rf>m#m-zeens-p11s12</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p11s12w3">	<!-- , -->
+							<m.rf>m#m-zeens-p11s12w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p11s12x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p11s12w2">
+							<role>crdPart</role>
+							<!-- snieg -->
+							<m.rf>m#m-zeens-p11s12w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p11s12w1">	<!-- Ziemās -->
+							<m.rf>m#m-zeens-p11s12w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p11s12w6">
+							<role>crdPart</role>
+							<!-- līst -->
+							<m.rf>m#m-zeens-p11s12w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p11s12x3">
+							<role>spc</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p11s12w10">
+							<role>basElem</role>
+							<!-- ir -->
+							<m.rf>m#m-zeens-p11s12w10</m.rf>
+							<ord>10</ord>
+							<children>
+						<node id="a-zeens-p11s12w9">	<!-- vasarās -->
+							<m.rf>m#m-zeens-p11s12w9</m.rf>
+							<role>spc</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p11s12w11">	<!-- silti -->
+							<m.rf>m#m-zeens-p11s12w11</m.rf>
+							<role>spc</role>
+							<ord>11</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p11s12w8">	<!-- jo -->
+							<m.rf>m#m-zeens-p11s12w8</m.rf>
+							<role>conj</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p11s12w7">	<!-- , -->
+							<m.rf>m#m-zeens-p11s12w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p11s12w5">	<!-- vasarās -->
+							<m.rf>m#m-zeens-p11s12w5</m.rf>
+							<role>spc</role>
+							<ord>5</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p11s12w4">	<!-- bet -->
+							<m.rf>m#m-zeens-p11s12w4</m.rf>
+							<role>conj</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p11s12w12">	<!-- . -->
+							<m.rf>m#m-zeens-p11s12w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p12s13">
+			<s.rf>m#m-zeens-p12s13</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p12s13w2">	<!-- ! -->
+							<m.rf>m#m-zeens-p12s13w2</m.rf>
+							<role>punct</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p12s13w1">	<!-- Ak -->
+							<m.rf>m#m-zeens-p12s13w1</m.rf>
+							<role>pred</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p12s14">
+			<s.rf>m#m-zeens-p12s14</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p12s14w10">	<!-- ... -->
+							<m.rf>m#m-zeens-p12s14w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-zeens-p12s14w4">
+							<role>pred</role>
+							<!-- paņēma -->
+							<m.rf>m#m-zeens-p12s14w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p12s14w3">	<!-- zēns -->
+							<m.rf>m#m-zeens-p12s14w3</m.rf>
+							<role>subj</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p12s14x2">
+							<role>no</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p12s14w1">	<!-- Vai -->
+							<m.rf>m#m-zeens-p12s14w1</m.rf>
+							<role>basElem</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p12s14w2">	<!-- , -->
+							<m.rf>m#m-zeens-p12s14w2</m.rf>
+							<role>punct</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p12s14x3">
+							<role>obj</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p12s14w6">	<!-- " -->
+							<m.rf>m#m-zeens-p12s14w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p12s14w9">	<!-- " -->
+							<m.rf>m#m-zeens-p12s14w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p12s14w8">
+							<role>basElem</role>
+							<!-- Viesi -->
+							<m.rf>m#m-zeens-p12s14w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p12s14w7">	<!-- Mājas -->
+							<m.rf>m#m-zeens-p12s14w7</m.rf>
+							<role>attr</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p12s14w5">	<!-- manu -->
+							<m.rf>m#m-zeens-p12s14w5</m.rf>
+							<role>attr</role>
+							<ord>5</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p13s15">
+			<s.rf>m#m-zeens-p13s15</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p13s15w2">
+							<role>pred</role>
+							<!-- teica -->
+							<m.rf>m#m-zeens-p13s15w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p13s15w1">	<!-- Viņa -->
+							<m.rf>m#m-zeens-p13s15w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p13s15x2">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p13s15w4">	<!-- " -->
+							<m.rf>m#m-zeens-p13s15w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p13s15w6">	<!-- . -->
+							<m.rf>m#m-zeens-p13s15w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p13s15w3">	<!-- : -->
+							<m.rf>m#m-zeens-p13s15w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p13s15w5">	<!-- Iesim -->
+							<m.rf>m#m-zeens-p13s15w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p13s15w7">	<!-- " -->
+							<m.rf>m#m-zeens-p13s15w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p13s16">
+			<s.rf>m#m-zeens-p13s16</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p13s16w11">
+							<role>pred</role>
+							<!-- nepiekrita -->
+							<m.rf>m#m-zeens-p13s16w11</m.rf>
+							<ord>11</ord>
+							<children>
+						<node id="a-zeens-p13s16x2">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p13s16w6">
+							<role>basElem</role>
+							<!-- paliksim -->
+							<m.rf>m#m-zeens-p13s16w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p13s16w4">	<!-- šonakt -->
+							<m.rf>m#m-zeens-p13s16w4</m.rf>
+							<role>adv</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p13s16w5">	<!-- labāk -->
+							<m.rf>m#m-zeens-p13s16w5</m.rf>
+							<role>adv</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p13s16w7">	<!-- tepat -->
+							<m.rf>m#m-zeens-p13s16w7</m.rf>
+							<role>adv</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p13s16x3">
+							<role>no</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p13s16w2">	<!-- Nē -->
+							<m.rf>m#m-zeens-p13s16w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p13s16w3">	<!-- , -->
+							<m.rf>m#m-zeens-p13s16w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p13s16w1">	<!-- " -->
+							<m.rf>m#m-zeens-p13s16w1</m.rf>
+							<role>punct</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p13s16w8">	<!-- , -->
+							<m.rf>m#m-zeens-p13s16w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p13s16w9">	<!-- " -->
+							<m.rf>m#m-zeens-p13s16w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p13s16w10">	<!-- viņš -->
+							<m.rf>m#m-zeens-p13s16w10</m.rf>
+							<role>subj</role>
+							<ord>10</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p13s16w12">	<!-- . -->
+							<m.rf>m#m-zeens-p13s16w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p14s17">
+			<s.rf>m#m-zeens-p14s17</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p14s17w6">
+							<role>pred</role>
+							<!-- turpināja -->
+							<m.rf>m#m-zeens-p14s17w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p14s17w5">	<!-- viņš -->
+							<m.rf>m#m-zeens-p14s17w5</m.rf>
+							<role>subj</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p14s17x2">
+							<role>basElem</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p14s17w4">	<!-- " -->
+							<m.rf>m#m-zeens-p14s17w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p14s17w8">	<!-- " -->
+							<m.rf>m#m-zeens-p14s17w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p14s17w13">
+							<role>conj</role>
+							<!-- lai -->
+							<m.rf>m#m-zeens-p14s17w13</m.rf>
+							<ord>13</ord>
+							<children>
+						<node id="a-zeens-p14s17w14">	<!-- gan -->
+							<m.rf>m#m-zeens-p14s17w14</m.rf>
+							<role>conj</role>
+							<ord>14</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s17w22">	<!-- " -->
+							<m.rf>m#m-zeens-p14s17w22</m.rf>
+							<role>punct</role>
+							<ord>22</ord>
+						</node>
+						<node id="a-zeens-p14s17w10">
+							<role>crdPart</role>
+							<!-- iesim -->
+							<m.rf>m#m-zeens-p14s17w10</m.rf>
+							<ord>10</ord>
+							<children>
+						<node id="a-zeens-p14s17w11">	<!-- mājās -->
+							<m.rf>m#m-zeens-p14s17w11</m.rf>
+							<role>spc</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p14s17w2">	<!-- Mēs -->
+							<m.rf>m#m-zeens-p14s17w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p14s17w9">	<!-- nu -->
+							<m.rf>m#m-zeens-p14s17w9</m.rf>
+							<role>adv</role>
+							<ord>9</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s17w21">	<!-- . -->
+							<m.rf>m#m-zeens-p14s17w21</m.rf>
+							<role>punct</role>
+							<ord>21</ord>
+						</node>
+						<node id="a-zeens-p14s17w12">	<!-- , -->
+							<m.rf>m#m-zeens-p14s17w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p14s17w1">	<!-- " -->
+							<m.rf>m#m-zeens-p14s17w1</m.rf>
+							<role>punct</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p14s17w19">
+							<role>crdPart</role>
+							<!-- vari -->
+							<m.rf>m#m-zeens-p14s17w19</m.rf>
+							<ord>19</ord>
+							<children>
+						<node id="a-zeens-p14s17w18">	<!-- tu -->
+							<m.rf>m#m-zeens-p14s17w18</m.rf>
+							<role>subj</role>
+							<ord>18</ord>
+						</node>
+						<node id="a-zeens-p14s17x3">
+							<role>no</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p14s17w16">	<!-- Maija -->
+							<m.rf>m#m-zeens-p14s17w16</m.rf>
+							<role>basElem</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-zeens-p14s17w15">	<!-- , -->
+							<m.rf>m#m-zeens-p14s17w15</m.rf>
+							<role>punct</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-zeens-p14s17w17">	<!-- , -->
+							<m.rf>m#m-zeens-p14s17w17</m.rf>
+							<role>punct</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p14s17w20">	<!-- palikt -->
+							<m.rf>m#m-zeens-p14s17w20</m.rf>
+							<role>spc</role>
+							<ord>20</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s17w7">	<!-- , -->
+							<m.rf>m#m-zeens-p14s17w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p14s17w3">	<!-- , -->
+							<m.rf>m#m-zeens-p14s17w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p14s18">
+			<s.rf>m#m-zeens-p14s18</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p14s18x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p14s18w2">
+							<role>crdPart</role>
+							<!-- nomurmināja -->
+							<m.rf>m#m-zeens-p14s18w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p14s18w1">	<!-- Anna -->
+							<m.rf>m#m-zeens-p14s18w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p14s18x3">
+							<role>basElem</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p14s18x4">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p14s18w4">	<!-- " -->
+							<m.rf>m#m-zeens-p14s18w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p14s18w3">	<!-- : -->
+							<m.rf>m#m-zeens-p14s18w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p14s18w8">
+							<role>basElem</role>
+							<!-- labi -->
+							<m.rf>m#m-zeens-p14s18w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p14s18w5">
+							<role>no</role>
+							<!-- Gan -->
+							<m.rf>m#m-zeens-p14s18w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p14s18w6">	<!-- jau -->
+							<m.rf>m#m-zeens-p14s18w6</m.rf>
+							<role>conj</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18x5">
+							<role>N/A</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p14s18w11">
+							<role>basElem</role>
+							<!-- skaidrosies -->
+							<m.rf>m#m-zeens-p14s18w11</m.rf>
+							<ord>11</ord>
+							<children>
+						<node id="a-zeens-p14s18w10">	<!-- Rīt -->
+							<m.rf>m#m-zeens-p14s18w10</m.rf>
+							<role>adv</role>
+							<ord>10</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18w12">	<!-- , -->
+							<m.rf>m#m-zeens-p14s18w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18w9">	<!-- ! -->
+							<m.rf>m#m-zeens-p14s18w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p14s18w13">	<!-- " -->
+							<m.rf>m#m-zeens-p14s18w13</m.rf>
+							<role>punct</role>
+							<ord>13</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18w7">	<!-- būs -->
+							<m.rf>m#m-zeens-p14s18w7</m.rf>
+							<role>auxVerb</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18w14">	<!-- un -->
+							<m.rf>m#m-zeens-p14s18w14</m.rf>
+							<role>conj</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-zeens-p14s18w15">
+							<role>crdPart</role>
+							<!-- turpināja -->
+							<m.rf>m#m-zeens-p14s18w15</m.rf>
+							<ord>15</ord>
+							<children>
+						<node id="a-zeens-p14s18w16">	<!-- adīt -->
+							<m.rf>m#m-zeens-p14s18w16</m.rf>
+							<role>spc</role>
+							<ord>16</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p14s18w17">	<!-- . -->
+							<m.rf>m#m-zeens-p14s18w17</m.rf>
+							<role>punct</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p15s19">
+			<s.rf>m#m-zeens-p15s19</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p15s19w17">	<!-- . -->
+							<m.rf>m#m-zeens-p15s19w17</m.rf>
+							<role>punct</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-zeens-p15s19x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p15s19w6">
+							<role>crdPart</role>
+							<!-- paņēma -->
+							<m.rf>m#m-zeens-p15s19w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p15s19x4">
+							<role>subj</role>
+							<children>
+				<xinfo>
+					<xtype>namedEnt</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p15s19w3">
+							<role>basElem</role>
+							<!-- Kārlis -->
+							<m.rf>m#m-zeens-p15s19w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p15s19w2">	<!-- bioķīmiķis -->
+							<m.rf>m#m-zeens-p15s19w2</m.rf>
+							<role>attr</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19w5">	<!-- Kabacis -->
+							<m.rf>m#m-zeens-p15s19w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p15s19w4">	<!-- fon -->
+							<m.rf>m#m-zeens-p15s19w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19w8">
+							<role>obj</role>
+							<!-- atslēgu -->
+							<m.rf>m#m-zeens-p15s19w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p15s19w7">	<!-- 17. -->
+							<m.rf>m#m-zeens-p15s19w7</m.rf>
+							<role>attr</role>
+							<ord>7</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19w1">	<!-- 17:40 -->
+							<m.rf>m#m-zeens-p15s19w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19w9">	<!-- un -->
+							<m.rf>m#m-zeens-p15s19w9</m.rf>
+							<role>conj</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p15s19w10">
+							<role>crdPart</role>
+							<!-- izņēma -->
+							<m.rf>m#m-zeens-p15s19w10</m.rf>
+							<ord>10</ord>
+							<children>
+						<node id="a-zeens-p15s19w14">
+							<role>obj</role>
+							<!-- miligramus -->
+							<m.rf>m#m-zeens-p15s19w14</m.rf>
+							<ord>14</ord>
+							<children>
+						<node id="a-zeens-p15s19w16">
+							<role>attr</role>
+							<!-- katalizatora -->
+							<m.rf>m#m-zeens-p15s19w16</m.rf>
+							<ord>16</ord>
+							<children>
+						<node id="a-zeens-p15s19w15">	<!-- reakcijas -->
+							<m.rf>m#m-zeens-p15s19w15</m.rf>
+							<role>attr</role>
+							<ord>15</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19w13">	<!-- 15,7 -->
+							<m.rf>m#m-zeens-p15s19w13</m.rf>
+							<role>attr</role>
+							<ord>13</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p15s19x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p15s19w12">	<!-- skapīša -->
+							<m.rf>m#m-zeens-p15s19w12</m.rf>
+							<role>basElem</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p15s19w11">	<!-- no -->
+							<m.rf>m#m-zeens-p15s19w11</m.rf>
+							<role>prep</role>
+							<ord>11</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p16s20">
+			<s.rf>m#m-zeens-p16s20</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p16s20w16">	<!-- . -->
+							<m.rf>m#m-zeens-p16s20w16</m.rf>
+							<role>punct</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-zeens-p16s20w12">
+							<role>pred</role>
+							<!-- tiek -->
+							<m.rf>m#m-zeens-p16s20w12</m.rf>
+							<ord>12</ord>
+							<children>
+						<node id="a-zeens-p16s20w15">	<!-- mācībās -->
+							<m.rf>m#m-zeens-p16s20w15</m.rf>
+							<role>spc</role>
+							<ord>15</ord>
+						</node>
+						<node id="a-zeens-p16s20w11">	<!-- labi -->
+							<m.rf>m#m-zeens-p16s20w11</m.rf>
+							<role>adv</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p16s20x2">
+							<role>obj</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p16s20w13">	<!-- klasei -->
+							<m.rf>m#m-zeens-p16s20w13</m.rf>
+							<role>basElem</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-zeens-p16s20w14">	<!-- līdzi -->
+							<m.rf>m#m-zeens-p16s20w14</m.rf>
+							<role>prep</role>
+							<ord>14</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p16s20w1">
+							<role>subj</role>
+							<!-- Viņš -->
+							<m.rf>m#m-zeens-p16s20w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p16s20x3">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p16s20w5">
+							<role>basElem</role>
+							<!-- noslimoja -->
+							<m.rf>m#m-zeens-p16s20w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p16s20x4">
+							<role>spc</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p16s20w9">	<!-- pavasari -->
+							<m.rf>m#m-zeens-p16s20w9</m.rf>
+							<role>crdPart</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p16s20w8">	<!-- , -->
+							<m.rf>m#m-zeens-p16s20w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p16s20w7">
+							<role>crdPart</role>
+							<!-- ziemu -->
+							<m.rf>m#m-zeens-p16s20w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p16s20w6">	<!-- visu -->
+							<m.rf>m#m-zeens-p16s20w6</m.rf>
+							<role>attr</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p16s20w3">	<!-- kas -->
+							<m.rf>m#m-zeens-p16s20w3</m.rf>
+							<role>subj</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p16s20w4">	<!-- pērn -->
+							<m.rf>m#m-zeens-p16s20w4</m.rf>
+							<role>adv</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p16s20w2">	<!-- , -->
+							<m.rf>m#m-zeens-p16s20w2</m.rf>
+							<role>punct</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p16s20w10">	<!-- , -->
+							<m.rf>m#m-zeens-p16s20w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p17s21">
+			<s.rf>m#m-zeens-p17s21</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p17s21w14">	<!-- . -->
+							<m.rf>m#m-zeens-p17s21w14</m.rf>
+							<role>punct</role>
+							<ord>14</ord>
+						</node>
+						<node id="a-zeens-p17s21w11">
+							<role>pred</role>
+							<!-- rīkosim -->
+							<m.rf>m#m-zeens-p17s21w11</m.rf>
+							<ord>11</ord>
+							<children>
+						<node id="a-zeens-p17s21x2">
+							<role>spc</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p17s21w4">	<!-- un -->
+							<m.rf>m#m-zeens-p17s21w4</m.rf>
+							<role>conj</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p17s21x3">
+							<role>spc</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p17s21w3">	<!-- nelīs -->
+							<m.rf>m#m-zeens-p17s21w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p17s21w1">	<!-- Ja -->
+							<m.rf>m#m-zeens-p17s21w1</m.rf>
+							<role>conj</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p17s21x4">
+							<role>crdPart</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p17s21x5">
+							<role>crdPart</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p17s21w8">
+							<role>basElem</role>
+							<!-- atgriezies -->
+							<m.rf>m#m-zeens-p17s21w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p17s21w6">	<!-- Jānis -->
+							<m.rf>m#m-zeens-p17s21w6</m.rf>
+							<role>subj</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p17s21w5">	<!-- ja -->
+							<m.rf>m#m-zeens-p17s21w5</m.rf>
+							<role>conj</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p17s21w7">	<!-- būs -->
+							<m.rf>m#m-zeens-p17s21w7</m.rf>
+							<role>auxVerb</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p17s21w9">	<!-- , -->
+							<m.rf>m#m-zeens-p17s21w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p17s21w12">	<!-- balli -->
+							<m.rf>m#m-zeens-p17s21w12</m.rf>
+							<role>obj</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p17s21w2">	<!-- rīt -->
+							<m.rf>m#m-zeens-p17s21w2</m.rf>
+							<role>adv</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p17s21w13">	<!-- dārzā -->
+							<m.rf>m#m-zeens-p17s21w13</m.rf>
+							<role>spc</role>
+							<ord>13</ord>
+						</node>
+						<node id="a-zeens-p17s21w10">	<!-- mēs -->
+							<m.rf>m#m-zeens-p17s21w10</m.rf>
+							<role>subj</role>
+							<ord>10</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p18s22">
+			<s.rf>m#m-zeens-p18s22</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p18s22x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p18s22w13">
+							<role>crdPart</role>
+							<!-- pārtrauc -->
+							<m.rf>m#m-zeens-p18s22w13</m.rf>
+							<ord>13</ord>
+							<children>
+						<node id="a-zeens-p18s22w15">
+							<role>obj</role>
+							<!-- ražošanu -->
+							<m.rf>m#m-zeens-p18s22w15</m.rf>
+							<ord>15</ord>
+							<children>
+						<node id="a-zeens-p18s22w14">	<!-- matraču -->
+							<m.rf>m#m-zeens-p18s22w14</m.rf>
+							<role>attr</role>
+							<ord>14</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22x3">
+							<role>subj</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p18s22w5">
+							<role>basElem</role>
+							<!-- kantoris -->
+							<m.rf>m#m-zeens-p18s22w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p18s22x5">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p18s22w12">	<!-- ) -->
+							<m.rf>m#m-zeens-p18s22w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p18s22w10">
+							<role>basElem</role>
+							<!-- - -->
+							<m.rf>m#m-zeens-p18s22w10</m.rf>
+							<ord>10</ord>
+							<children>
+						<node id="a-zeens-p18s22w9">	<!-- tekstā -->
+							<m.rf>m#m-zeens-p18s22w9</m.rf>
+							<role>spc</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p18s22w8">	<!-- turpmāk -->
+							<m.rf>m#m-zeens-p18s22w8</m.rf>
+							<role>adv</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p18s22w11">	<!-- ČCGK -->
+							<m.rf>m#m-zeens-p18s22w11</m.rf>
+							<role>subj</role>
+							<ord>11</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w7">	<!-- ( -->
+							<m.rf>m#m-zeens-p18s22w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w4">	<!-- gurķu -->
+							<m.rf>m#m-zeens-p18s22w4</m.rf>
+							<role>attr</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p18s22x4">
+							<role>attr</role>
+							<children>
+				<xinfo>
+					<xtype>namedEnt</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p18s22w2">	<!-- Čārlza -->
+							<m.rf>m#m-zeens-p18s22w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p18s22w3">	<!-- Cukini -->
+							<m.rf>m#m-zeens-p18s22w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w1">	<!-- " -->
+							<m.rf>m#m-zeens-p18s22w1</m.rf>
+							<role>punct</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p18s22w6">	<!-- " -->
+							<m.rf>m#m-zeens-p18s22w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w20">
+							<role>crdPart</role>
+							<!-- - -->
+							<m.rf>m#m-zeens-p18s22w20</m.rf>
+							<ord>20</ord>
+							<children>
+						<node id="a-zeens-p18s22w19">
+							<role>subj</role>
+							<!-- fabrika -->
+							<m.rf>m#m-zeens-p18s22w19</m.rf>
+							<ord>19</ord>
+							<children>
+						<node id="a-zeens-p18s22w18">	<!-- šokolādes -->
+							<m.rf>m#m-zeens-p18s22w18</m.rf>
+							<role>attr</role>
+							<ord>18</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w17">	<!-- savukārt -->
+							<m.rf>m#m-zeens-p18s22w17</m.rf>
+							<role>adv</role>
+							<ord>17</ord>
+						</node>
+						<node id="a-zeens-p18s22w21">	<!-- zefīra -->
+							<m.rf>m#m-zeens-p18s22w21</m.rf>
+							<role>obj</role>
+							<ord>21</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p18s22w16">	<!-- , -->
+							<m.rf>m#m-zeens-p18s22w16</m.rf>
+							<role>punct</role>
+							<ord>16</ord>
+						</node>
+						<node id="a-zeens-p18s22w22">	<!-- . -->
+							<m.rf>m#m-zeens-p18s22w22</m.rf>
+							<role>punct</role>
+							<ord>22</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p18s23">
+			<s.rf>m#m-zeens-p18s23</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p18s23w6">	<!-- . -->
+							<m.rf>m#m-zeens-p18s23w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p18s23w2">
+							<role>pred</role>
+							<!-- - -->
+							<m.rf>m#m-zeens-p18s23w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p18s23w1">	<!-- Juris -->
+							<m.rf>m#m-zeens-p18s23w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p18s23w5">
+							<role>spc</role>
+							<!-- konditors -->
+							<m.rf>m#m-zeens-p18s23w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p18s23w3">	<!-- ČCGK -->
+							<m.rf>m#m-zeens-p18s23w3</m.rf>
+							<role>attr</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p18s23w4">	<!-- labākais -->
+							<m.rf>m#m-zeens-p18s23w4</m.rf>
+							<role>attr</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p19s24">
+			<s.rf>m#m-zeens-p19s24</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p19s24x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p19s24w4">
+							<role>basElem</role>
+							<!-- zilas -->
+							<m.rf>m#m-zeens-p19s24w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p19s24w3">	<!-- tik -->
+							<m.rf>m#m-zeens-p19s24w3</m.rf>
+							<role>adv</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p19s24w1">	<!-- Debesis -->
+							<m.rf>m#m-zeens-p19s24w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p19s24x3">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p19s24w10">	<!-- ? -->
+							<m.rf>m#m-zeens-p19s24w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-zeens-p19s24w9">
+							<role>basElem</role>
+							<!-- interesē -->
+							<m.rf>m#m-zeens-p19s24w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p19s24w6">	<!-- kuru -->
+							<m.rf>m#m-zeens-p19s24w6</m.rf>
+							<role>obj</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p19s24w7">	<!-- gan -->
+							<m.rf>m#m-zeens-p19s24w7</m.rf>
+							<role>no</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p19s24w8">	<!-- tas -->
+							<m.rf>m#m-zeens-p19s24w8</m.rf>
+							<role>subj</role>
+							<ord>8</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p19s24w5">	<!-- ( -->
+							<m.rf>m#m-zeens-p19s24w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p19s24w11">	<!-- ) -->
+							<m.rf>m#m-zeens-p19s24w11</m.rf>
+							<role>punct</role>
+							<ord>11</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p19s24w2">	<!-- ir -->
+							<m.rf>m#m-zeens-p19s24w2</m.rf>
+							<role>auxVerb</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p19s24w12">	<!-- . -->
+							<m.rf>m#m-zeens-p19s24w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p20s25">
+			<s.rf>m#m-zeens-p20s25</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p20s25w5">	<!-- . -->
+							<m.rf>m#m-zeens-p20s25w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p20s25w2">
+							<role>pred</role>
+							<!-- zinām -->
+							<m.rf>m#m-zeens-p20s25w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p20s25x2">
+							<role>objCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p20s25w4">	<!-- kā -->
+							<m.rf>m#m-zeens-p20s25w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p20s25w3">	<!-- , -->
+							<m.rf>m#m-zeens-p20s25w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p20s25w1">	<!-- Mēs -->
+							<m.rf>m#m-zeens-p20s25w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p21s26">
+			<s.rf>m#m-zeens-p21s26</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p21s26w2">	<!-- . -->
+							<m.rf>m#m-zeens-p21s26w2</m.rf>
+							<role>punct</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p21s26w1">	<!-- Līst -->
+							<m.rf>m#m-zeens-p21s26w1</m.rf>
+							<role>pred</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p22s27">
+			<s.rf>m#m-zeens-p22s27</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p22s27w1">
+							<role>pred</role>
+							<!-- Paldies -->
+							<m.rf>m#m-zeens-p22s27w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p22s27x2">
+							<role>obj</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p22s27w2">	<!-- par -->
+							<m.rf>m#m-zeens-p22s27w2</m.rf>
+							<role>prep</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p22s27w3">	<!-- ogām -->
+							<m.rf>m#m-zeens-p22s27w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p22s27w4">	<!-- ! -->
+							<m.rf>m#m-zeens-p22s27w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p23s28">
+			<s.rf>m#m-zeens-p23s28</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p23s28w11">	<!-- . -->
+							<m.rf>m#m-zeens-p23s28w11</m.rf>
+							<role>punct</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p23s28x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p23s28w10">
+							<role>basElem</role>
+							<!-- ēdamas -->
+							<m.rf>m#m-zeens-p23s28w10</m.rf>
+							<ord>10</ord>
+							<children>
+						<node id="a-zeens-p23s28w2">
+							<role>subj</role>
+							<!-- sēnes -->
+							<m.rf>m#m-zeens-p23s28w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p23s28x3">
+							<role>attrCl</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p23s28w6">	<!-- baravikas -->
+							<m.rf>m#m-zeens-p23s28w6</m.rf>
+							<role>crdPart</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p23s28x4">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p23s28w3">	<!-- kā -->
+							<m.rf>m#m-zeens-p23s28w3</m.rf>
+							<role>conj</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p23s28w4">	<!-- gailenes -->
+							<m.rf>m#m-zeens-p23s28w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p23s28w5">	<!-- , -->
+							<m.rf>m#m-zeens-p23s28w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p23s28w7">	<!-- un -->
+							<m.rf>m#m-zeens-p23s28w7</m.rf>
+							<role>conj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p23s28w8">	<!-- bērzlapes -->
+							<m.rf>m#m-zeens-p23s28w8</m.rf>
+							<role>crdPart</role>
+							<ord>8</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p23s28w1">	<!-- Tādas -->
+							<m.rf>m#m-zeens-p23s28w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p23s28w9">	<!-- ir -->
+							<m.rf>m#m-zeens-p23s28w9</m.rf>
+							<role>auxVerb</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p24s29">
+			<s.rf>m#m-zeens-p24s29</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p24s29w9">	<!-- . -->
+							<m.rf>m#m-zeens-p24s29w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p24s29w2">
+							<role>pred</role>
+							<!-- var -->
+							<m.rf>m#m-zeens-p24s29w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p24s29w3">
+							<role>spc</role>
+							<!-- dot -->
+							<m.rf>m#m-zeens-p24s29w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p24s29w8">
+							<role>obj</role>
+							<!-- vārdus -->
+							<m.rf>m#m-zeens-p24s29w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p24s29w7">
+							<role>adv</role>
+							<!-- divus -->
+							<m.rf>m#m-zeens-p24s29w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p24s29w5">
+							<role>adv</role>
+							<!-- vairāk -->
+							<m.rf>m#m-zeens-p24s29w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p24s29w4">	<!-- ne -->
+							<m.rf>m#m-zeens-p24s29w4</m.rf>
+							<role>no</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p24s29w6">	<!-- kā -->
+							<m.rf>m#m-zeens-p24s29w6</m.rf>
+							<role>conj</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p24s29w1">	<!-- Bērnam -->
+							<m.rf>m#m-zeens-p24s29w1</m.rf>
+							<role>obj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p25s30">
+			<s.rf>m#m-zeens-p25s30</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p25s30w2">
+							<role>pred</role>
+							<!-- noslēdzās -->
+							<m.rf>m#m-zeens-p25s30w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p25s30x2">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p25s30w7">
+							<role>basElem</role>
+							<!-- uzvaru -->
+							<m.rf>m#m-zeens-p25s30w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p25s30w6">
+							<role>adv</role>
+							<!-- pārliecinošu -->
+							<m.rf>m#m-zeens-p25s30w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p25s30w4">
+							<role>adv</role>
+							<!-- vairāk -->
+							<m.rf>m#m-zeens-p25s30w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p25s30w5">	<!-- nekā -->
+							<m.rf>m#m-zeens-p25s30w5</m.rf>
+							<role>conj</role>
+							<ord>5</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p25s30w3">	<!-- ar -->
+							<m.rf>m#m-zeens-p25s30w3</m.rf>
+							<role>prep</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p25s30w1">	<!-- Spēle -->
+							<m.rf>m#m-zeens-p25s30w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p25s30w8">	<!-- . -->
+							<m.rf>m#m-zeens-p25s30w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p26s31">
+			<s.rf>m#m-zeens-p26s31</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p26s31w7">
+							<role>pred</role>
+							<!-- mīl -->
+							<m.rf>m#m-zeens-p26s31w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p26s31w6">	<!-- ļaudis -->
+							<m.rf>m#m-zeens-p26s31w6</m.rf>
+							<role>subj</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p26s31x2">
+							<role>spc</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p26s31w3">	<!-- nekā -->
+							<m.rf>m#m-zeens-p26s31w3</m.rf>
+							<role>conj</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p26s31x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>subrAnal</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p26s31w4">	<!-- jebkur -->
+							<m.rf>m#m-zeens-p26s31w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p26s31w5">	<!-- citur -->
+							<m.rf>m#m-zeens-p26s31w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p26s31w1">	<!-- Latvijā -->
+							<m.rf>m#m-zeens-p26s31w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p26s31w9">
+							<role>objCl</role>
+							<!-- paēst -->
+							<m.rf>m#m-zeens-p26s31w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p26s31w8">	<!-- labi -->
+							<m.rf>m#m-zeens-p26s31w8</m.rf>
+							<role>adv</role>
+							<ord>8</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p26s31w2">	<!-- vairāk -->
+							<m.rf>m#m-zeens-p26s31w2</m.rf>
+							<role>adv</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p26s31w10">	<!-- . -->
+							<m.rf>m#m-zeens-p26s31w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p27s32">
+			<s.rf>m#m-zeens-p27s32</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p27s32w5">	<!-- . -->
+							<m.rf>m#m-zeens-p27s32w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p27s32x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p27s32w2">	<!-- esmu -->
+							<m.rf>m#m-zeens-p27s32w2</m.rf>
+							<role>auxVerb</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p27s32w3">
+							<role>basElem</role>
+							<!-- kļuvusi -->
+							<m.rf>m#m-zeens-p27s32w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p27s32w4">	<!-- veca -->
+							<m.rf>m#m-zeens-p27s32w4</m.rf>
+							<role>spc</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p27s32w1">	<!-- Es -->
+							<m.rf>m#m-zeens-p27s32w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p27s33">
+			<s.rf>m#m-zeens-p27s33</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p27s33w2">
+							<role>pred</role>
+							<!-- negrib -->
+							<m.rf>m#m-zeens-p27s33w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p27s33w3">
+							<role>spc</role>
+							<!-- kļūt -->
+							<m.rf>m#m-zeens-p27s33w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p27s33w4">	<!-- vecs -->
+							<m.rf>m#m-zeens-p27s33w4</m.rf>
+							<role>spc</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p27s33w1">	<!-- Viņš -->
+							<m.rf>m#m-zeens-p27s33w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p27s33w5">	<!-- . -->
+							<m.rf>m#m-zeens-p27s33w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p28s34">
+			<s.rf>m#m-zeens-p28s34</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p28s34w6">	<!-- . -->
+							<m.rf>m#m-zeens-p28s34w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p28s34x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p28s34x3">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p28s34w3">
+							<role>basElem</role>
+							<!-- mazs -->
+							<m.rf>m#m-zeens-p28s34w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p28s34w1">	<!-- Dzīvnieks -->
+							<m.rf>m#m-zeens-p28s34w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p28s34w2">	<!-- bija -->
+							<m.rf>m#m-zeens-p28s34w2</m.rf>
+							<role>auxVerb</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p28s34w4">	<!-- un -->
+							<m.rf>m#m-zeens-p28s34w4</m.rf>
+							<role>conj</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p28s34w5">	<!-- slimīgs -->
+							<m.rf>m#m-zeens-p28s34w5</m.rf>
+							<role>crdPart</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p29s35">
+			<s.rf>m#m-zeens-p29s35</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p29s35w10">	<!-- . -->
+							<m.rf>m#m-zeens-p29s35w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+						<node id="a-zeens-p29s35x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p29s35w2">
+							<role>crdPart</role>
+							<!-- ir -->
+							<m.rf>m#m-zeens-p29s35w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p29s35w1">	<!-- Man -->
+							<m.rf>m#m-zeens-p29s35w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p29s35w4">
+							<role>subj</role>
+							<!-- māja -->
+							<m.rf>m#m-zeens-p29s35w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p29s35w3">	<!-- skaista -->
+							<m.rf>m#m-zeens-p29s35w3</m.rf>
+							<role>attr</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p29s35w5">	<!-- un -->
+							<m.rf>m#m-zeens-p29s35w5</m.rf>
+							<role>conj</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p29s35w7">
+							<role>crdPart</role>
+							<!-- piederēs -->
+							<m.rf>m#m-zeens-p29s35w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p29s35w9">
+							<role>subj</role>
+							<!-- suns -->
+							<m.rf>m#m-zeens-p29s35w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p29s35w8">	<!-- arī -->
+							<m.rf>m#m-zeens-p29s35w8</m.rf>
+							<role>no</role>
+							<ord>8</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p29s35w6">	<!-- kādreiz -->
+							<m.rf>m#m-zeens-p29s35w6</m.rf>
+							<role>adv</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p29s36">
+			<s.rf>m#m-zeens-p29s36</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p29s36w3">	<!-- . -->
+							<m.rf>m#m-zeens-p29s36w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p29s36w2">
+							<role>pred</role>
+							<!-- salst -->
+							<m.rf>m#m-zeens-p29s36w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p29s36w1">	<!-- Man -->
+							<m.rf>m#m-zeens-p29s36w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p30s37">
+			<s.rf>m#m-zeens-p30s37</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p30s37x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p30s37w7">	<!-- un -->
+							<m.rf>m#m-zeens-p30s37w7</m.rf>
+							<role>conj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p30s37w5">
+							<role>crdPart</role>
+							<!-- sāka -->
+							<m.rf>m#m-zeens-p30s37w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p30s37x3">
+							<role>spc</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p30s37w3">	<!-- , -->
+							<m.rf>m#m-zeens-p30s37w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p30s37w2">
+							<role>basElem</role>
+							<!-- austot -->
+							<m.rf>m#m-zeens-p30s37w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p30s37w1">	<!-- Saulei -->
+							<m.rf>m#m-zeens-p30s37w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p30s37w6">	<!-- čivināt -->
+							<m.rf>m#m-zeens-p30s37w6</m.rf>
+							<role>spc</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p30s37w4">	<!-- putni -->
+							<m.rf>m#m-zeens-p30s37w4</m.rf>
+							<role>subj</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p30s37w8">
+							<role>crdPart</role>
+							<!-- kļuva -->
+							<m.rf>m#m-zeens-p30s37w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p30s37w9">	<!-- siltāks -->
+							<m.rf>m#m-zeens-p30s37w9</m.rf>
+							<role>spc</role>
+							<ord>9</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p30s37w10">	<!-- . -->
+							<m.rf>m#m-zeens-p30s37w10</m.rf>
+							<role>punct</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p31s38">
+			<s.rf>m#m-zeens-p31s38</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p31s38w13">
+							<role>pred</role>
+							<!-- traucas -->
+							<m.rf>m#m-zeens-p31s38w13</m.rf>
+							<ord>13</ord>
+							<children>
+						<node id="a-zeens-p31s38x3">
+							<role>spc</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p31s38w12">	<!-- , -->
+							<m.rf>m#m-zeens-p31s38w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p31s38w9">
+							<role>crdPart</role>
+							<!-- zibinot -->
+							<m.rf>m#m-zeens-p31s38w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p31s38w11">
+							<role>obj</role>
+							<!-- bākugunis -->
+							<m.rf>m#m-zeens-p31s38w11</m.rf>
+							<ord>11</ord>
+							<children>
+						<node id="a-zeens-p31s38w10">	<!-- oranžas -->
+							<m.rf>m#m-zeens-p31s38w10</m.rf>
+							<role>attr</role>
+							<ord>10</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p31s38w8">	<!-- un -->
+							<m.rf>m#m-zeens-p31s38w8</m.rf>
+							<role>conj</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p31s38w3">	<!-- , -->
+							<m.rf>m#m-zeens-p31s38w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p31s38w7">
+							<role>crdPart</role>
+							<!-- kaucot -->
+							<m.rf>m#m-zeens-p31s38w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p31s38w6">	<!-- griezīgi -->
+							<m.rf>m#m-zeens-p31s38w6</m.rf>
+							<role>adv</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p31s38w5">
+							<role>spc</role>
+							<!-- signāliem -->
+							<m.rf>m#m-zeens-p31s38w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p31s38w4">	<!-- skaņu -->
+							<m.rf>m#m-zeens-p31s38w4</m.rf>
+							<role>attr</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p31s38x2">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p31s38w1">	<!-- Pa -->
+							<m.rf>m#m-zeens-p31s38w1</m.rf>
+							<role>prep</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p31s38w2">	<!-- ielu -->
+							<m.rf>m#m-zeens-p31s38w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p31s38w16">
+							<role>subj</role>
+							<!-- mašīna -->
+							<m.rf>m#m-zeens-p31s38w16</m.rf>
+							<ord>16</ord>
+							<children>
+						<node id="a-zeens-p31s38w15">
+							<role>attr</role>
+							<!-- palīdzības -->
+							<m.rf>m#m-zeens-p31s38w15</m.rf>
+							<ord>15</ord>
+							<children>
+						<node id="a-zeens-p31s38w14">	<!-- ātrās -->
+							<m.rf>m#m-zeens-p31s38w14</m.rf>
+							<role>attr</role>
+							<ord>14</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p31s38w17">	<!-- . -->
+							<m.rf>m#m-zeens-p31s38w17</m.rf>
+							<role>punct</role>
+							<ord>17</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p31s39">
+			<s.rf>m#m-zeens-p31s39</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p31s39w9">	<!-- . -->
+							<m.rf>m#m-zeens-p31s39w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p31s39w8">
+							<role>pred</role>
+							<!-- atvēra -->
+							<m.rf>m#m-zeens-p31s39w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p31s39w6">	<!-- pērtiķis -->
+							<m.rf>m#m-zeens-p31s39w6</m.rf>
+							<role>subj</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p31s39x2">
+							<role>attrCl</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p31s39w1">
+							<role>crdPart</role>
+							<!-- Aptaustījis -->
+							<m.rf>m#m-zeens-p31s39w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p31s39w4">	<!-- maisiņu -->
+							<m.rf>m#m-zeens-p31s39w4</m.rf>
+							<role>obj</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p31s39w2">	<!-- un -->
+							<m.rf>m#m-zeens-p31s39w2</m.rf>
+							<role>conj</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p31s39w3">	<!-- apostījis -->
+							<m.rf>m#m-zeens-p31s39w3</m.rf>
+							<role>crdPart</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p31s39w5">	<!-- , -->
+							<m.rf>m#m-zeens-p31s39w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p31s39w7">	<!-- to -->
+							<m.rf>m#m-zeens-p31s39w7</m.rf>
+							<role>obj</role>
+							<ord>7</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p32s40">
+			<s.rf>m#m-zeens-p32s40</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p32s40w4">	<!-- . -->
+							<m.rf>m#m-zeens-p32s40w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p32s40w2">
+							<role>pred</role>
+							<!-- jāiet -->
+							<m.rf>m#m-zeens-p32s40w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p32s40w3">	<!-- prom -->
+							<m.rf>m#m-zeens-p32s40w3</m.rf>
+							<role>adv</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p32s40w1">	<!-- Man -->
+							<m.rf>m#m-zeens-p32s40w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p33s41">
+			<s.rf>m#m-zeens-p33s41</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p33s41x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p33s41w4">	<!-- ap -->
+							<m.rf>m#m-zeens-p33s41w4</m.rf>
+							<role>prep</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p33s41x3">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p33s41w5">
+							<role>basElem</role>
+							<!-- nulli -->
+							<m.rf>m#m-zeens-p33s41w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p33s41w1">	<!-- Laukā -->
+							<m.rf>m#m-zeens-p33s41w1</m.rf>
+							<role>adv</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p33s41w2">	<!-- temperatūra -->
+							<m.rf>m#m-zeens-p33s41w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p33s41w3">	<!-- ir -->
+							<m.rf>m#m-zeens-p33s41w3</m.rf>
+							<role>auxVerb</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p33s41w6">	<!-- . -->
+							<m.rf>m#m-zeens-p33s41w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p34s42">
+			<s.rf>m#m-zeens-p34s42</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p34s42w8">
+							<role>pred</role>
+							<!-- domāju -->
+							<m.rf>m#m-zeens-p34s42w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p34s42x2">
+							<role>objCl</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p34s42x3">
+							<role>objCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p34s42w9">	<!-- , -->
+							<m.rf>m#m-zeens-p34s42w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+						<node id="a-zeens-p34s42w11">	<!-- ko -->
+							<m.rf>m#m-zeens-p34s42w11</m.rf>
+							<role>basElem</role>
+							<ord>11</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p34s42w10">	<!-- par -->
+							<m.rf>m#m-zeens-p34s42w10</m.rf>
+							<role>prep</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p34s42w7">	<!-- es -->
+							<m.rf>m#m-zeens-p34s42w7</m.rf>
+							<role>subj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p34s42x4">
+							<role>objCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p34s42w6">	<!-- , -->
+							<m.rf>m#m-zeens-p34s42w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p34s42w5">
+							<role>basElem</role>
+							<!-- ir -->
+							<m.rf>m#m-zeens-p34s42w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p34s42w3">	<!-- man -->
+							<m.rf>m#m-zeens-p34s42w3</m.rf>
+							<role>spc</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p34s42x5">
+							<role>obj</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p34s42w2">	<!-- ko -->
+							<m.rf>m#m-zeens-p34s42w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p34s42w1">	<!-- Par -->
+							<m.rf>m#m-zeens-p34s42w1</m.rf>
+							<role>prep</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p34s42w4">	<!-- tas -->
+							<m.rf>m#m-zeens-p34s42w4</m.rf>
+							<role>subj</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p34s42w12">	<!-- . -->
+							<m.rf>m#m-zeens-p34s42w12</m.rf>
+							<role>punct</role>
+							<ord>12</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p35s43">
+			<s.rf>m#m-zeens-p35s43</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p35s43w2">
+							<role>pred</role>
+							<!-- ienāca -->
+							<m.rf>m#m-zeens-p35s43w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p35s43x2">
+							<role>subjCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p35s43w6">
+							<role>basElem</role>
+							<!-- vajag -->
+							<m.rf>m#m-zeens-p35s43w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p35s43w7">
+							<role>spc</role>
+							<!-- nopirkt -->
+							<m.rf>m#m-zeens-p35s43w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p35s43w8">	<!-- sodu -->
+							<m.rf>m#m-zeens-p35s43w8</m.rf>
+							<role>obj</role>
+							<ord>8</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p35s43w4">	<!-- , -->
+							<m.rf>m#m-zeens-p35s43w4</m.rf>
+							<role>punct</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p35s43w5">	<!-- ka -->
+							<m.rf>m#m-zeens-p35s43w5</m.rf>
+							<role>conj</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p35s43w1">	<!-- Man -->
+							<m.rf>m#m-zeens-p35s43w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p35s43w3">	<!-- prātā -->
+							<m.rf>m#m-zeens-p35s43w3</m.rf>
+							<role>spc</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p35s43w9">	<!-- . -->
+							<m.rf>m#m-zeens-p35s43w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p36s44">
+			<s.rf>m#m-zeens-p36s44</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p36s44w5">	<!-- . -->
+							<m.rf>m#m-zeens-p36s44w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p36s44w2">
+							<role>pred</role>
+							<!-- likās -->
+							<m.rf>m#m-zeens-p36s44w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p36s44x2">
+							<role>attrCl</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p36s44w3">	<!-- gudrs -->
+							<m.rf>m#m-zeens-p36s44w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p36s44w4">	<!-- esam -->
+							<m.rf>m#m-zeens-p36s44w4</m.rf>
+							<role>auxVerb</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p36s44w1">	<!-- Pasniedzējs -->
+							<m.rf>m#m-zeens-p36s44w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p37s45">
+			<s.rf>m#m-zeens-p37s45</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p37s45w7">	<!-- . -->
+							<m.rf>m#m-zeens-p37s45w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p37s45w4">
+							<role>pred</role>
+							<!-- nav -->
+							<m.rf>m#m-zeens-p37s45w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p37s45x2">
+							<role>subj</role>
+							<children>
+				<xinfo>
+					<xtype>subrAnal</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p37s45w5">	<!-- ko -->
+							<m.rf>m#m-zeens-p37s45w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p37s45w6">	<!-- gaidīt -->
+							<m.rf>m#m-zeens-p37s45w6</m.rf>
+							<role>basElem</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p37s45x3">
+							<role>obj</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p37s45w1">	<!-- No -->
+							<m.rf>m#m-zeens-p37s45w1</m.rf>
+							<role>prep</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p37s45w3">
+							<role>basElem</role>
+							<!-- situācijas -->
+							<m.rf>m#m-zeens-p37s45w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p37s45w2">	<!-- tādas -->
+							<m.rf>m#m-zeens-p37s45w2</m.rf>
+							<role>attr</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p38s46">
+			<s.rf>m#m-zeens-p38s46</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p38s46x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p38s46w4">	<!-- nebija -->
+							<m.rf>m#m-zeens-p38s46w4</m.rf>
+							<role>auxVerb</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p38s46w5">
+							<role>basElem</role>
+							<!-- garlaicīgi -->
+							<m.rf>m#m-zeens-p38s46w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p38s46x3">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p38s46w2">	<!-- Balvi -->
+							<m.rf>m#m-zeens-p38s46w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p38s46w1">	<!-- Ar -->
+							<m.rf>m#m-zeens-p38s46w1</m.rf>
+							<role>prep</role>
+							<ord>1</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p38s46w3">	<!-- vismaz -->
+							<m.rf>m#m-zeens-p38s46w3</m.rf>
+							<role>adv</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p38s46w6">	<!-- . -->
+							<m.rf>m#m-zeens-p38s46w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p39s47">
+			<s.rf>m#m-zeens-p39s47</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p39s47w3">
+							<role>pred</role>
+							<!-- ieguva -->
+							<m.rf>m#m-zeens-p39s47w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p39s47x2">
+							<role>obj</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p39s47w8">	<!-- Smulē -->
+							<m.rf>m#m-zeens-p39s47w8</m.rf>
+							<role>crdPart</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p39s47w7">	<!-- un -->
+							<m.rf>m#m-zeens-p39s47w7</m.rf>
+							<role>conj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p39s47w6">
+							<role>crdPart</role>
+							<!-- Smits -->
+							<m.rf>m#m-zeens-p39s47w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p39s47w5">	<!-- vārdā -->
+							<m.rf>m#m-zeens-p39s47w5</m.rf>
+							<role>attr</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p39s47w4">	<!-- pundurpapagailīšus -->
+							<m.rf>m#m-zeens-p39s47w4</m.rf>
+							<role>attr</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p39s47w1">	<!-- Vēlāk -->
+							<m.rf>m#m-zeens-p39s47w1</m.rf>
+							<role>adv</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p39s47w2">	<!-- Sofija -->
+							<m.rf>m#m-zeens-p39s47w2</m.rf>
+							<role>subj</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p39s47w9">	<!-- . -->
+							<m.rf>m#m-zeens-p39s47w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p40s48">
+			<s.rf>m#m-zeens-p40s48</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p40s48w3">
+							<role>pred</role>
+							<!-- sauc -->
+							<m.rf>m#m-zeens-p40s48w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p40s48w4">	<!-- Emīlija -->
+							<m.rf>m#m-zeens-p40s48w4</m.rf>
+							<role>attrCl</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p40s48w1">
+							<role>obj</role>
+							<!-- Meiteni -->
+							<m.rf>m#m-zeens-p40s48w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p40s48w2">	<!-- grāmatā -->
+							<m.rf>m#m-zeens-p40s48w2</m.rf>
+							<role>attrCl</role>
+							<ord>2</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p40s48w5">	<!-- . -->
+							<m.rf>m#m-zeens-p40s48w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p41s49">
+			<s.rf>m#m-zeens-p41s49</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p41s49w7">	<!-- . -->
+							<m.rf>m#m-zeens-p41s49w7</m.rf>
+							<role>punct</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p41s49w2">
+							<role>pred</role>
+							<!-- dzīvoju -->
+							<m.rf>m#m-zeens-p41s49w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p41s49w1">	<!-- Es -->
+							<m.rf>m#m-zeens-p41s49w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p41s49w5">
+							<role>spc</role>
+							<!-- gadus -->
+							<m.rf>m#m-zeens-p41s49w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p41s49w6">	<!-- atpakaļ -->
+							<m.rf>m#m-zeens-p41s49w6</m.rf>
+							<role>adv</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p41s49w4">	<!-- desmit -->
+							<m.rf>m#m-zeens-p41s49w4</m.rf>
+							<role>attr</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p41s49w3">	<!-- laukos -->
+							<m.rf>m#m-zeens-p41s49w3</m.rf>
+							<role>spc</role>
+							<ord>3</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p42s50">
+			<s.rf>m#m-zeens-p42s50</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p42s50w4">
+							<role>pred</role>
+							<!-- nevēlējās -->
+							<m.rf>m#m-zeens-p42s50w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p42s50w1">
+							<role>subj</role>
+							<!-- Neviens -->
+							<m.rf>m#m-zeens-p42s50w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p42s50x2">
+							<role>attrCl</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p42s50w2">	<!-- no -->
+							<m.rf>m#m-zeens-p42s50w2</m.rf>
+							<role>prep</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p42s50w3">	<!-- viņiem -->
+							<m.rf>m#m-zeens-p42s50w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p42s50w5">
+							<role>spc</role>
+							<!-- uzņemties -->
+							<m.rf>m#m-zeens-p42s50w5</m.rf>
+							<ord>5</ord>
+							<children>
+						<node id="a-zeens-p42s50w7">
+							<role>obj</role>
+							<!-- pienākumus -->
+							<m.rf>m#m-zeens-p42s50w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p42s50w6">	<!-- administratīvos -->
+							<m.rf>m#m-zeens-p42s50w6</m.rf>
+							<role>attr</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p42s50w8">	<!-- . -->
+							<m.rf>m#m-zeens-p42s50w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p43s51">
+			<s.rf>m#m-zeens-p43s51</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p43s51x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p43s51w2">	<!-- top -->
+							<m.rf>m#m-zeens-p43s51w2</m.rf>
+							<role>auxVerb</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p43s51w3">
+							<role>basElem</role>
+							<!-- izpirkti -->
+							<m.rf>m#m-zeens-p43s51w3</m.rf>
+							<ord>3</ord>
+							<children>
+						<node id="a-zeens-p43s51w1">	<!-- Lai -->
+							<m.rf>m#m-zeens-p43s51w1</m.rf>
+							<role>no</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p43s51w8">
+							<role>subj</role>
+							<!-- grēki -->
+							<m.rf>m#m-zeens-p43s51w8</m.rf>
+							<ord>8</ord>
+							<children>
+						<node id="a-zeens-p43s51x3">
+							<role>attr</role>
+							<children>
+				<xinfo>
+					<xtype>subrAnal</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p43s51w6">	<!-- divdesmit -->
+							<m.rf>m#m-zeens-p43s51w6</m.rf>
+							<role>basElem</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p43s51w7">	<!-- septiņi -->
+							<m.rf>m#m-zeens-p43s51w7</m.rf>
+							<role>basElem</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p43s51w5">	<!-- simt -->
+							<m.rf>m#m-zeens-p43s51w5</m.rf>
+							<role>basElem</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p43s51w4">	<!-- arī -->
+							<m.rf>m#m-zeens-p43s51w4</m.rf>
+							<role>no</role>
+							<ord>4</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p43s51w9">	<!-- ! -->
+							<m.rf>m#m-zeens-p43s51w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p44s52">
+			<s.rf>m#m-zeens-p44s52</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p44s52w8">	<!-- . -->
+							<m.rf>m#m-zeens-p44s52w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p44s52x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p44s52w5">	<!-- ir -->
+							<m.rf>m#m-zeens-p44s52w5</m.rf>
+							<role>auxVerb</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p44s52w7">
+							<role>basElem</role>
+							<!-- laime -->
+							<m.rf>m#m-zeens-p44s52w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p44s52w1">
+							<role>objCl</role>
+							<!-- Atrast -->
+							<m.rf>m#m-zeens-p44s52w1</m.rf>
+							<ord>1</ord>
+							<children>
+						<node id="a-zeens-p44s52w4">
+							<role>obj</role>
+							<!-- latus -->
+							<m.rf>m#m-zeens-p44s52w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p44s52x3">
+							<role>attr</role>
+							<children>
+				<xinfo>
+					<xtype>subrAnal</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p44s52w2">	<!-- piecus -->
+							<m.rf>m#m-zeens-p44s52w2</m.rf>
+							<role>basElem</role>
+							<ord>2</ord>
+						</node>
+						<node id="a-zeens-p44s52w3">	<!-- desmit -->
+							<m.rf>m#m-zeens-p44s52w3</m.rf>
+							<role>basElem</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p44s52w6">	<!-- cūkas -->
+							<m.rf>m#m-zeens-p44s52w6</m.rf>
+							<role>attr</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p45s53">
+			<s.rf>m#m-zeens-p45s53</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p45s53x2">
+							<role>pred</role>
+							<children>
+				<xinfo>
+					<xtype>xPred</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p45s53w3">	<!-- ir -->
+							<m.rf>m#m-zeens-p45s53w3</m.rf>
+							<role>auxVerb</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p45s53w4">
+							<role>basElem</role>
+							<!-- augoša -->
+							<m.rf>m#m-zeens-p45s53w4</m.rf>
+							<ord>4</ord>
+							<children>
+						<node id="a-zeens-p45s53w2">
+							<role>subj</role>
+							<!-- f(x) -->
+							<m.rf>m#m-zeens-p45s53w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p45s53w1">	<!-- Funkc. -->
+							<m.rf>m#m-zeens-p45s53w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p45s53w7">
+							<role>spc</role>
+							<!-- apgabalā -->
+							<m.rf>m#m-zeens-p45s53w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p45s53w6">	<!-- definīcijas -->
+							<m.rf>m#m-zeens-p45s53w6</m.rf>
+							<role>attr</role>
+							<ord>6</ord>
+						</node>
+						<node id="a-zeens-p45s53w5">	<!-- visā -->
+							<m.rf>m#m-zeens-p45s53w5</m.rf>
+							<role>attr</role>
+							<ord>5</ord>
+						</node>
+							</children>
+						</node>
+							</children>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p45s53w8">	<!-- . -->
+							<m.rf>m#m-zeens-p45s53w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p46s54">
+			<s.rf>m#m-zeens-p46s54</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p46s54w8">	<!-- . -->
+							<m.rf>m#m-zeens-p46s54w8</m.rf>
+							<role>punct</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p46s54w6">
+							<role>pred</role>
+							<!-- rīkosies -->
+							<m.rf>m#m-zeens-p46s54w6</m.rf>
+							<ord>6</ord>
+							<children>
+						<node id="a-zeens-p46s54w2">
+							<role>subj</role>
+							<!-- Universitāte -->
+							<m.rf>m#m-zeens-p46s54w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p46s54w1">	<!-- Latvijas -->
+							<m.rf>m#m-zeens-p46s54w1</m.rf>
+							<role>attr</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p46s54x2">
+							<role>basElem</role>
+							<children>
+				<pmcinfo>
+					<pmctype>N/A</pmctype>
+					<children>
+						<node id="a-zeens-p46s54w5">	<!-- ) -->
+							<m.rf>m#m-zeens-p46s54w5</m.rf>
+							<role>punct</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p46s54w3">	<!-- ( -->
+							<m.rf>m#m-zeens-p46s54w3</m.rf>
+							<role>punct</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p46s54w4">	<!-- LU -->
+							<m.rf>m#m-zeens-p46s54w4</m.rf>
+							<role>basElem</role>
+							<ord>4</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p46s54w7">	<!-- atbilstoši -->
+							<m.rf>m#m-zeens-p46s54w7</m.rf>
+							<role>adv</role>
+							<ord>7</ord>
+						</node>
+							</children>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p47s55">
+			<s.rf>m#m-zeens-p47s55</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p47s55w2">
+							<role>pred</role>
+							<!-- radu -->
+							<m.rf>m#m-zeens-p47s55w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p47s55w3">	<!-- prieku -->
+							<m.rf>m#m-zeens-p47s55w3</m.rf>
+							<role>obj</role>
+							<ord>3</ord>
+						</node>
+						<node id="a-zeens-p47s55x2">
+							<role>obj</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p47s55w5">	<!-- sev -->
+							<m.rf>m#m-zeens-p47s55w5</m.rf>
+							<role>crdPart</role>
+							<ord>5</ord>
+						</node>
+						<node id="a-zeens-p47s55w7">	<!-- gan -->
+							<m.rf>m#m-zeens-p47s55w7</m.rf>
+							<role>conj</role>
+							<ord>7</ord>
+						</node>
+						<node id="a-zeens-p47s55w8">	<!-- citiem -->
+							<m.rf>m#m-zeens-p47s55w8</m.rf>
+							<role>crdPart</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p47s55w4">	<!-- gan -->
+							<m.rf>m#m-zeens-p47s55w4</m.rf>
+							<role>conj</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p47s55w6">	<!-- , -->
+							<m.rf>m#m-zeens-p47s55w6</m.rf>
+							<role>punct</role>
+							<ord>6</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p47s55w1">	<!-- Strādājot -->
+							<m.rf>m#m-zeens-p47s55w1</m.rf>
+							<role>spc</role>
+							<ord>1</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p47s55w9">	<!-- . -->
+							<m.rf>m#m-zeens-p47s55w9</m.rf>
+							<role>punct</role>
+							<ord>9</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+
+		<LM id="a-zeens-p48s56">
+			<s.rf>m#m-zeens-p48s56</s.rf>
+			<children>
+				<pmcinfo>
+					<pmctype>sent</pmctype>
+					<children>
+						<node id="a-zeens-p48s56x2">
+							<role>pred</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p48s56w4">	<!-- nosprauslājās -->
+							<m.rf>m#m-zeens-p48s56w4</m.rf>
+							<role>crdPart</role>
+							<ord>4</ord>
+						</node>
+						<node id="a-zeens-p48s56w9">
+							<role>crdPart</role>
+							<!-- apsēdās -->
+							<m.rf>m#m-zeens-p48s56w9</m.rf>
+							<ord>9</ord>
+							<children>
+						<node id="a-zeens-p48s56x4">
+							<role>spc</role>
+							<children>
+				<coordinfo>
+					<coordtype>N/A</coordtype>
+					<children>
+						<node id="a-zeens-p48s56x5">
+							<role>spc</role>
+							<children>
+				<xinfo>
+					<xtype>xPrep</xtype>
+					<tag>N/A</tag>
+					<children>
+						<node id="a-zeens-p48s56w11">	<!-- durvīm -->
+							<m.rf>m#m-zeens-p48s56w11</m.rf>
+							<role>basElem</role>
+							<ord>11</ord>
+						</node>
+						<node id="a-zeens-p48s56w10">	<!-- starp -->
+							<m.rf>m#m-zeens-p48s56w10</m.rf>
+							<role>prep</role>
+							<ord>10</ord>
+						</node>
+					</children>
+				</xinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p48s56w12">	<!-- un -->
+							<m.rf>m#m-zeens-p48s56w12</m.rf>
+							<role>conj</role>
+							<ord>12</ord>
+						</node>
+						<node id="a-zeens-p48s56w13">	<!-- bāru -->
+							<m.rf>m#m-zeens-p48s56w13</m.rf>
+							<role>crdPart</role>
+							<ord>13</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p48s56w8">	<!-- un -->
+							<m.rf>m#m-zeens-p48s56w8</m.rf>
+							<role>conj</role>
+							<ord>8</ord>
+						</node>
+						<node id="a-zeens-p48s56w2">
+							<role>crdPart</role>
+							<!-- noskurinājās -->
+							<m.rf>m#m-zeens-p48s56w2</m.rf>
+							<ord>2</ord>
+							<children>
+						<node id="a-zeens-p48s56w1">	<!-- Viņš -->
+							<m.rf>m#m-zeens-p48s56w1</m.rf>
+							<role>subj</role>
+							<ord>1</ord>
+						</node>
+						<node id="a-zeens-p48s56x3">
+							<role>attrCl</role>
+							<children>
+				<pmcinfo>
+					<pmctype>subrCl</pmctype>
+					<children>
+						<node id="a-zeens-p48s56w7">
+							<role>basElem</role>
+							<!-- suns -->
+							<m.rf>m#m-zeens-p48s56w7</m.rf>
+							<ord>7</ord>
+							<children>
+						<node id="a-zeens-p48s56w6">	<!-- liels -->
+							<m.rf>m#m-zeens-p48s56w6</m.rf>
+							<role>attr</role>
+							<ord>6</ord>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p48s56w5">	<!-- kā -->
+							<m.rf>m#m-zeens-p48s56w5</m.rf>
+							<role>conj</role>
+							<ord>5</ord>
+						</node>
+					</children>
+				</pmcinfo>
+							</children>
+						</node>
+							</children>
+						</node>
+						<node id="a-zeens-p48s56w3">	<!-- un -->
+							<m.rf>m#m-zeens-p48s56w3</m.rf>
+							<role>conj</role>
+							<ord>3</ord>
+						</node>
+					</children>
+				</coordinfo>
+							</children>
+						</node>
+						<node id="a-zeens-p48s56w14">	<!-- . -->
+							<m.rf>m#m-zeens-p48s56w14</m.rf>
+							<role>punct</role>
+							<ord>14</ord>
+						</node>
+					</children>
+				</pmcinfo>
+			</children>
+		</LM>
+	</trees>
+</lvadata>
