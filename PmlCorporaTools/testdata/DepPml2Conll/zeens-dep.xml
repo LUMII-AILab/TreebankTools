@@ -3,8 +3,8 @@
   <head>
     <schema href="lvaschema-deponly.xml" />
     <references>
-      <reffile id="m" name="mdata" href="../../../../../!%20Laumas%20Doc/Git/Treebank/Tools/data/zeens.m" />
-      <reffile id="w" name="wdata" href="../../../../../!%20Laumas%20Doc/Git/Treebank/Tools/data/zeens.w" />
+      <reffile id="m" name="mdata" href="zeens.m" />
+      <reffile id="w" name="wdata" href="zeens.w" />
     </references>
   </head>
   <meta>
@@ -329,7 +329,7 @@
                     </w.rf>
                     <form>ātri</form>
                     <lemma>ātri</lemma>
-                    <tag>rpt</tag>
+                    <tag>rpn</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>2</ord>
@@ -377,7 +377,7 @@
                     </w.rf>
                     <form>un</form>
                     <lemma>un</lemma>
-                    <tag>ccs</tag>
+                    <tag>cc</tag>
                   </m.rf>
                   <role>dep:subj-crdParts:conj</role>
                   <ord>2</ord>
@@ -578,7 +578,7 @@
                             </w.rf>
                             <form>dzīvoja</form>
                             <lemma>dzīvot</lemma>
-                            <tag>r0t</tag>
+                            <tag>r0n</tag>
                           </m.rf>
                           <role>subrCl:pred</role>
                           <ord>9</ord>
@@ -591,7 +591,7 @@
                                 </w.rf>
                                 <form>kad</form>
                                 <lemma>kad</lemma>
-                                <tag>r0t</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>8</ord>
@@ -605,7 +605,7 @@
                                 </w.rf>
                                 <form>pilsētā</form>
                                 <lemma>pilsēta</lemma>
-                                <tag>r0t</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:obj</role>
                               <ord>10</ord>
@@ -660,7 +660,7 @@
                     </w.rf>
                     <form>un</form>
                     <lemma>un</lemma>
-                    <tag>ccs</tag>
+                    <tag>cc</tag>
                   </m.rf>
                   <role>dep:subj-crdParts:conj</role>
                   <ord>3</ord>
@@ -742,7 +742,7 @@
                             </w.rf>
                             <form>skaļi</form>
                             <lemma>skaļi</lemma>
-                            <tag>rpt</tag>
+                            <tag>rpn</tag>
                           </m.rf>
                           <role>dep:adv</role>
                           <ord>7</ord>
@@ -856,7 +856,7 @@
                 </w.rf>
                 <form>bet</form>
                 <lemma>bet</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>6</ord>
@@ -1033,7 +1033,7 @@
                                         </w.rf>
                                         <form>kā</form>
                                         <lemma>kā</lemma>
-                                        <tag>r0m</tag>
+                                        <tag>r0n</tag>
                                       </m.rf>
                                       <role>dep:adv</role>
                                       <ord>13</ord>
@@ -1091,7 +1091,7 @@
                 </w.rf>
                 <form>taču</form>
                 <lemma>taču</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>13</ord>
@@ -1104,7 +1104,7 @@
                     </w.rf>
                     <form>bet</form>
                     <lemma>bet</lemma>
-                    <tag>ccs</tag>
+                    <tag>cc</tag>
                   </m.rf>
                   <role>crdClauses:crdPart-crdGeneral:conj</role>
                   <ord>7</ord>
@@ -1336,7 +1336,7 @@
                 </w.rf>
                 <form>bet</form>
                 <lemma>bet</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>4</ord>
@@ -1405,7 +1405,7 @@
                         </w.rf>
                         <form>jo</form>
                         <lemma>jo</lemma>
-                        <tag>css</tag>
+                        <tag>cs</tag>
                       </m.rf>
                       <role>dep:motivCl-subrCl:conj</role>
                       <ord>8</ord>
@@ -1445,7 +1445,7 @@
                                 </w.rf>
                                 <form>silti</form>
                                 <lemma>silti</lemma>
-                                <tag>rpm</tag>
+                                <tag>rpn</tag>
                               </m.rf>
                               <role>xPred:basElem</role>
                               <ord>11</ord>
@@ -1513,7 +1513,7 @@
                 </w.rf>
                 <form>Ak</form>
                 <lemma>ak</lemma>
-                <tag>is</tag>
+                <tag>i</tag>
               </m.rf>
               <role>utter:basElem</role>
               <ord>1</ord>
@@ -1560,7 +1560,7 @@
                     </w.rf>
                     <form>Vai</form>
                     <lemma>Vai</lemma>
-                    <tag>is</tag>
+                    <tag>i</tag>
                   </m.rf>
                   <role>interj:basElem</role>
                   <ord>1</ord>
@@ -1856,7 +1856,7 @@
                                 </w.rf>
                                 <form>Nē</form>
                                 <lemma>nē</lemma>
-                                <tag>qs</tag>
+                                <tag>q</tag>
                               </m.rf>
                               <role>particle:basElem</role>
                               <ord>2</ord>
@@ -1884,7 +1884,7 @@
                                 </w.rf>
                                 <form>šonakt</form>
                                 <lemma>šonakt</lemma>
-                                <tag>r0t</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>4</ord>
@@ -1897,7 +1897,7 @@
                                 </w.rf>
                                 <form>labāk</form>
                                 <lemma>labāk</lemma>
-                                <tag>rcq</tag>
+                                <tag>rcn</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>5</ord>
@@ -1911,7 +1911,7 @@
                                 </w.rf>
                                 <form>tepat</form>
                                 <lemma>tepat</lemma>
-                                <tag>r0p</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>7</ord>
@@ -2041,7 +2041,7 @@
                             <form_change>union</form_change>
                             <form>lai gan</form>
                             <lemma>lai gan</lemma>
-                            <tag>css</tag>
+                            <tag>cs</tag>
                           </m.rf>
                           <role>sent:basElem-crdClauses:conj</role>
                           <ord>13</ord>
@@ -2081,7 +2081,7 @@
                                     </w.rf>
                                     <form>nu</form>
                                     <lemma>nu</lemma>
-                                    <tag>rpt</tag>
+                                    <tag>rpn</tag>
                                   </m.rf>
                                   <role>dep:adv</role>
                                   <ord>9</ord>
@@ -2288,7 +2288,7 @@
                 </w.rf>
                 <form>un</form>
                 <lemma>un</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:pred-crdParts:conj</role>
               <ord>13</ord>
@@ -2355,7 +2355,7 @@
                                 </w.rf>
                                 <form>Rīt</form>
                                 <lemma>rīts</lemma>
-                                <tag>r0t</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:sit</role>
                               <ord>9</ord>
@@ -2415,7 +2415,7 @@
                                     </w.rf>
                                     <form>labi</form>
                                     <lemma>labi</lemma>
-                                    <tag>rpm</tag>
+                                    <tag>rpn</tag>
                                   </m.rf>
                                   <role>xPred:basElem</role>
                                   <ord>7</ord>
@@ -2527,7 +2527,7 @@
                 </w.rf>
                 <form>un</form>
                 <lemma>un</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:pred-crdParts:conj</role>
               <ord>9</ord>
@@ -2604,7 +2604,7 @@
                         </w.rf>
                         <form>no</form>
                         <lemma>no</lemma>
-                        <tag>spsgy</tag>
+                        <tag>spsg</tag>
                       </m.rf>
                       <role>dep:adv-xPrep:prep</role>
                       <ord>11</ord>
@@ -2806,7 +2806,7 @@
                     </w.rf>
                     <form>līdzi</form>
                     <lemma>līdzi</lemma>
-                    <tag>rrp</tag>
+                    <tag>rpn</tag>
                   </m.rf>
                   <role>dep:obj-xPrep:prep</role>
                   <ord>14</ord>
@@ -2943,7 +2943,7 @@
                                 </w.rf>
                                 <form>pērn</form>
                                 <lemma>pērn</lemma>
-                                <tag>r0t</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>4</ord>
@@ -3079,7 +3079,7 @@
                 </w.rf>
                 <form>un</form>
                 <lemma>un</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>dep:condCl-crdClauses:conj</role>
               <ord>4</ord>
@@ -3092,7 +3092,7 @@
                     </w.rf>
                     <form>Ja</form>
                     <lemma>ja</lemma>
-                    <tag>css</tag>
+                    <tag>cs</tag>
                   </m.rf>
                   <role>crdClauses:crdPart-subrCl:conj</role>
                   <ord>1</ord>
@@ -3120,7 +3120,7 @@
                     </w.rf>
                     <form>ja</form>
                     <lemma>ja</lemma>
-                    <tag>css</tag>
+                    <tag>cs</tag>
                   </m.rf>
                   <role>crdClauses:crdPart-subrCl:conj</role>
                   <ord>5</ord>
@@ -3193,7 +3193,7 @@
                 </w.rf>
                 <form>rīt</form>
                 <lemma>rīt</lemma>
-                <tag>r0t</tag>
+                <tag>r0n</tag>
               </m.rf>
               <role>dep:sit</role>
               <ord>2</ord>
@@ -3226,7 +3226,7 @@
                 </w.rf>
                 <form>savukārt</form>
                 <lemma>savukārt</lemma>
-                <tag>r0c</tag>
+                <tag>r0n</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>17</ord>
@@ -3364,7 +3364,7 @@
                                     </w.rf>
                                     <form>turpmāk</form>
                                     <lemma>turpmāk</lemma>
-                                    <tag>r0t</tag>
+                                    <tag>r0n</tag>
                                   </m.rf>
                                   <role>dep:adv</role>
                                   <ord>8</ord>
@@ -3671,7 +3671,7 @@
                         </w.rf>
                         <form>tik</form>
                         <lemma>tik</lemma>
-                        <tag>r0q</tag>
+                        <tag>r0n</tag>
                       </m.rf>
                       <role>dep:adv</role>
                       <ord>3</ord>
@@ -3729,7 +3729,7 @@
                         </w.rf>
                         <form>gan</form>
                         <lemma>gan</lemma>
-                        <tag>qs</tag>
+                        <tag>q</tag>
                       </m.rf>
                       <role>mainCl:no</role>
                       <ord>7</ord>
@@ -3855,7 +3855,7 @@
                             </w.rf>
                             <form>kā</form>
                             <lemma>kā</lemma>
-                            <tag>r0m</tag>
+                            <tag>r0n</tag>
                           </m.rf>
                           <role>dep:adv</role>
                           <ord>5</ord>
@@ -3872,7 +3872,7 @@
                     </w.rf>
                     <form>Mēs</form>
                     <lemma>mēs</lemma>
-                    <tag>pp10pnn0</tag>
+                    <tag>pp10pnn</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>1</ord>
@@ -3941,7 +3941,7 @@
                 </w.rf>
                 <form>Paldies</form>
                 <lemma>paldies</lemma>
-                <tag>is</tag>
+                <tag>i</tag>
               </m.rf>
               <role>utter:no</role>
               <ord>1</ord>
@@ -3954,7 +3954,7 @@
                     </w.rf>
                     <form>par</form>
                     <lemma>par</lemma>
-                    <tag>sppdn</tag>
+                    <tag>sppd</tag>
                   </m.rf>
                   <role>dep:no-xPrep:prep</role>
                   <ord>2</ord>
@@ -4032,7 +4032,7 @@
                     </w.rf>
                     <form>kā</form>
                     <lemma>kā</lemma>
-                    <tag>css</tag>
+                    <tag>cs</tag>
                   </m.rf>
                   <role>dep:subj-crdGeneral:conj</role>
                   <ord>3</ord>
@@ -4058,7 +4058,7 @@
                             </w.rf>
                             <form>Tādas</form>
                             <lemma>tāds</lemma>
-                            <tag>pd0fpana</tag>
+                            <tag>pd0fpan</tag>
                           </m.rf>
                           <role>dep:attr</role>
                           <ord>1</ord>
@@ -4100,7 +4100,7 @@
                             </w.rf>
                             <form>un</form>
                             <lemma>un</lemma>
-                            <tag>ccs</tag>
+                            <tag>cc</tag>
                           </m.rf>
                           <role>dep:conj</role>
                           <ord>7</ord>
@@ -4220,7 +4220,7 @@
                         </w.rf>
                         <form>divus</form>
                         <lemma>divi</lemma>
-                        <tag>mcsmpav</tag>
+                        <tag>mcsmpa</tag>
                       </m.rf>
                       <role>dep:attr</role>
                       <ord>7</ord>
@@ -4233,7 +4233,7 @@
                             </w.rf>
                             <form>kā</form>
                             <lemma>kā</lemma>
-                            <tag>qs</tag>
+                            <tag>q</tag>
                           </m.rf>
                           <role>dep:adv-subrAnal:basElem</role>
                           <ord>6</ord>
@@ -4246,7 +4246,7 @@
                                 </w.rf>
                                 <form>vairāk</form>
                                 <lemma>vairāk</lemma>
-                                <tag>rcq</tag>
+                                <tag>rcn</tag>
                               </m.rf>
                               <role>subrAnal:basElem-xParticle:basElem</role>
                               <ord>5</ord>
@@ -4259,7 +4259,7 @@
                                     </w.rf>
                                     <form>ne</form>
                                     <lemma>ne</lemma>
-                                    <tag>qs</tag>
+                                    <tag>q</tag>
                                   </m.rf>
                                   <role>xParticle:no</role>
                                   <ord>4</ord>
@@ -4355,7 +4355,7 @@
                                 </w.rf>
                                 <form>nekā</form>
                                 <lemma>nekā</lemma>
-                                <tag>qs</tag>
+                                <tag>q</tag>
                               </m.rf>
                               <role>dep:adv-subrAnal:basElem</role>
                               <ord>5</ord>
@@ -4368,7 +4368,7 @@
                                     </w.rf>
                                     <form>vairāk</form>
                                     <lemma>vairāk</lemma>
-                                    <tag>rcq</tag>
+                                    <tag>rcn</tag>
                                   </m.rf>
                                   <role>subrAnal:basElem</role>
                                   <ord>4</ord>
@@ -4450,7 +4450,7 @@
                         </w.rf>
                         <form>nekā</form>
                         <lemma>nekā</lemma>
-                        <tag>css</tag>
+                        <tag>cs</tag>
                       </m.rf>
                       <role>dep:adv-xSimile:conj</role>
                       <ord>3</ord>
@@ -4463,7 +4463,7 @@
                             </w.rf>
                             <form>citur</form>
                             <lemma>citur</lemma>
-                            <tag>r0p</tag>
+                            <tag>r0n</tag>
                           </m.rf>
                           <role>xSimile:basElem-subrAnal:basElem</role>
                           <ord>5</ord>
@@ -4476,7 +4476,7 @@
                                 </w.rf>
                                 <form>jebkur</form>
                                 <lemma>jebkur</lemma>
-                                <tag>r0p</tag>
+                                <tag>r0n</tag>
                               </m.rf>
                               <role>subrAnal:basElem</role>
                               <ord>4</ord>
@@ -4491,7 +4491,7 @@
                             </w.rf>
                             <form>vairāk</form>
                             <lemma>vairāk</lemma>
-                            <tag>rcq</tag>
+                            <tag>rcn</tag>
                           </m.rf>
                           <role>dep:adv</role>
                           <ord>2</ord>
@@ -4535,7 +4535,7 @@
                         </w.rf>
                         <form>labi</form>
                         <lemma>labi</lemma>
-                        <tag>rpm</tag>
+                        <tag>rpn</tag>
                       </m.rf>
                       <role>dep:adv</role>
                       <ord>8</ord>
@@ -4613,7 +4613,7 @@
                     </w.rf>
                     <form>Es</form>
                     <lemma>es</lemma>
-                    <tag>pp10snn0</tag>
+                    <tag>pp10snn</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>1</ord>
@@ -4689,7 +4689,7 @@
                     </w.rf>
                     <form>Viņš</form>
                     <lemma>viņš</lemma>
-                    <tag>pp3msnn0</tag>
+                    <tag>pp3msnn</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>1</ord>
@@ -4737,7 +4737,7 @@
                     </w.rf>
                     <form>un</form>
                     <lemma>un</lemma>
-                    <tag>ccs</tag>
+                    <tag>cc</tag>
                   </m.rf>
                   <role>xPred:basElem-crdParts:conj</role>
                   <ord>4</ord>
@@ -4814,7 +4814,7 @@
                 </w.rf>
                 <form>un</form>
                 <lemma>un</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>5</ord>
@@ -4883,7 +4883,7 @@
                         </w.rf>
                         <form>kādreiz</form>
                         <lemma>kādreiz</lemma>
-                        <tag>r0t</tag>
+                        <tag>r0n</tag>
                       </m.rf>
                       <role>dep:adv</role>
                       <ord>6</ord>
@@ -4909,7 +4909,7 @@
                         </w.rf>
                         <form>arī</form>
                         <lemma>arī</lemma>
-                        <tag>qs</tag>
+                        <tag>q</tag>
                       </m.rf>
                       <role>mainCl:no</role>
                       <ord>8</ord>
@@ -5005,7 +5005,7 @@
                 </w.rf>
                 <form>un</form>
                 <lemma>un</lemma>
-                <tag>ccs</tag>
+                <tag>cc</tag>
               </m.rf>
               <role>sent:basElem-crdClauses:conj</role>
               <ord>7</ord>
@@ -5165,7 +5165,7 @@
                     </w.rf>
                     <form>Pa</form>
                     <lemma>pa</lemma>
-                    <tag>spsay</tag>
+                    <tag>spsa</tag>
                   </m.rf>
                   <role>dep:adv-xPrep:prep</role>
                   <ord>1</ord>
@@ -5193,7 +5193,7 @@
                     </w.rf>
                     <form>un</form>
                     <lemma>un</lemma>
-                    <tag>ccs</tag>
+                    <tag>cc</tag>
                   </m.rf>
                   <role>dep:spc-crdParts:conj</role>
                   <ord>8</ord>
@@ -5260,7 +5260,7 @@
                                 </w.rf>
                                 <form>griezīgi</form>
                                 <lemma>grizīgi</lemma>
-                                <tag>rpm</tag>
+                                <tag>rpn</tag>
                               </m.rf>
                               <role>dep:adv</role>
                               <ord>6</ord>
@@ -5428,7 +5428,7 @@
                         </w.rf>
                         <form>un</form>
                         <lemma>un</lemma>
-                        <tag>ccs</tag>
+                        <tag>cc</tag>
                       </m.rf>
                       <role>spcPmc:basElem-crdParts:conj</role>
                       <ord>2</ord>
@@ -5551,7 +5551,7 @@
                     </w.rf>
                     <form>prom</form>
                     <lemma>prom</lemma>
-                    <tag>r0p</tag>
+                    <tag>r0y</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>4</ord>
@@ -5567,7 +5567,7 @@
                 </w.rf>
                 <form>Man</form>
                 <lemma>es</lemma>
-                <tag>pp10sdn0</tag>
+                <tag>pp10sdn</tag>
               </m.rf>
               <role>dep:det</role>
               <ord>1</ord>
@@ -5613,7 +5613,7 @@
                     </w.rf>
                     <form>ap</form>
                     <lemma>ap</lemma>
-                    <tag>spsay</tag>
+                    <tag>spsa</tag>
                   </m.rf>
                   <role>xPred:basElem-xPrep:prep</role>
                   <ord>4</ord>
@@ -5642,7 +5642,7 @@
                     </w.rf>
                     <form>Laukā</form>
                     <lemma>laukā</lemma>
-                    <tag>r0p</tag>
+                    <tag>r0n</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>1</ord>
@@ -5722,7 +5722,7 @@
                             </w.rf>
                             <form>par</form>
                             <lemma>par</lemma>
-                            <tag>spsan</tag>
+                            <tag>spsa</tag>
                           </m.rf>
                           <role>dep:obj-xPrep:prep</role>
                           <ord>11</ord>
@@ -5736,7 +5736,7 @@
                                 </w.rf>
                                 <form>ko</form>
                                 <lemma>kas</lemma>
-                                <tag>pr000an0</tag>
+                                <tag>pr000an</tag>
                               </m.rf>
                               <role>xPrep:basElem</role>
                               <ord>12</ord>
@@ -5782,7 +5782,7 @@
                             </w.rf>
                             <form>Par</form>
                             <lemma>par</lemma>
-                            <tag>spsan</tag>
+                            <tag>spsa</tag>
                           </m.rf>
                           <role>dep:obj-xPrep:prep</role>
                           <ord>1</ord>
@@ -5795,7 +5795,7 @@
                                 </w.rf>
                                 <form>ko</form>
                                 <lemma>kas</lemma>
-                                <tag>pr000an0</tag>
+                                <tag>pr000an</tag>
                               </m.rf>
                               <role>xPrep:basElem</role>
                               <ord>2</ord>
@@ -5810,7 +5810,7 @@
                             </w.rf>
                             <form>tas</form>
                             <lemma>tas</lemma>
-                            <tag>pd3msnns</tag>
+                            <tag>pd3msnn</tag>
                           </m.rf>
                           <role>dep:subj</role>
                           <ord>4</ord>
@@ -5825,7 +5825,7 @@
                         </w.rf>
                         <form>man</form>
                         <lemma>es</lemma>
-                        <tag>pp10sdn0</tag>
+                        <tag>pp10sdn</tag>
                       </m.rf>
                       <role>dep:det</role>
                       <ord>3</ord>
@@ -5840,7 +5840,7 @@
                     </w.rf>
                     <form>es</form>
                     <lemma>es</lemma>
-                    <tag>pp10snn0</tag>
+                    <tag>pp10snn</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>7</ord>
@@ -5888,7 +5888,7 @@
                     </w.rf>
                     <form>ka</form>
                     <lemma>ka</lemma>
-                    <tag>css</tag>
+                    <tag>cs</tag>
                   </m.rf>
                   <role>dep:subjCl-subrCl:conj</role>
                   <ord>5</ord>
@@ -5974,7 +5974,7 @@
                 </w.rf>
                 <form>Man</form>
                 <lemma>es</lemma>
-                <tag>pp10sdn0</tag>
+                <tag>pp10sdn</tag>
               </m.rf>
               <role>dep:det</role>
               <ord>1</ord>
@@ -6097,7 +6097,7 @@
                     </w.rf>
                     <form>No</form>
                     <lemma>no</lemma>
-                    <tag>spsgy</tag>
+                    <tag>spsg</tag>
                   </m.rf>
                   <role>dep:obj-xPrep:prep</role>
                   <ord>1</ord>
@@ -6123,7 +6123,7 @@
                             </w.rf>
                             <form>tādas</form>
                             <lemma>tāda</lemma>
-                            <tag>pd0fsgna</tag>
+                            <tag>pd0fsgn</tag>
                           </m.rf>
                           <role>dep:attr</role>
                           <ord>2</ord>
@@ -6154,7 +6154,7 @@
                         </w.rf>
                         <form>ko</form>
                         <lemma>kas</lemma>
-                        <tag>pr000an0</tag>
+                        <tag>pr000an</tag>
                       </m.rf>
                       <role>subrAnal:basElem</role>
                       <ord>5</ord>
@@ -6205,7 +6205,7 @@
                     </w.rf>
                     <form>garlaicīgi</form>
                     <lemma>garlaicīgi</lemma>
-                    <tag>r0m</tag>
+                    <tag>r0n</tag>
                   </m.rf>
                   <role>xPred:basElem</role>
                   <ord>5</ord>
@@ -6218,7 +6218,7 @@
                     </w.rf>
                     <form>Ar</form>
                     <lemma>ar</lemma>
-                    <tag>spsan</tag>
+                    <tag>spsa</tag>
                   </m.rf>
                   <role>dep:adv-xPrep:prep</role>
                   <ord>1</ord>
@@ -6246,7 +6246,7 @@
                     </w.rf>
                     <form>vismaz</form>
                     <lemma>vismaz</lemma>
-                    <tag>r0q</tag>
+                    <tag>r0n</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>3</ord>
@@ -6320,7 +6320,7 @@
                             </w.rf>
                             <form>un</form>
                             <lemma>un</lemma>
-                            <tag>ccs</tag>
+                            <tag>cc</tag>
                           </m.rf>
                           <role>xApp:basElem-crdParts:conj</role>
                           <ord>7</ord>
@@ -6366,7 +6366,7 @@
                     </w.rf>
                     <form>Vēlāk</form>
                     <lemma>vēlāk</lemma>
-                    <tag>r0t</tag>
+                    <tag>r0n</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>1</ord>
@@ -6502,7 +6502,7 @@
                     </w.rf>
                     <form>Es</form>
                     <lemma>es</lemma>
-                    <tag>pp10snn0</tag>
+                    <tag>pp10snn</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>1</ord>
@@ -6541,7 +6541,7 @@
                         </w.rf>
                         <form>desmit</form>
                         <lemma>desmit</lemma>
-                        <tag>mcs0p0d</tag>
+                        <tag>mcs0p0</tag>
                       </m.rf>
                       <role>dep:attr</role>
                       <ord>4</ord>
@@ -6557,7 +6557,7 @@
                     </w.rf>
                     <form>atpakaļ</form>
                     <lemma>atpakaļ</lemma>
-                    <tag>r0p</tag>
+                    <tag>r0n</tag>
                   </m.rf>
                   <role>dep:adv</role>
                   <ord>6</ord>
@@ -6605,7 +6605,7 @@
                     </w.rf>
                     <form>Neviens</form>
                     <lemma>neviens</lemma>
-                    <tag>pi0msny0</tag>
+                    <tag>pi0msny</tag>
                   </m.rf>
                   <role>dep:subj</role>
                   <ord>1</ord>
@@ -6618,7 +6618,7 @@
                         </w.rf>
                         <form>no</form>
                         <lemma>no</lemma>
-                        <tag>sppdy</tag>
+                        <tag>sppd</tag>
                       </m.rf>
                       <role>dep:attr-xPrep:prep</role>
                       <ord>2</ord>
@@ -6631,7 +6631,7 @@
                             </w.rf>
                             <form>viņiem</form>
                             <lemma>viņš</lemma>
-                            <tag>pp3mpdn0</tag>
+                            <tag>pp3mpdn</tag>
                           </m.rf>
                           <role>xPrep:basElem</role>
                           <ord>3</ord>
@@ -6738,7 +6738,7 @@
                     </w.rf>
                     <form>Lai</form>
                     <lemma>lai</lemma>
-                    <tag>qs</tag>
+                    <tag>q</tag>
                   </m.rf>
                   <role>xParticle:no</role>
                   <ord>1</ord>
@@ -6765,7 +6765,7 @@
                         </w.rf>
                         <form>arī</form>
                         <lemma>arī</lemma>
-                        <tag>qs</tag>
+                        <tag>q</tag>
                       </m.rf>
                       <role>dep:no</role>
                       <ord>4</ord>
@@ -6778,7 +6778,7 @@
                         </w.rf>
                         <form>septiņi</form>
                         <lemma>septiņi</lemma>
-                        <tag>mcsmpnv</tag>
+                        <tag>mcsmpn</tag>
                       </m.rf>
                       <role>dep:attr-xNum:basElem</role>
                       <ord>7</ord>
@@ -6791,7 +6791,7 @@
                             </w.rf>
                             <form>divdesmit</form>
                             <lemma>divdesmit</lemma>
-                            <tag>mcc0p0d</tag>
+                            <tag>mcc0p0</tag>
                           </m.rf>
                           <role>xNum:basElem</role>
                           <ord>6</ord>
@@ -6804,7 +6804,7 @@
                                 </w.rf>
                                 <form>simt</form>
                                 <lemma>simt</lemma>
-                                <tag>mcs0p0s</tag>
+                                <tag>mcs0p0</tag>
                               </m.rf>
                               <role>xNum:basElem</role>
                               <ord>5</ord>
@@ -6913,7 +6913,7 @@
                             </w.rf>
                             <form>desmit</form>
                             <lemma>desmit</lemma>
-                            <tag>mcs0ppd</tag>
+                            <tag>mcs0pp</tag>
                           </m.rf>
                           <role>dep:attr-coordAnal:basElem</role>
                           <ord>3</ord>
@@ -6926,7 +6926,7 @@
                                 </w.rf>
                                 <form>piecus</form>
                                 <lemma>pieci</lemma>
-                                <tag>mcsmpav</tag>
+                                <tag>mcsmpa</tag>
                               </m.rf>
                               <role>coordAnal:basElem</role>
                               <ord>2</ord>
