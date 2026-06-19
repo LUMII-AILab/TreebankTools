@@ -1,10 +1,13 @@
-#!/bin/sh
+#!/bin/bash
+set -o posix
 set -o nounset
 set -o errexit
 
+# FIXME This should be partially integrated with perl scripts to reduce duplication.
+
 #Treebank is in a separate git repository https://github.com/LUMII-AILab/Treebank, and its morphological data is also usable for tagger training
 treebankFolder="../../Treebank/Corpora"
-morphologyFolder="../../morphology"
+morphologyFolder="../../Morphology"
 taggerFolder="../../LVTagger"
 
 # We'll use the Treebank/Merged folder as the temporary location for merging all the data
@@ -20,7 +23,7 @@ tail -n +2 $treebankFolder/LatvianTreebankMorpho.fl | while read file
 do
 	if [ -z "$file" ]; then
 		echo "empty line" 
-	elif [[ $file =~ .*Mazais_Princis.* ]] && [[ $file =~ .*Verbu_rindkopas.* ]] && grep -q "<comment>AUTO" "$treebankFolder/${file%.m}.a"; then
+	elif grep -q "<comment>AUTO" "$treebankFolder/${file%.m}.a"; then
 		echo "skipping $file - unfinished"
 	elif grep -q "<comment>FIXME" "$treebankFolder/${file%.m}.a"; then
 		echo "skipping $file - fixme"
@@ -32,7 +35,7 @@ done
 
 # Knitting merges the .m and .w files together
 echo "Knitting - start"
-time perl -I ./ -e "use LvCorporaTools::PMLUtils::Knit qw(processDir); processDir(@ARGV)" $pmlFolder m "../TrEd extension/lv-treebank/resources" >/dev/null
+time perl -I ./ -e "use LvCorporaTools::PMLUtils::Knit qw(processDir); processDir(@ARGV)" $pmlFolder m "../TrEd extension/lv-treebank/resources"
 echo "Knitting - done"
 rm $pmlFolder/*.m
 rm $pmlFolder/*.w
@@ -120,13 +123,13 @@ cp "$pmlFolder/train.txt" "$morphologyFolder/src/main/resources/"
 cp "$pmlFolder/all.txt" "$morphologyFolder/src/test/resources/"
 cp "$pmlFolder/dev.txt" "$morphologyFolder/src/test/resources/"
 cp "$pmlFolder/test.txt" "$morphologyFolder/src/test/resources/"
-cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.xlsx" "$morphologyFolder/docs/"
+cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.ods" "$morphologyFolder/docs/"
 
 cp "$pmlFolder/train.txt" "$taggerFolder/MorphoCRF/"
 cp "$pmlFolder/train_dev.txt" "$taggerFolder/MorphoCRF/"
 cp "$pmlFolder/test.txt" "$taggerFolder/MorphoCRF/"
 cp "$pmlFolder/dev.txt" "$taggerFolder/MorphoCRF/"
 cp "$pmlFolder/all.txt" "$taggerFolder/MorphoCRF/"
-cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.xlsx" "$taggerFolder/docs/"
+cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.ods" "$taggerFolder/docs/"
 
 echo "Done!"

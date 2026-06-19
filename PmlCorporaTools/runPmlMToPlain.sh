@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/bash
+set -o posix
+
 
 if test "$1"
 then filelist="$1"
