@@ -12,6 +12,8 @@ use Exporter();
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(processFile);
 
+# TODO: As of now we assume that LVTB doesn't use split tokens represented with token numbers like 3-4.
+
 sub processFile
 {
 	autoflush STDOUT 1;
@@ -44,6 +46,11 @@ END
 		if ($line =~ /^\s*#\s*newdoc(\s+id\s*=\s*(.*?))?\s*$/)
 		{
 			my $id = $2;
+			if ($inpar)
+			{
+				print $out "</p>\n";
+				$inpar = 0;
+			}
 			print $out "</doc>\n" if ($indoc);
 			$indoc = 1;
 			print $out "<doc";
@@ -72,10 +79,14 @@ END
 		}
 		elsif ($line =~/^([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\t([^\t]+)\s*$/)
 		{
-			my ($token, $lemma, $upos, $xpos, $deprel, $misc) = ($2, $3, $4, $5, $8, $10);
-			my $nospace = ($misc =~ /SpaceAfter=No/);
-			print $out "$token\t$lemma\t$xpos\t$upos\t$deprel\n";
-			print $out "<g/>\n" if ($nospace);
+			my ($tokenNo, $token, $lemma, $upos, $xpos, $deprel, $misc) = ($1, $2, $3, $4, $5, $8, $10);
+			if ($tokenNo =~/^\d+$/)
+			{
+				my $nospace = ($misc =~ /SpaceAfter=No/);
+				print $out "$token\t$lemma\t$xpos\t$upos\t$deprel\n";
+				print $out "<g/>\n" if ($nospace);
+			}
+			# Tokens with decimal and interval numbers are ignored.
 		}
 		elsif ($line =~ /^\s*$/)
 		{
@@ -87,6 +98,9 @@ END
 			print "Line ignored: $line"
 		}
 	}
+	print $out "</s>\n" if ($insentence);
+	print $out "</p>\n" if ($inpar);
+	print $out "</doc>\n" if ($indoc);
 
 	$in -> close();
 	$out -> close();
