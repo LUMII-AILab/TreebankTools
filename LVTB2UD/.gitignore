@@ -1,0 +1,6 @@
+# Ignore everything hidden
+.*/
+
+# Gradle and IntelliJ buil directories
+build
+out
