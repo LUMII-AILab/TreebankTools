@@ -3,9 +3,7 @@
 *.vert
 *.log
 *.zip
-
-/LVTB2UD/lib/*.jar
-/LVTB2UD/out
+*.kate-swp
 
 /PmlCorporaTools/_Deparsed_XSubs.pm
 /PmlCorporaTools/log/

@@ -6,3 +6,9 @@
  */
 
 rootProject.name = "LVTB2UD"
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}

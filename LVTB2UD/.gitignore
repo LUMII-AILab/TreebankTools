@@ -4,3 +4,13 @@
 # Gradle and IntelliJ buil directories
 build
 out
+
+# Default data directory and default testdata results
+data/
+testdata/log/
+testdata/conll-u
+
+# Usual results
+*.log
+*.conll
+*.conllu
