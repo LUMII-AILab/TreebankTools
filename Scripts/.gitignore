@@ -1,0 +1,26 @@
+_Deparsed_XSubs.pm
+log/
+logs/
+logs-*/
+data/
+data-*/
+testdata/*/res
+testdata/*/logs
+testdata/*/log
+testdata/*/warnings
+testdata/Conll2MA/m-a
+testdata/SplitTrainDevTest/skip
+testdata/SplitTrainDevTest/test
+testdata/SplitTrainDevTest/train
+testdata/SplitTrainDevTest/dev
+testdata/SplitTrainDevTest/not-mentioned
+testdata/SplitBinary/on-list
+testdata/SplitBinary/off-list
+* (copy).sh
+*-ignore.sh
+*-ignore.bat
+* - Copy.bat
+
+
+
+
