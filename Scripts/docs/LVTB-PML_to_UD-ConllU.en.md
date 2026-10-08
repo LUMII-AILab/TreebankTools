@@ -16,14 +16,14 @@ perl -I ./ LvCorporaTools/UIs/TreeTransformatorUI.pm --dir data --collect --ord 
 
 ## Converting to UD
 
-1. Copy all the data from `./data/knitted` to the compiled `LVTB2UD` tool's data folder (with default _IntelliJ_ configuration it is `TreebankTools/LVTB2UD/out/production/data`)
-2. Run `runUniversalizer.bat` or `runUniversalizer.sh` from `TreebankTools/LVTB2UD/out/production`
-3. Results are in `TreebankTools/LVTB2UD/out/production/data/conll-u`
+1. Copy all the data from `./data/knitted` to the compiled `LVTB2UD` tool's data folder (with default configuration it is `TreebankTools/LVTB2UD/data`)
+2. Run accoding to `TreebankTools/LVTB2UD/README.md`
+3. Results are in `TreebankTools/LVTB2UD/data/conll-u`
 
 
 ## Data splits
 
-1. Copy results from `CorporaTools/LVTB2UD/out/production/data/conll-u` to `./data/conll-u`
+1. Copy results from `CorporaTools/LVTB2UD/data/conll-u` to `./data/conll-u`
 2. Create data splits in folders `./data/train`, `./data/test`, `./data/dev` and `./data/skip` by
 ```
 perl -I ./ -e "use LvCorporaTools::DataSelector::SplitByList qw(splitTDT); splitTDT(@ARGV)" data/conll-u ../../Treebank/Datasplits/testdevtrain.tsv data

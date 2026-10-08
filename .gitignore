@@ -4,31 +4,3 @@
 *.log
 *.zip
 *.kate-swp
-
-/PmlCorporaTools/_Deparsed_XSubs.pm
-/PmlCorporaTools/log/
-/PmlCorporaTools/data/
-/PmlCorporaTools/data-alt/
-/PmlCorporaTools/data-lv/
-/PmlCorporaTools/data-lv-*/
-/PmlCorporaTools/data-ltg/
-/PmlCorporaTools/data-ltg-*/
-/PmlCorporaTools/testdata/*/res
-/PmlCorporaTools/testdata/*/logs
-/PmlCorporaTools/testdata/*/log
-/PmlCorporaTools/testdata/*/warnings
-/PmlCorporaTools/testdata/Conll2MA/m-a
-/PmlCorporaTools/testdata/SplitTrainDevTest/skip
-/PmlCorporaTools/testdata/SplitTrainDevTest/test
-/PmlCorporaTools/testdata/SplitTrainDevTest/train
-/PmlCorporaTools/testdata/SplitTrainDevTest/dev
-/PmlCorporaTools/testdata/SplitTrainDevTest/not-mentioned
-/PmlCorporaTools/testdata/SplitBinary/on-list
-/PmlCorporaTools/testdata/SplitBinary/off-list
-/PmlCorporaTools/* (copy).sh
-/PmlCorporaTools/*-ignore.sh
-/PmlCorporaTools/*-ignore.bat
-/PmlCorporaTools/* - Copy.bat
-
-
-
