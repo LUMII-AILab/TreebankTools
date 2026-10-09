@@ -21,7 +21,7 @@ use LvCorporaTools::TreeTransf::Hybrid2Dep;
 use LvCorporaTools::TreeTransf::RemoveReduction;
 use LvCorporaTools::PMLUtils::Knit;
 use LvCorporaTools::FormatTransf::DepPml2Conll;
-use LvCorporaTools::DataSelector::SplitTreebank;
+use LvCorporaTools::DataSelector::SplitterFolder; # FIXME: write seperate, more effective conll file unifier.
 
 use LvCorporaTools::GenericUtils::UIWrapper;
 
@@ -559,7 +559,7 @@ sub fold
 	my ($source, $dest, $params) = @_;
 	print "\n==== Folding datasets ========================================\n";
 	
-	LvCorporaTools::DataSelector::SplitTreebank::splitCorpus(
+	LvCorporaTools::DataSelector::SplitterFolder::splitCorpus(
 		$source, $params->{'p'}, $params->{'seed'}, $params->{'name'});
 	move("$source/res", $dest)
 		|| warn "Moving $source/res to $dest failed: $!";
