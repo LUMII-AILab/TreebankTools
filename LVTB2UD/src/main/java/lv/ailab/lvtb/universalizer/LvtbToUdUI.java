@@ -74,16 +74,23 @@ public class LvtbToUdUI
 		int depBaseRoleSum = 0;
 		int depEnhRoleSent = 0;
 		int depEnhRoleSum = 0;
+		int allFileCounter = 0;
+		int ignoredFileCounter = 0;
 
 		if (listOfFiles != null) for (File f : listOfFiles)
 		{
+			allFileCounter++;
 			String fileName = f.getName();
-			if (f.isDirectory() || f.getName().startsWith("~")) continue;
+			if (f.isDirectory() || f.getName().startsWith("~"))
+			{
+				ignoredFileCounter++;
+				continue;
+			}
 			PmlXmlFileTransformator ft = new PmlXmlFileTransformator(params);
 			MorphoAnalyzerWrapper.init(params.LATGALIAN);
 			if (fileName.endsWith(".pml")) try
 			{
-				System.out.printf("Processing file \"%s\", ", fileName);
+				System.out.printf("Processing file \"%s\" (#%s of %s), ", fileName, allFileCounter, listOfFiles.length);
 				StandardLogger.l.startFile(fileName);
 				String outPath = outputDataPath + "/" + fileName.substring(0, fileName.length() - 3) + "conllu";
 				ft.readAndTransform(f.getAbsolutePath());
@@ -117,15 +124,18 @@ public class LvtbToUdUI
 			}
 
 		}
+		int processedFiles = allFileCounter - ignoredFileCounter;
 		if (omittedFiles == 0 && omittedTrees == 0)
-			System.out.println("Everything is finished, nothing was omitted.");
+			System.out.printf("Everything is finished (%s file(s) from %s folder entries),  nothing was omitted.\n",
+					processedFiles, listOfFiles.length);
 		else if (omittedFiles == 0)
 			System.out.printf(
-					"Everything is finished, %s trees was omitted.\n", omittedTrees);
+					"Everything is finished (%s file(s) from %s folder entries), %s trees was omitted.\n",
+					processedFiles, listOfFiles.length, omittedTrees);
 		else
 			System.out.printf(
-					"Everything is finished, %s file(s) and %s tree(s) was omitted.\n",
-					omittedFiles, omittedTrees);
+					"Everything is finished (%s file(s) from %s folder entries), %s file(s) and %s tree(s) was omitted.\n",
+					processedFiles, listOfFiles.length, omittedFiles, omittedTrees);
 		if (autoFiles > 0)
 			System.out.printf("%s file(s) have AUTOs.\n", autoFiles);
 		if (fixmeFiles > 0)
