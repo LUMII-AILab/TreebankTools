@@ -52,7 +52,8 @@ Params:
    probability (0;1), or cross-validation part count {3; 4; 5;...}, or 1 for
        concatenating all files
    seed [optional, 0 by default]
-   output name [optional]
+   output file extension [optional, conll by default]
+   output name stub [optional]
 
 Latvian Treebank project, LUMII, 2013-2017, provided under GPL
 END
@@ -63,21 +64,22 @@ END
 	my $dirName = shift @_;
 	my $magicNumber = shift @_;
 	my $seed = (shift @_ or 0);
+	my $outExt = (shift @_ or 'conll');
 	my $outName = shift @_;
-	
+
 	srand $seed;
 	mkpath("$dirName/res/");
 	if ($magicNumber == 1)
 	{
-		&_unite($dirName, $outName);
+		&_unite($dirName, $outExt, $outName);
 	}
 	elsif ($magicNumber < 1)
 	{
-		&_splitIn2($dirName, $magicNumber, $outName);
+		&_splitIn2($dirName, $magicNumber, $outExt, $outName);
 	}
 	else
 	{
-		&_splitForCV($dirName, $magicNumber, $outName);
+		&_splitForCV($dirName, $magicNumber, $outExt, $outName);
 	}
 	print "Processing treebank finished!\n";
 }
@@ -87,11 +89,12 @@ END
 sub _unite
 {
 	my $dirName = shift @_;
+	my $outExt = (shift @_ or 'conll');
 	my $outName = (shift @_ or 'corpus');
 
 	# Open output files.
 	my $dir = IO::Dir->new($dirName) or die "dir $dirName $!";
-	my $out = IO::File->new("$dirName/res/$outName.conll", "> :encoding(UTF-8)")
+	my $out = IO::File->new("$dirName/res/$outName.$outExt", "> :encoding(UTF-8)")
 		or die "Output file opening: $!";
 	my $count = 0;
 	
@@ -130,14 +133,15 @@ sub _splitIn2
 {
 	my $dirName = shift @_;
 	my $prob = shift @_;
+	my $outExt = (shift @_ or 'conll');
 	my $outName = shift @_;
 	$outName = $outName ? $outName .= '-' : "";
 
 	# Open output files.
 	my $dir = IO::Dir->new($dirName) or die "dir $dirName $!";
-	my $devOut = IO::File->new("$dirName/res/${outName}dev.conll", "> :encoding(UTF-8)")
+	my $devOut = IO::File->new("$dirName/res/${outName}dev.$outExt", "> :encoding(UTF-8)")
 		or die "Output file opening: $!";	
-	my $testOut = IO::File->new("$dirName/res/${outName}test.conll", "> :encoding(UTF-8)")
+	my $testOut = IO::File->new("$dirName/res/${outName}test.$outExt", "> :encoding(UTF-8)")
 		or die "Output file opening: $!";
 	# Sentence counters (statistics).
 	my ($devCount, $testCount) = (0, 0);
@@ -186,6 +190,7 @@ sub _splitForCV
 {
 	my $dirName = shift @_;
 	my $partCount = shift @_;
+	my $outExt = (shift @_ or 'conll');
 	my $outName = shift @_;
 	$outName = $outName ? $outName .= '-' : "";
 	
@@ -194,9 +199,9 @@ sub _splitForCV
 	# Initialization for otput files and stats counters.
 	for (my $i = 0; $i < $partCount; $i++)
 	{
-		$outputs[$i][0] = IO::File->new("$dirName/res/${outName}train$i.conll", "> :encoding(UTF-8)")
+		$outputs[$i][0] = IO::File->new("$dirName/res/${outName}train$i.$outExt", "> :encoding(UTF-8)")
 			or die "Output file opening: $!";
-		$outputs[$i][1] = IO::File->new("$dirName/res/${outName}val$i.conll", "> :encoding(UTF-8)")
+		$outputs[$i][1] = IO::File->new("$dirName/res/${outName}val$i.$outExt", "> :encoding(UTF-8)")
 			or die "Output file opening: $!";
 		$stats[$i][0] = 0;
 		$stats[$i][1] = 0;

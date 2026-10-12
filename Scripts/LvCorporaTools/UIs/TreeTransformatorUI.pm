@@ -116,6 +116,7 @@ Params:
                  p    - probability (0;1), or cross-validation part count {3;
                         4; 5; ...}, or 1 for concatenating all files,
                  seed - seed [default = nothing pased to srand],
+                 ext  - file extension for output files [default - conll],
                  name - naming prefix for output files [default - null, 
                         meaning that some default prefix is used]
 
@@ -560,7 +561,7 @@ sub fold
 	print "\n==== Folding datasets ========================================\n";
 	
 	LvCorporaTools::DataSelector::SplitterFolder::splitCorpus(
-		$source, $params->{'p'}, $params->{'seed'}, $params->{'name'});
+		$source, $params->{'p'}, $params->{'seed'}, $params->{'ext'}, $params->{'name'});
 	move("$source/res", $dest)
 		|| warn "Moving $source/res to $dest failed: $!";
 
