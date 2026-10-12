@@ -33,7 +33,7 @@ echo "Check for errors in terminal and ./data/checkedAll-errs!"
 3. Review output for errors, if there are errors, fix normalizing script.
 
 ```
-perl -I ./ -e "use LvCorporaTools::PMLUtils::NormalizeIds qw(processDir); processDir(@ARGV)" data/checkedAll 0 0 ;\
+perl -I ./ -e "use LvCorporaTools::PMLUtils::NormalizeIds qw(processDir); processDir(@ARGV)" data/checkedAll 1 0 ;\
 rm -rf ./data/normalizedIds ;\
 mv ./data/checkedAll/res ./data/normalizedIds ;\
 perl -I ./ -e "use LvCorporaTools::PMLUtils::CheckLvPml qw(processDir); processDir(@ARGV)" data/normalizedIds A ;\
@@ -43,7 +43,6 @@ mv ./data/normalizedIds/*.txt ./data/normalizedIds-errs ;\
 mkdir -p ./logs ;\
 find ./data/normalizedIds/ -name '*.log' -exec mv -t ./logs {} + ;\
 echo "Check for errors in terminal and ./data/normalizedIds-errs!"
-
 ```
 Piezīme: `find ./data/normalizedIds/ -name '*.log' -exec mv -t ./logs {} +` var aizstāt ar `mv ./data/normalizedIds/*.log ./logs`, ja netraucē, ka logu trūkuma gadījumā parādās brīdinājums.
 

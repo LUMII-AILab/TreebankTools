@@ -17,7 +17,9 @@ perl -I ./ LvCorporaTools/UIs/TreeTransformatorUI.pm --dir data --collect --ord 
 ## Converting to UD
 
 1. Copy all the data from `./data/knitted` to the compiled `LVTB2UD` tool's data folder (with default configuration it is `TreebankTools/LVTB2UD/data`)
-2. Run accoding to `TreebankTools/LVTB2UD/README.md`, something like `java -jar LVTB2UD.jar add_node_ids=true omit_whole_files=true` or `java -jar ./build/libs/LVTB2UD.jar add_node_ids=true omit_whole_files=true latgalian=true`
+2. Run accoding to `TreebankTools/LVTB2UD/README.md`, something like 
+`java -jar LVTB2UD.jar add_node_ids=true omit_whole_files=true` or
+`java -jar ./build/libs/LVTB2UD.jar add_node_ids=true omit_whole_files=true latgalian=true`
 3. Results by default are in `TreebankTools/LVTB2UD/data/conll-u`
 
 
