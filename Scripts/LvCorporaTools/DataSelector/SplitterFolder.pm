@@ -122,7 +122,7 @@ sub _unite
 	
 	#Close output file.
 	$out->close();
-	print "Corpus contains $count sentences.\n"
+	print "Corpus $outName contains $count sentences.\n"
 
 }
 
@@ -181,7 +181,7 @@ sub _splitIn2
 	#Close output files.
 	$devOut->close();
 	$testOut->close();
-	print "Development set contains $devCount sentences; test set - $testCount sentences.\n"
+	print "Development set ${outName}dev contains $devCount sentences; test set ${outName}test - $testCount sentences.\n"
 }
 
 # Splits treebank for N-fold cross-validation.
@@ -250,7 +250,7 @@ sub _splitForCV
 	{
 		$outputs[$i][0]->close();
 		$outputs[$i][1]->close();
-		print "  $i. Training set: $stats[$i][0] sentences, validation set: $stats[$i][1].\n"
+		print "  Training set ${outName}train$i: $stats[$i][0] sentences, validation set ${outName}val$i: $stats[$i][1].\n"
 	}
 }
 
