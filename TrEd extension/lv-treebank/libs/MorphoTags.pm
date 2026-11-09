@@ -43,9 +43,8 @@ our %tags = (
 		'o' => 'Modal',
 		'p' => 'Phasal',
 		'e' => 'Expressional',
-		'c' => 'Auxilliary or copula "būt"',
-		't' => 'Copula "kļūt", "tapt", etc.',
-		'a' => 'Auxilliary "tikt", "tapt"'}],
+		'c' => 'Copula"',
+		'a' => 'Auxilliary'}],
 	['Reflexive', {
 		'n' => 'No',
 		'y' => 'Yes'}],
@@ -60,9 +59,6 @@ our %tags = (
 		'p' => 'Present',
 		'f' => 'Future',
 		's' => 'Past'}],
-	['Transitivity', {
-		't' => 'Transitive',
-		'i' => 'Intransitive'}],
 	['Conjugation', {
 		'1' => '1',
 		'2' => '2',
@@ -88,9 +84,8 @@ our %tags = (
 		'o' => 'Modal',
 		'p' => 'Phasal',
 		'e' => 'Expressional',
-		'c' => 'Auxilliary or copula "būt"',
-		't' => 'Copula "kļūt", "tapt", etc.',
-		'a' => 'Auxilliary "tikt", "tapt"'}],
+		'c' => 'Copula',
+		'a' => 'Auxilliary'}],
 	['Reflexive', {
 		'n' => 'No',
 		'y' => 'Yes'}],
@@ -131,9 +126,6 @@ our %tags = (
 		'y' => 'Yes'}],
 	]],
 'a' => ['Adjective', [
-	['Type', {
-		'f' => 'Qualificative',
-		'r' => 'Relative'}],
 	['Gender', {
 		'm' => 'Masculine',
 		'f' => 'Feminine'}],
@@ -160,10 +152,6 @@ our %tags = (
 		'c' => 'Cardinal',
 		'o' => 'Ordinal',
 		'f' => 'Fractal'}],
-	['Make up', {
-		's' => 'Simple',
-		'c' => 'Compound',
-		'j' => 'Multi-word'}],
 	['Gender', {
 		'm' => 'Masculine',
 		'f' => 'Feminine'}],
@@ -213,9 +201,6 @@ our %tags = (
 		'p' => 'Positive',
 		'c' => 'Comparative',
 		's' => 'Superlative'}],
-	['Relative', {
-		'n' => 'No',
-		'y' => 'Yes'}],
 	]],
 's' => ['Preposition', [
 	['Position', {
@@ -262,6 +247,7 @@ our %tags = (
 		'f' => 'Foreign',
 		'n' => 'Cardinal number',
 		'o' => 'Ordinal number',
+		'd' => 'Alphanumeric designation',
 		'u' => 'URI',
 		'x' => 'Other'}],
 	]],

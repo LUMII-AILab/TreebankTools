@@ -143,7 +143,7 @@ sub is_role_allowed_for_tag
   $tag = $node->attr('m/tag') unless $tag;
   $tag = $node->attr('tag') unless $tag;
   return 1 unless $tag;
-  return 0 if ($node->{'role'} eq 'auxVerb' and $tag !~ '^v[tac]');
+  return 0 if ($node->{'role'} eq 'auxVerb' and $tag !~ '^v[ac]');
   return 0 if ($node->{'role'} eq 'mod' and $tag !~ '^v[oep]');
   return 0 if ($node->{'role'} eq 'pred' and $tag !~ '^vm');
   return 1;

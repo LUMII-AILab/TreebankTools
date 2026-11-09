@@ -19,10 +19,6 @@ sub checkLemmaByTag
 	push @errors, 'Lemma must be lowercase!' if ($tag =~ /^(nc|i).*/ and $lemma !~ /^-?\p{Ll}+(-\p{Ll}+)*-?$/);
 	push @errors, 'Lemma must be lowercase!' if ($tag =~ /^(?!n|x|y|z|i).*/ and $lemma !~ /^\p{Ll}+$/);
 	push @errors, 'Lemma must be lowercase!' if ($tag =~ /^[sc].*/ and $lemma !~ /^\p{Ll}+$/);
-	#push @errors, 'Lemma must be lowercase!' if ($tag =~ /^rr.*/ and $lemma !~ /^\p{Ll}+$/);
-
-	#push @errors, 'Lemma must start with \'ne\'!' if ($tag =~ /^v..[^p].{6}y.*/ and $lemma !~ /^ne/);
-	#push @errors, 'Lemma must start with \'ne\'!' if ($tag =~ /^v..p.{8}y.*/ and $lemma !~ /^ne/);
 	
 	push @errors, 'Wrong verb lemma ending!' if ($tag =~ /^v.n.*/ and $lemma !~ /t$/);
 	push @errors, 'Wrong verb lemma ending!' if ($tag =~ /^v.y.*/ and $lemma !~ /ties$/);
