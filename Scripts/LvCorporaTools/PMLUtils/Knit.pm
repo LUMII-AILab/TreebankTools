@@ -36,7 +36,7 @@ sub knit
 	if (not @_ or @_ < 2)
 	{
 		print <<END;
-Script for knitting LVTB PML file. Works, if internal references ar local files.
+Script for knitting LVTB PML file. Works, if internal references are local files.
 Will try to knit in m.rf and w.rf elements.
 
 Params:
