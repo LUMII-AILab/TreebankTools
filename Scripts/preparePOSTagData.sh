@@ -9,6 +9,7 @@ set -o errexit
 treebankFolder="../../Treebank/Corpora"
 morphologyFolder="../../Morphology"
 taggerFolder="../../LVTagger"
+updateLVTagger=false # LVTagger is obsolete and is not updated anymore
 
 # We'll use the Treebank/Merged folder as the temporary location for merging all the data
 pmlFolder="../../Treebank/Merged"
@@ -125,11 +126,15 @@ cp "$pmlFolder/dev.txt" "$morphologyFolder/src/test/resources/"
 cp "$pmlFolder/test.txt" "$morphologyFolder/src/test/resources/"
 cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.ods" "$morphologyFolder/docs/"
 
-cp "$pmlFolder/train.txt" "$taggerFolder/MorphoCRF/"
-cp "$pmlFolder/train_dev.txt" "$taggerFolder/MorphoCRF/"
-cp "$pmlFolder/test.txt" "$taggerFolder/MorphoCRF/"
-cp "$pmlFolder/dev.txt" "$taggerFolder/MorphoCRF/"
-cp "$pmlFolder/all.txt" "$taggerFolder/MorphoCRF/"
-cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.ods" "$taggerFolder/docs/"
+if [ "$updateLVTagger" = true ]; then
+	cp "$pmlFolder/train.txt" "$taggerFolder/MorphoCRF/"
+	cp "$pmlFolder/train_dev.txt" "$taggerFolder/MorphoCRF/"
+	cp "$pmlFolder/test.txt" "$taggerFolder/MorphoCRF/"
+	cp "$pmlFolder/dev.txt" "$taggerFolder/MorphoCRF/"
+	cp "$pmlFolder/all.txt" "$taggerFolder/MorphoCRF/"
+	cp "$treebankFolder/../Docs/Annotation how-to/Tags&tagset/SemTi-Kamols_morphotags.ods" "$taggerFolder/docs/"
+else
+	echo "LVTagger updating is turned of."
+fi
 
 echo "Done!"
