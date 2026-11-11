@@ -103,19 +103,19 @@ sub transformAFile
 	my $oldName = shift @_;
 	my $newName = (shift @_ or $oldName);
 
-	mkpath("$dirPrefix/res/");
-	#File::Path::mkpath("$dirPrefix/res/");
+	File::Path::mkpath("$dirPrefix/res/");
 	my $warnFile;
 	if ($warns)
 	{
-		mkpath("$dirPrefix/warnings/");
+		File::Path::mkpath("$dirPrefix/warnings/");
 		$warnFile = IO::File->new("$dirPrefix/warnings/$newName-warnings.txt", ">")
 			or die "$newName-warnings.txt: $!";
 	}
 	print "Processing $oldName started...\n" if ($notifyBegin);
 
 	# Load the XML.
-	my $parser = XML::LibXML->new('no_blanks' => 1);
+	#my $parser = XML::LibXML->new('no_blanks' => 1);
+	my $parser = XML::LibXML->new();
 	my $doc = $parser->parse_file("$dirPrefix/$oldName");
 	
 	my $xpc = XML::LibXML::XPathContext->new();
@@ -146,7 +146,7 @@ sub transformAFile
 	# Print the XML.
 	my $outFile = IO::File->new("$dirPrefix/res/$newName", ">")
 		or die "Output file opening: $!";	
-	print $outFile $doc->toString(1);
+	print $outFile $doc->toString();
 	$outFile->close();
 	
 	print "Processing $oldName finished!\n";
@@ -180,19 +180,19 @@ sub transformMFile
 	my $oldName = shift @_;
 	my $newName = (shift @_ or $oldName);
 
-	mkpath("$dirPrefix/res/");
-	#File::Path::mkpath("$dirPrefix/res/");
+	File::Path::mkpath("$dirPrefix/res/");
 	my $warnFile;
 	if ($warns)
 	{
-		mkpath("$dirPrefix/warnings/");
+		File::Path::mkpath("$dirPrefix/warnings/");
 		$warnFile = IO::File->new("$dirPrefix/warnings/$newName-warnings.txt", ">")
 			or die "$newName-warnings.txt: $!";
 	}
 	print "Processing $oldName started...\n" if ($notifyBegin);
 
 	# Load the XML.
-	my $parser = XML::LibXML->new('no_blanks' => 1);
+	#my $parser = XML::LibXML->new('no_blanks' => 1);
+	my $parser = XML::LibXML->new();
 	my $doc = $parser->parse_file("$dirPrefix/$oldName");
 
 	my $xpc = XML::LibXML::XPathContext->new();
@@ -231,7 +231,7 @@ sub transformMFile
 	# Print the XML.
 	my $outFile = IO::File->new("$dirPrefix/res/$newName", ">")
 		or die "Output file opening: $!";
-	print $outFile $doc->toString(1);
+	print $outFile $doc->toString();
 	$outFile->close();
 
 	print "Processing $oldName finished!\n";
