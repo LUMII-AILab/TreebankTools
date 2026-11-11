@@ -16,13 +16,12 @@ use XML::LibXML;
 
 ###############################################################################
 # Helper functions for processing Latvian Treebank analytical layer PML files.
-# Input data are supposed to be valid against coresponding PML schemas.
+# Input data are supposed to be valid against corresponding PML schemas.
 #
 # Works with A level schema v.2.14.
 # Input files - utf8.
 #
-# Developed on Strawberry Perl 5.12.3.0
-# Latvian Treebank project, 2013
+# Latvian Treebank project, 2013-2026
 # Lauma Pretkalniņa, LUMII, AILab, lauma@ailab.lv
 # Licenced under GPL.
 ###############################################################################
