@@ -2,6 +2,9 @@ package LvCorporaTools::GenericUtils::SimpleXmlIo;
 ###############################################################################
 # This module contains most basic helper functions for reading and writing
 # lv-PML files with XML::Simple.
+# DO NOT use this for any new developments, XML::Simple is regarded obsolete and
+# it messes up element order in a file. Use LibXML based AUtils and UIWrapper
+# instead! (2026)
 #
 # Developed on Strawberry Perl 5.12.3.0
 # Latvian Treebank project, 2012
