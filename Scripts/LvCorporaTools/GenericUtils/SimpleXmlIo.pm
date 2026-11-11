@@ -19,7 +19,7 @@ no warnings 'recursion';
 
 use Exporter();
 our @ISA = qw(Exporter);
-our @EXPORT_OK = qw(loadXml printXml @FORCE_ARRAY_W @FORCE_ARRAY_M @FORCE_ARRAY_A @LOAD_AS_ID);
+our @EXPORT_OK = qw(loadXml printXml loadLVPML printLVPML @FORCE_ARRAY_W @FORCE_ARRAY_M @FORCE_ARRAY_A @LOAD_AS_ID);
 
 use Data::Dumper;
 use XML::Simple;  # XML handling library
@@ -92,5 +92,66 @@ sub printXml
 	$xmlString =~ s#(<doc[ >].*</doc>)(\s*)(<head>.*</head>\s*<meta>.*</meta>)#$3$2$1#s;
 	print $out $xmlString;
 	$out->close();
+}
+
+# loadLVPML (source directory, file name without extension)
+# returns hash refernece:
+#		'w' => XML data from &loadXML for w,
+#		'm' => XML data from &loadXML for m,
+#		'a' => XML data from &loadXML for a
+# see &loadXML
+sub loadLVPML
+{
+	# Input paramaters.
+	my $dirPrefix = shift @_;
+	my $fileName = shift @_;
+
+	# Load w-level.
+	my $wXml = loadXml ("$dirPrefix/$fileName.w", \@FORCE_ARRAY_W);
+	print 'Loaded W';
+
+	# Load m-level.
+	my $mXml = loadXml ("$dirPrefix/$fileName.m", \@FORCE_ARRAY_M);
+	print ', M';
+
+
+	if (-f "$dirPrefix/$fileName.a")
+	{
+		# Load the a-level.
+		my $aXml = loadXml ("$dirPrefix/$fileName.a", \@FORCE_ARRAY_A);
+		print ', A. ';
+		return {'w' => $wXml, 'm' => $mXml, 'a' => $aXml};
+	}
+	else
+	{
+		print '. ';
+		return {'w' => $wXml, 'm' => $mXml};
+	}
+}
+
+# printLVPML (source directory, file name without extension, hash with xml refs)
+# prints result of &loadLVPML back out
+# see &loadLVPML
+sub printLVPML
+{
+	my $dirPrefix = shift @_;
+	my $fileName = shift @_;
+	my $xmls = shift @_;
+
+
+	printXml ("$dirPrefix/$fileName.w", $xmls->{'w'}->{'handler'},
+		$xmls->{'w'}->{'xml'}, 'lvwdata', $xmls->{'w'}->{'header'});
+	print 'Printed W';
+	printXml ("$dirPrefix/$fileName.m", $xmls->{'m'}->{'handler'},
+		$xmls->{'m'}->{'xml'}, 'lvmdata', $xmls->{'m'}->{'header'});
+	print ', M';
+	if ($xmls->{'a'} and $xmls->{'a'}->{'xml'})
+	{
+		printXml ("$dirPrefix/$fileName.a", $xmls->{'a'}->{'handler'},
+			$xmls->{'a'}->{'xml'}, 'lvadata', $xmls->{'a'}->{'header'});
+		print ', A';
+	}
+	print '. ';
+
 }
 1;

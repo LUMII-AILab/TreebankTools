@@ -7,7 +7,7 @@ no warnings 'recursion';
 
 use Exporter();
 our @ISA = qw(Exporter);
-our @EXPORT_OK = qw(normalizeIds processDir load process doOutput);
+our @EXPORT_OK = qw(normalizeIds processDir process doOutput);
 
 #use Data::Dumper;
 use IO::Dir;
@@ -16,8 +16,7 @@ use File::Path;
 use Tie::IxHash; # This class provides analogue to java's LinkedHashMap
 use XML::Simple;  # XML handling library
 
-use LvCorporaTools::GenericUtils::SimpleXmlIo
-	qw(loadXml printXml @FORCE_ARRAY_W @FORCE_ARRAY_M @FORCE_ARRAY_A);
+use LvCorporaTools::GenericUtils::SimpleXmlIo qw(loadLVPML printLVPML);
 
 ###############################################################################
 # This program recalculate IDs in the given PML dataset. Number of first
@@ -49,7 +48,7 @@ Input files should be provided as UTF-8.
 
 Params:
    data directory
-   get paragraph number from filename [opt, bool, false by default]
+   get paragraph number from filename [opt, bool, true by default]
    should log-file contain changed empty node IDs [opt, bool, true by default]
 
 Returns:
@@ -61,10 +60,12 @@ END
 	}
 
 	my $dirName = shift @_;
-	my $tryParId = shift @_;
+	my $tryParId = @_ ? shift @_ : 1;
 	my $printChangedXIds = @_ ? shift @_ : 1;
 	my $dir = IO::Dir->new($dirName) or die "dir $!";
 	my $problems = 0;
+
+
 	while (defined(my $in_file = $dir->read))
 	{
 		if ((! -d "$dirName/$in_file") and ($in_file =~ /^(.+)\.w$/))
@@ -135,7 +136,7 @@ END
 	my $firstWord = (shift @_ or 1);
 	my $printChangedXIds = @_ ? shift @_ : 1;
 
-	my $xmls = &load($dirPrefix, $oldName);
+	my $xmls = loadLVPML($dirPrefix, $oldName);
 
 	my $xmlsAfter = &process(
 		$newName, $newSourceId, $xmls->{'w'}->{'xml'}, $xmls->{'m'}->{'xml'},
@@ -146,40 +147,7 @@ END
 	print "\nNormalizeIds has finished procesing \"$oldName\".\n";
 }
 
-# load (source directory, file name without extension)
-# returns hash refernece:
-#		'w' => XML data from &loadXML for w,
-#		'm' => XML data from &loadXML for m,
-#		'a' => XML data from &loadXML for a
-# see &loadXML
-sub load
-{
-	# Input paramaters.
-	my $dirPrefix = shift @_;
-	my $oldName = shift @_;
 
-	# Load w-level.
-	my $wXml = loadXml ("$dirPrefix/$oldName.w", \@FORCE_ARRAY_W);
-	print 'Loaded W';
-
-	# Load m-level.
-	my $mXml = loadXml ("$dirPrefix/$oldName.m", \@FORCE_ARRAY_M);
-	print ', M';
-		
-	
-	if (-f "$dirPrefix/$oldName.a")
-	{
-		# Load the a-level.
-		my $aXml = loadXml ("$dirPrefix/$oldName.a", \@FORCE_ARRAY_A);
-		print ', A. ';
-		return {'w' => $wXml, 'm' => $mXml, 'a' => $aXml};
-	}
-	else
-	{
-		print '. ';
-		return {'w' => $wXml, 'm' => $mXml};
-	}
-}
 # process (new file name, new source_id (used also for paragraph/token ID gen),
 #          w data, m data, a data, [ID of the first paragraph], [ID of the first
 #          sentence], [ID of the first token])
@@ -237,21 +205,8 @@ sub doOutput
 	my $printChangedXIds = @_ ? shift @_ : 1;
 	#my $res = (shift @_ or $xmls->{'xml'});
 
-	mkpath("$dirPrefix/res/");
-
-	printXml ("$dirPrefix/res/$newName.w", $xmls->{'w'}->{'handler'},
-			$xmls->{'w'}->{'xml'}, 'lvwdata', $xmls->{'w'}->{'header'});
-	print 'Printed W';
-	printXml ("$dirPrefix/res/$newName.m", $xmls->{'m'}->{'handler'},
-			$xmls->{'m'}->{'xml'}, 'lvmdata', $xmls->{'m'}->{'header'});
-	print ', M';
-	if ($xmls->{'a'} and $xmls->{'a'}->{'xml'})
-	{
-		printXml ("$dirPrefix/res/$newName.a", $xmls->{'a'}->{'handler'},
-				$xmls->{'a'}->{'xml'}, 'lvadata', $xmls->{'a'}->{'header'});
-		print ', A';
-	}
-	print '. ';
+	File::Path::mkpath("$dirPrefix/res/");
+	printLVPML("$dirPrefix/res", $newName, $xmls);
 
 	my @changedKeys = sort {$idMap->{$a} cmp $idMap->{$b}} (grep {$_ ne $idMap->{$_}} keys %$idMap);
 	@changedKeys = grep {$_ !~ /x\d+$/} @changedKeys unless ($printChangedXIds);
