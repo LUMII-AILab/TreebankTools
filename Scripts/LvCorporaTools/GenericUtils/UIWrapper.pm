@@ -6,12 +6,12 @@ use warnings;
 
 use Exporter();
 our @ISA = qw(Exporter);
-our @EXPORT_OK = qw(processDir transformAFile);
+our @EXPORT_OK = qw(processDir transformAFile transformMFile);
 
 use File::Path;
 use IO::Dir;
 use IO::File;
-use XML::LibXML;  # XML handling library
+use XML::LibXML;
 
 # processDir(pointer to function for processing each file, regular expression
 #			 filter for selecting files to process, extension/ending for names
@@ -57,10 +57,7 @@ sub processDir
 				{
 					$isBad = 1;
 					print $@;
-				}# elsif ($res)
-				#{
-				#	$isBad = 1;
-				#}
+				}
 			}
 			else
 			{
@@ -75,11 +72,7 @@ sub processDir
 				{
 					$isBad = 1;
 					print $@;
-				}# elsif ($res)
-				#{
-				#	print "Res: $res\n";
-				#	$isBad = 1;
-				#}
+				}
 			}
 			$baddies = $baddies + $isBad;
 		}
@@ -156,6 +149,91 @@ sub transformAFile
 	print $outFile $doc->toString(1);
 	$outFile->close();
 	
+	print "Processing $oldName finished!\n";
+	if ($warns)
+	{
+		print $warnFile "Processing $oldName finished!\n";
+		$warnFile->close();
+	}
+}
+
+# transformMFile(pointer to function for transforming each sentence node,
+#				 pointer to function for transforming each morpho node, create
+#				 file for warnings and pass it to tree transforming function
+#				 (0/1), print notification about file begining (0/1), new schema
+#				 name (if empty, schema name left unchanged), directory
+#				 prefix - this is where everything goes on, name of  file to
+#				 process, name of output file (optional, input file name used
+#				 name used otherwise))
+# Function for tree processing will be used according to signature (XPath
+# context with set namespaces, DOM node for tree root - /*/tree/LM/, warning
+# file (if 2nd parameter true))
+sub transformMFile
+{
+	# Input paramaters.
+	my $processSentFunct = shift @_;
+	my $processMNodeFunct = shift @_;
+	my $warns = shift @_;
+	my $notifyBegin = shift @_;
+	my $newSchema = shift @_;
+	my $dirPrefix = shift @_;
+	my $oldName = shift @_;
+	my $newName = (shift @_ or $oldName);
+
+	mkpath("$dirPrefix/res/");
+	#File::Path::mkpath("$dirPrefix/res/");
+	my $warnFile;
+	if ($warns)
+	{
+		mkpath("$dirPrefix/warnings/");
+		$warnFile = IO::File->new("$dirPrefix/warnings/$newName-warnings.txt", ">")
+			or die "$newName-warnings.txt: $!";
+	}
+	print "Processing $oldName started...\n" if ($notifyBegin);
+
+	# Load the XML.
+	my $parser = XML::LibXML->new('no_blanks' => 1);
+	my $doc = $parser->parse_file("$dirPrefix/$oldName");
+
+	my $xpc = XML::LibXML::XPathContext->new();
+	$xpc->registerNs('pml', 'http://ufal.mff.cuni.cz/pdt/pml/');
+	$xpc->registerNs('fn', 'http://www.w3.org/2005/xpath-functions/');
+
+	# Process XML: process each sentence...
+	if ($processSentFunct)
+	{
+		foreach my $sent ($xpc->findnodes('/*/pml:s', $doc))
+		{
+			$warns ?
+				&$processSentFunct($xpc, $sent, $warnFile):
+				&$processSentFunct($xpc, $sent);
+		}
+	}
+	# ...process each morpho node...
+	if ($processMNodeFunct)
+	{
+		foreach my $morpho ($xpc->findnodes('/*/pml:s/pml:m', $doc))
+		{
+			$warns ?
+				&$processMNodeFunct($xpc, $morpho, $warnFile) :
+				&$processMNodeFunct($xpc, $morpho);
+		}
+	}
+
+	# ... and update the schema information.
+	if ($newSchema)
+	{
+		my @schemas = $xpc->findnodes(
+			'pml:lvmdata/pml:head/pml:schema', $doc);
+		$_->setAttribute('href', $newSchema) for @schemas; #There should be only one.
+	}
+
+	# Print the XML.
+	my $outFile = IO::File->new("$dirPrefix/res/$newName", ">")
+		or die "Output file opening: $!";
+	print $outFile $doc->toString(1);
+	$outFile->close();
+
 	print "Processing $oldName finished!\n";
 	if ($warns)
 	{
